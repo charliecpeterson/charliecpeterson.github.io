@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://charliecpeterson.github.io/post/creating-a-new-theme/</loc>
+    <loc>https://charliecpeterson.github.io/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://charliecpeterson.github.io/post/migrate-from-jekyll/</loc>
+    <loc>https://charliecpeterson.github.io/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://charliecpeterson.github.io/categories/</loc>
+    <loc>https://charliecpeterson.github.io/categories/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://charliecpeterson.github.io/</loc>
+    <loc>https://charliecpeterson.github.io/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://charliecpeterson.github.io/post/2020-12-01-r-rmarkdown/</loc>
+    <loc>https://charliecpeterson.github.io/post/2020-12-01-r-rmarkdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://charliecpeterson.github.io/tags/plot/</loc>
+    <loc>https://charliecpeterson.github.io/tags/plot/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://charliecpeterson.github.io/post/</loc>
+    <loc>https://charliecpeterson.github.io/post/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://charliecpeterson.github.io/categories/r/</loc>
+    <loc>https://charliecpeterson.github.io/categories/r/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://charliecpeterson.github.io/tags/r-markdown/</loc>
+    <loc>https://charliecpeterson.github.io/tags/r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://charliecpeterson.github.io/tags/regression/</loc>
+    <loc>https://charliecpeterson.github.io/tags/regression/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://charliecpeterson.github.io/tags/</loc>
+    <loc>https://charliecpeterson.github.io/tags/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://charliecpeterson.github.io/about/</loc>
+    <loc>https://charliecpeterson.github.io/about/</loc>
   </url><url>
-    <loc>http://charliecpeterson.github.io/contact/</loc>
+    <loc>https://charliecpeterson.github.io/contact/</loc>
   </url><url>
-    <loc>http://charliecpeterson.github.io/cv/</loc>
+    <loc>https://charliecpeterson.github.io/cv/</loc>
   </url>
 </urlset>
