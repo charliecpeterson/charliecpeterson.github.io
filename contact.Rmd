@@ -1,0 +1,6 @@
+---
+menu: main
+title: Contact
+---
+
+Hello!! Check back for more details
