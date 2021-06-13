@@ -1,8 +1,0 @@
----
-menu: main
-title: CV
----
-
-Hello!! Check back for more details
-
-
