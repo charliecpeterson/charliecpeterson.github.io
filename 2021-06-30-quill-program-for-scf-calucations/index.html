@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noodp"/><title>Quill Program for SCF calucations  | </title><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content=""/>
+<meta name="twitter:title" content="Quill Program for SCF calucations "/>
+<meta name="twitter:description" content=""/><meta name="twitter:creator" content="@Charlie_CCP3"/><meta name="Description" content="About uBlogger Theme"><meta property="og:title" content="Quill Program for SCF calucations " />
+<meta property="og:description" content="
+
+
+
+
+
+
+The QUILL program is a small simple program to run computional chemistry calucations
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://charliecpeterson.github.io/2021-06-30-quill-program-for-scf-calucations/" /><meta property="og:image" content="https://charliecpeterson.github.io" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-06-30T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-06-30T23:17:48-05:00" />
+
+<meta name="application-name" content="Charles C Peterson">
+<meta name="apple-mobile-web-app-title" content="Charles C Peterson"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://charliecpeterson.github.io/2021-06-30-quill-program-for-scf-calucations/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/lib/prismjs/prism.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Quill Program for SCF calucations ",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/charliecpeterson.github.io\/2021-06-30-quill-program-for-scf-calucations\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/charliecpeterson.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "C, chemistry, python","wordCount":  342 ,
+        "url": "https:\/\/charliecpeterson.github.io\/2021-06-30-quill-program-for-scf-calucations\/","datePublished": "2021-06-30T00:00:00+00:00","dateModified": "2021-06-30T23:17:48-05:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","description": ""
+    }
+    </script><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https:\/\/charliecpeterson.github.io"
+        },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "posts",
+            "item": "https://charliecpeterson.github.io/categories/posts/"
+        },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Quill Program for SCF calucations "
+            }]
+    }
+</script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header>
+    <div class="desktop header" id="header-desktop">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Charles C Peterson" class="header-logo logo-svg"><span class="header-title-pre"><i class='fas fa-pencil-alt fa-fw'></i></span>Charles C Peterson, Ph.D.</a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <h2 class="display-hidden">Основная навигация</h2>
+                    <ul class="menu-inner"><li>
+                            <a class="menu-item" href="/about/"> About </a>
+                        </li><li>
+                            <a class="menu-item" href="/cv/"> CV </a>
+                        </li><li>
+                            <a class="menu-item" href="/posts/"> Posts </a>
+                        </li><li>
+                            <a class="menu-item" href="/contact/"> Contact </a>
+                        </li><li>
+                            <a class="menu-item" href="https://github.com/upagge/ublogger" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a>
+                        </li></ul>
+                </nav><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <span class="svg-icon icon-moon"></span>
+                </a>
+            </div>
+        </div>
+    </div><div class="mobile header" id="header-mobile">
+        <div class="header-container">
+            <div class="header-wrapper">
+                <div class="header-title">
+                    <a href="/" title="Charles C Peterson" class="header-logo"><span class="header-title-pre"><i class='fas fa-pencil-alt fa-fw'></i></span>Charles C Peterson, Ph.D.</a>
+                </div>
+                <div class="menu-toggle" id="menu-toggle-mobile">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+            <div class="menu" id="menu-mobile"><nav>
+                    <h2 class="display-hidden">Основная навигация</h2>
+                    <ul><li>
+                            <a class="menu-item" href="/about/" title="">About</a>
+                        </li><li>
+                            <a class="menu-item" href="/cv/" title="">CV</a>
+                        </li><li>
+                            <a class="menu-item" href="/posts/" title="">Posts</a>
+                        </li><li>
+                            <a class="menu-item" href="/contact/" title="">Contact</a>
+                        </li><li>
+                            <a class="menu-item" href="https://github.com/upagge/ublogger" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a>
+                        </li></ul>
+                </nav>
+                <a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <span class="svg-icon icon-moon"></span>
+                </a></div>
+        </div>
+    </div></header><main class="main">
+<div class="container content-article page-toc theme-classic"><div class="toc" id="toc-auto">
+            <div class="toc-title">Contents</div>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div>
+
+    
+    
+    <article>
+    
+
+        <header class="header-post">
+
+            
+
+            
+            <div class="post-title">
+
+                    <div class="post-all-meta">
+                        <nav class="breadcrumbs">
+    <ol>
+        <li><a href="/">Home </a></li><li><a href="/categories/posts/">posts </a></li><li>Quill Program for SCF calucations </li>
+    </ol>
+</nav>
+                        <h1 class="single-title flipInX">Quill Program for SCF calucations </h1><div class="post-meta summary-post-meta"><span class="post-category meta-item">
+                                <a href="/categories/posts/"><span class="svg-icon icon-folder"></span>posts</a>
+                            </span><span class="post-meta-date meta-item">
+                                <span class="svg-icon icon-clock"></span><time class="timeago" datetime="2021-06-30">2021-06-30</time>
+                            </span><span class="post-meta-words meta-item">
+                                <span class="svg-icon icon-pencil"></span>342 words
+                            </span>
+                            <span class="post-meta-reading meta-item">
+                                <span class="svg-icon icon-stopwatch"></span>2 minutes
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                </header>
+
+        <div class="article-post toc-start">
+
+            <div class="content-block content-block-first content-block-position">
+
+                <div class="post single"><div class="details toc" id="toc-static"  data-kept="">
+                        <div class="details-summary toc-title">
+                            <span>Contents</span>
+                        </div>
+                        <div class="details-content toc-content" id="toc-content-static"></div>
+                    </div><div id="program-quill" class="section level1">
+<h1>Program Quill</h1>
+<p>I have updated on GitHub a small, very simple Hartree Fock program, mostly written in C. I mostly wrote this code as a test to program Hartree Fock. I am thinking of adding more functions.</p>
+<p>The code is located on my GitHub page <a href="https://github.com/charliecpeterson/QUILL" class="uri">https://github.com/charliecpeterson/QUILL</a></p>
+<p>This program uses <a href="https://github.com/pyscf/pyscf">PySCF</a> and <a href="https://github.com/sunqm/libcint">libcint</a> to generate the 1e/2e integrals. It also uses the <a href="https://eigen.tuxfamily.org/dox/">Eigen3</a> API for all Matrix/linear algbra routines.</p>
+<p>The input is very similar to NWChem. In the GitHub repo, there is a sample input <code>input.inp</code></p>
+<pre><code>geometry
+C  -0.000000000000   0.000000000000   0.000000000000
+H   1.183771681898  -1.183771681898  -1.183771681898
+H   1.183771681898   1.183771681898   1.183771681898
+H  -1.183771681898   1.183771681898  -1.183771681898
+H  -1.183771681898  -1.183771681898   1.183771681898
+end
+
+basis
+H    S
+      3.387000E+01           6.068000E-03           0.000000E+00           0.000000E+00
+      5.095000E+00           4.530800E-02           0.000000E+00           0.000000E+00
+      1.159000E+00           2.028220E-01           0.000000E+00           0.000000E+00
+      3.258000E-01           5.039030E-01           1.000000E+00           0.000000E+00
+      1.027000E-01           3.834210E-01           0.000000E+00           1.000000E+00
+H    P
+      1.407000E+00           1.000000E+00           0.000000E+00
+      3.880000E-01           0.000000E+00           1.000000E+00
+H    D
+      1.057000E+00           1.0000000
+C    S
+      8.236000E+03           5.310000E-04          -1.130000E-04           0.000000E+00           0.000000E+00
+      1.235000E+03           4.108000E-03          -8.780000E-04           0.000000E+00           0.000000E+00
+      2.808000E+02           2.108700E-02          -4.540000E-03           0.000000E+00           0.000000E+00
+      7.927000E+01           8.185300E-02          -1.813300E-02           0.000000E+00           0.000000E+00
+      2.559000E+01           2.348170E-01          -5.576000E-02           0.000000E+00           0.000000E+00
+      8.997000E+00           4.344010E-01          -1.268950E-01           0.000000E+00           0.000000E+00
+      3.319000E+00           3.461290E-01          -1.703520E-01           0.000000E+00           0.000000E+00
+      9.059000E-01           3.937800E-02           1.403820E-01           1.000000E+00           0.000000E+00
+      3.643000E-01          -8.983000E-03           5.986840E-01           0.000000E+00           0.000000E+00
+      1.285000E-01           2.385000E-03           3.953890E-01           0.000000E+00           1.000000E+00
+C    P
+      1.871000E+01           1.403100E-02           0.000000E+00           0.000000E+00
+      4.133000E+00           8.686600E-02           0.000000E+00           0.000000E+00
+      1.200000E+00           2.902160E-01           0.000000E+00           0.000000E+00
+      3.827000E-01           5.010080E-01           1.000000E+00           0.000000E+00
+      1.209000E-01           3.434060E-01           0.000000E+00           1.000000E+00
+C    D
+      1.097000E+00           1.000000E+00           0.000000E+00
+      3.180000E-01           0.000000E+00           1.000000E+00
+C    F
+      7.610000E-01           1.0000000
+end
+
+scf
+num_elec 10
+end</code></pre>
+<p>As of now, there are only three input blocks that is code accepts</p>
+<ul>
+<li>geometry</li>
+<li>basis</li>
+<li>scf</li>
+</ul>
+<p>The <strong>geometry</strong> and <strong>basis</strong> blocks are very similar to NWChem, in fact, the basis set format is the same for NWCehm</p>
+<p>The <strong>scf</strong> block only accepts num_elec. This code ONLY does RHF. Single reference, closed-shell systems ONLY</p>
+<p>I have tested this on a few compounds and it is about 10^-2 AU in energy different from results from PySCF. More work is needed.</p>
+<p>I’m thinking of using this program as a starting point to add and test new libraries to run computational chemistry methods, esp to the Exascale.</p>
+<p>Contact Me for any more information!</p>
+</div>
+</div><footer>
+                        <div class="post">
+
+
+<div class="post-share"><div class="share-link">
+        <a class="share-icon share-twitter" href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://charliecpeterson.github.io/2021-06-30-quill-program-for-scf-calucations/" data-title="Quill Program for SCF calucations " data-via="Charlie_CCP3" data-hashtags="C,chemistry,python"><span class="svg-social-icon icon-twitter"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-facebook" href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://charliecpeterson.github.io/2021-06-30-quill-program-for-scf-calucations/" data-hashtag="C"><span class="svg-social-icon icon-facebook"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-line" href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://charliecpeterson.github.io/2021-06-30-quill-program-for-scf-calucations/" data-title="Quill Program for SCF calucations "><span class="svg-social-icon icon-line"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-weibo" href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://charliecpeterson.github.io/2021-06-30-quill-program-for-scf-calucations/" data-title="Quill Program for SCF calucations "><span class="svg-social-icon icon-weibo"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-hackernews" href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://charliecpeterson.github.io/2021-06-30-quill-program-for-scf-calucations/" data-title="Quill Program for SCF calucations "><span class="svg-social-icon icon-hacker-news"></span></a>
+    </div></div>
+
+
+
+
+
+
+<div class="post-tags"><a href="/tags/c/" class="tag">C</a><a href="/tags/chemistry/" class="tag">chemistry</a><a href="/tags/python/" class="tag">python</a></div></div>
+                </footer></div>
+
+        <div id="toc-final"></div>
+        </div>
+
+    
+    </article>
+    <section class="page single comments content-block-position">
+        <h1 class="display-hidden">Комментарии</h1><div id="comments"></div></section></div>
+
+</main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class="svg-icon icon-copyright"></i><span>2021</span>&nbsp;|&nbsp;<span class="license">Charles C Peterson, Ph.D.</span></div>
+        </div>
+    </footer></div>
+
+        <aside id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="svg-icon icon-arrow-up"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="svg-icon icon-comments-fixed"></i>
+            </a>
+        </aside><script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script src="/lib/prismjs/prism.js"></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{}};</script><script src="/js/theme.min.js"></script><script>
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym("70532758", "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor: null 
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/70532758" style="position:absolute; left:-9999px;" alt="" /></div></noscript></body>
+</html>
