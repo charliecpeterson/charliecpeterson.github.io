@@ -9,6 +9,7 @@ tags:
   - C
   - chemistry
   - python
+  - SCF
 subtitle: ''
 lastmod: '2021-06-30T23:17:48-05:00'
 description: ''
@@ -32,7 +33,7 @@ math:
 license: ''
 ---
 
-The QUILL program is a small simple program to run computional chemistry calucations
+The QUILL program is a small simple program to run computational chemistry calculations
 
 <!--more-->
 

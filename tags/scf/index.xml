@@ -1,11 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Charles C Peterson</title>
-        <link>https://charliecpeterson.github.io/</link>
-        <description>About uBlogger Theme</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 30 Jun 2021 00:00:00 &#43;0000</lastBuildDate>
-            <atom:link href="https://charliecpeterson.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+        <title>SCF - Tag - Charles C Peterson</title>
+        <link>https://charliecpeterson.github.io/tags/scf/</link>
+        <description>SCF - Tag - Charles C Peterson</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 30 Jun 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://charliecpeterson.github.io/tags/scf/" rel="self" type="application/rss+xml" /><item>
     <title>Quill Program for SCF calucations </title>
     <link>https://charliecpeterson.github.io/2021-06-30-quill-program-for-scf-calucations/</link>
     <pubDate>Wed, 30 Jun 2021 00:00:00 &#43;0000</pubDate>

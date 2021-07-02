@@ -7,7 +7,7 @@
 
 </div>
 
-<p>The QUILL program is a small simple program to run computional chemistry calucations</p>
+<p>The QUILL program is a small simple program to run computational chemistry calculations</p>
 <!--more-->
 <div id="program-quill" class="section level1">
 <h1>Program Quill</h1>
