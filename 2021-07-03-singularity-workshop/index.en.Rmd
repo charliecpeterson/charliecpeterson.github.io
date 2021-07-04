@@ -1,0 +1,53 @@
+---
+title: Singularity Workshop
+author: Charles Peterson
+date: '2021-07-03'
+slug: []
+categories:
+  - posts
+tags:
+  - python
+  - singularity
+  - workshops
+  - Hoffman2
+subtitle: ''
+lastmod: '2021-07-03T22:10:10-05:00'
+description: ''
+page:
+  theme: wide
+upd: ''
+authorComment: ''
+hiddenFromHomePage: no
+hiddenFromSearch: no
+resources:
+  name: featured-image
+  src: featured-image.jpg
+featuredImage: ''
+featuredImagePreview: ''
+images:
+  - ''
+toc:
+  enable: yes
+math:
+  enable: no
+license: ''
+---
+
+Workshop using Singularity on UCLA's Hoffman2 HPC cluster
+
+<!--more-->
+
+
+This post is showing the link to a workshop I did using Singularity on Hoffman2 (UCLA's HPC cluster).
+
+This Workshop took place via Zoom on April 29, 2021. 
+
+The repo containing the pdf and zoom recording is located on UCLA's IDRE gitlab site
+
+https://gitlab.idre.ucla.edu/workshops/singularity_ws
+
+The is workshop is a basic lecture on using singularity to using containers on Hoffman2.
+
+There are example containers in the gitlab repo, showing sample containers of with python and packages like TensorFlow and PySCF. Also a example using GPU containers.
+
+Stay tuned for more updates on Singularity on Hoffman2!

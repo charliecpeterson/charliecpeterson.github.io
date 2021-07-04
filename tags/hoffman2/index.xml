@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Hoffman2 - Tag - Charles C Peterson</title>
+        <link>https://charliecpeterson.github.io/tags/hoffman2/</link>
+        <description>Hoffman2 - Tag - Charles C Peterson</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 03 Jul 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://charliecpeterson.github.io/tags/hoffman2/" rel="self" type="application/rss+xml" /><item>
+    <title>Singularity Workshop</title>
+    <link>https://charliecpeterson.github.io/2021-07-03-singularity-workshop/</link>
+    <pubDate>Sat, 03 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>Charles Peterson</author>
+    <guid>https://charliecpeterson.github.io/2021-07-03-singularity-workshop/</guid>
+    <description><![CDATA[
+<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+
+</div>
+
+<p>Workshop using Singularity on UCLA’s Hoffman2 HPC cluster</p>
+]]></description>
+</item></channel>
+</rss>
