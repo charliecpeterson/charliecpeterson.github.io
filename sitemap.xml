@@ -2,21 +2,24 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://charliecpeterson.github.io/categories/</loc><lastmod>2021-07-03T22:10:10-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/</loc><lastmod>2021-07-03T22:10:10-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/tags/hoffman2/</loc><lastmod>2021-07-03T22:10:10-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/posts/</loc><lastmod>2021-07-03T22:10:10-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/categories/posts/</loc><lastmod>2021-07-03T22:10:10-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/tags/python/</loc><lastmod>2021-07-03T22:10:10-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/tags/singularity/</loc><lastmod>2021-07-03T22:10:10-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/2021-07-03-singularity-workshop/</loc><lastmod>2021-07-03T22:10:10-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/tags/</loc><lastmod>2021-07-03T22:10:10-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/tags/workshops/</loc><lastmod>2021-07-03T22:10:10-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/tags/c/</loc><lastmod>2021-07-02T02:03:54-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/tags/chemistry/</loc><lastmod>2021-07-02T02:03:54-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/2021-06-30-quill-program-for-scf-calucations/</loc><lastmod>2021-07-02T02:03:54-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/tags/scf/</loc><lastmod>2021-07-02T02:03:54-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/about/</loc><lastmod>2021-07-02T02:03:54-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/contact/</loc><lastmod>2021-07-02T02:03:54-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/cv/</loc><lastmod>2021-07-02T02:03:54-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://charliecpeterson.github.io/categories/documentation/</loc><lastmod>2021-07-02T02:03:54-05:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
+            <loc>https://charliecpeterson.github.io/tags/acs/</loc><lastmod>2021-12-31T18:13:49-08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://charliecpeterson.github.io/2021-12-31-acs-book-published/</loc><lastmod>2021-12-31T18:13:49-08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://charliecpeterson.github.io/tags/book/</loc><lastmod>2021-12-31T18:13:49-08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://charliecpeterson.github.io/categories/</loc><lastmod>2021-12-31T18:13:49-08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://charliecpeterson.github.io/</loc><lastmod>2021-12-31T18:13:49-08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://charliecpeterson.github.io/tags/chemistry/</loc><lastmod>2021-12-31T18:13:49-08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://charliecpeterson.github.io/posts/</loc><lastmod>2021-12-31T18:13:49-08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://charliecpeterson.github.io/categories/posts/</loc><lastmod>2021-12-31T18:13:49-08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://charliecpeterson.github.io/tags/</loc><lastmod>2021-12-31T18:13:49-08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://charliecpeterson.github.io/tags/hoffman2/</loc><lastmod>2021-07-03T22:25:05-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://charliecpeterson.github.io/tags/python/</loc><lastmod>2021-07-03T22:25:05-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://charliecpeterson.github.io/tags/singularity/</loc><lastmod>2021-07-03T22:25:05-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://charliecpeterson.github.io/2021-07-03-singularity-workshop/</loc><lastmod>2021-07-03T22:25:05-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://charliecpeterson.github.io/tags/workshops/</loc><lastmod>2021-07-03T22:25:05-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://charliecpeterson.github.io/tags/c/</loc><lastmod>2021-07-02T02:05:36-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://charliecpeterson.github.io/2021-06-30-quill-program-for-scf-calucations/</loc><lastmod>2021-07-02T02:05:36-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://charliecpeterson.github.io/tags/scf/</loc><lastmod>2021-07-02T02:05:36-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://charliecpeterson.github.io/about/</loc><lastmod>2021-07-02T02:05:36-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://charliecpeterson.github.io/contact/</loc><lastmod>2021-07-08T19:50:08-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://charliecpeterson.github.io/cv/</loc><lastmod>2021-07-01T00:13:36-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://charliecpeterson.github.io/categories/documentation/</loc><lastmod>2021-07-01T00:13:36-05:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

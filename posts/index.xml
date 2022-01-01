@@ -3,7 +3,22 @@
         <title>All Posts - Charles C Peterson</title>
         <link>https://charliecpeterson.github.io/posts/</link>
         <description>All Posts | Charles C Peterson</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 03 Jul 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://charliecpeterson.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 31 Dec 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://charliecpeterson.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>ACS Book published</title>
+    <link>https://charliecpeterson.github.io/2021-12-31-acs-book-published/</link>
+    <pubDate>Fri, 31 Dec 2021 00:00:00 &#43;0000</pubDate>
+    <author>Charles Peterson</author>
+    <guid>https://charliecpeterson.github.io/2021-12-31-acs-book-published/</guid>
+    <description><![CDATA[
+<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+
+</div>
+
+<p>New ACS Book published</p>
+]]></description>
+</item><item>
     <title>Singularity Workshop</title>
     <link>https://charliecpeterson.github.io/2021-07-03-singularity-workshop/</link>
     <pubDate>Sat, 03 Jul 2021 00:00:00 &#43;0000</pubDate>
