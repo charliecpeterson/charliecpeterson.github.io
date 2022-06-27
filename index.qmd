@@ -1,6 +1,7 @@
 ---
-title: "myblog"
+title: "Welcome"
 listing:
+  id: sample-listings
   contents: posts
   sort: "date desc"
   type: default
@@ -11,10 +12,13 @@ page-layout: full
 title-block-banner: true
 ---
 
-Welcome ya'll! 
-
 I am Charles (Charlie) Peterson and welcome to my site! 
 
 Here I will post some fun stuff I have done.
 
 If you would like to talk to me, feel free I contact me at charles.c.peterson3@gmail.com
+
+::: {#sample-listings}
+:::
+
+Copyright 2022 Charles C. Peterson
