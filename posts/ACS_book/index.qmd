@@ -1,0 +1,14 @@
+---
+title: "ACS Book published"
+author: "Charles Peterson"
+date: "2021-12-31"
+categories: [ACS,publication]
+image: "bookcover.jpeg"
+---
+
+After working on this book for a couple of years, a new ACS (American Chemical Society) book in the ACS symposium Series was published based on the ACS session that [Deborah Penchoff](https://www.linkedin.com/in/deborahpenchoff/), [Theresa Windus](https://www.chem.iastate.edu/people/theresa-windus), and myself organized. 
+
+This book have many great chapters that discuses current advances and challenges in nuclear and radiochemistry, that focus on computational approaches. 
+
+This book by can viewed at 
+https://pubs.acs.org/doi/book/10.1021/bk-2021-1388

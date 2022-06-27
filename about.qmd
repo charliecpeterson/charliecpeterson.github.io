@@ -1,0 +1,35 @@
+---
+title: "About"
+image: aboutme.jpeg
+about:
+  template: trestles
+  links:
+    - icon: envelope-paper-heart
+      text: Email
+      href: charliecpeterson@gmail.com
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/Charlie_CCP3
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/charles-peterson-ba7944137/
+    - icon: github
+      text: Github
+      href: https://github.com/charliecpeterson
+    - icon: facebook
+      text: Facebook
+      href: https://www.facebook.com/profile.php?id=100014097694832
+    - icon: steam
+      text: Steam
+      href: https://steamcommunity.com/id/chuckbetter
+
+---
+
+Welcome!!
+
+Interdisciplinary researcher, collaborator, and information technology professional with over ten years of experience in scientific computing and computational research applications across STEM and non-STEM areas.
+
+My focus is in applying advanced High-Performance Computing (HPC) capabilities to enhance research throughput that involves closely collaborating with a diverse research community.
+
+Using HPC and other advanced scientific computing techniques is essential to expand research by developing computational protocols to study heavy element chemistry with national security and other applications.
+

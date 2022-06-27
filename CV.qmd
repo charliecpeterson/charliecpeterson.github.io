@@ -1,0 +1,203 @@
+---
+title: "CV"
+about:
+  template: jolla
+
+---
+
+# Charles Campbell Peterson III, Ph.D.
+High-Performance Computing R&D Scientist
+
+---
+
+# Education
+
+**Doctor of Philosophy** in Physical Chemistry, 12/2015\
+University of North Texas, Denton, TX\
+Dissertation: Accurate Energetics across the Periodic Table via Quantum Chemistry 
+
+**Bachelor of Science** in Chemistry, 05/2009\
+University of North Texas, Denton, TX\
+Major: Chemistry\
+Minor: Computer Science 
+
+---
+
+# Professional Experience
+
+**Senior HPC System Administrator** 12/2020 – Present\ 
+Office of Advance Research Computing\
+University of California, Los Angeles\
+Responsibilities include the operation of UCLA’s HPC resources and consultation services to a board range of UCLA researchers. This is a senior programmer/analyst position that involve installing and maintain hardware and software to ensuring scientific application are running at maximum efficiency.  
+
+**Research Scientist II** 11/2019 – 12/2020\
+North Texas Scientific Computing\
+University of North Texas (UNT), Denton, TX\ 
+Provides consultation services for UNT researchers across all disciplines pursued on-campus using advance scientific computing resources. Explores and evaluates grant opportunities for HPC related projects. Assesses new and emerging computing to advance enabling HPC technologies for UNT’s research computing. Provides research collaboration services and performs research in artificial intelligence and machine learning applications in STEM and non-STEM areas. Mentors and instructs graduate students on applying HPC resources to their masters and doctoral research.
+
+**Cross-Functional IT Support Analyst**, 02/2018 - 11/2019\
+Research IT Services\
+University of North Texas, Denton, TX\ 
+Enhanced scientific computing resources at UNT, including supporting advance data storage and computational technologies. Optimized software and libraries for best performance for material science and data analytics applications. Conducted community training and outreach programs that included creating material for interactive workshops and tutorials. 
+
+**IT Manager I** – High Performance Computing, 04/2015 - 02/2018\
+Academic Computing & User Services\
+University of North Texas, Denton, TX\ 
+Maintained HPC resources and allocations for UNT researchers and courses. Provided end-user HPC support and software development.
+
+**Graduate Research Assistant**, 05/2008 - 12/2015\   
+Center for Advanced Scientific Computing and Modeling (CASCaM)\ 
+University of North Texas, Denton, TX\ 
+Developed new composite strategies for computational quantum chemistry for greater understanding and accurate predictions for advancements of not only basis science, but also in applications needed for the growth and health of the U.S. economy. Advanced theoretical techniques for simulating the structural, thermochemical, and spectroscopic properties of chemical compounds. Studies of energetics range from silicon modules and clusters, noble gases and transition metal bonds, and small lanthanide systems. 
+
+**Graduate Research Assistant**, 01/2012 - 04/2015\
+System administrator for HPC resources\
+University of North Texas, Denton, TX\
+Academic Computing & User Services - University Information Technology
+
+**Graduate Research Assistant**, 08/2009 - 05/2012\
+Computational Chemistry Instructional Laboratory (CCIL)\
+University of North Texas, Denton, TX\ 
+Lab Assistant - Maintained the laboratory and providing computational chemistry support. 
+
+---
+
+# Awards and Recognitions
+
+“Extra Mile” Award – University of North Texas (2018)\
+Tuition Reduction Benefit Award - University of North Texas (2015)\
+Graduate Research Assistant Scholarship - University of North Texas (2009)\
+Dallas/Fort Worth American Chemical Society Award (2009)\ 
+J. L. Carrico Award - Department of Chemistry, University of North Texas (2009)\ 
+American Chemical Society Analytical Chemistry Award (2008)\
+Undergraduate Dean’s List - University of North Texas (2005, 2006, 2008)\
+
+---
+
+# Professional Activities
+
+### Publication and Editorial Service  
+
+**Reviewer** for PEARC21 conference, 2021
+
+**Editor**, American Chemical Society Book Series “Computational Science Applications in Nuclear and Radiochemistry”, 2021
+
+**HPC allocation reviewer** for University of North Texas HPC allocations, 2015 - 2021 
+
+**Reviewer** for XSEDE EMPOWER Program, 2020 	
+
+### Professional Organizations
+
+**Senior Scientific Fellow**, 06/2017 – Present\
+Institute for Nuclear Security, Howard H. Baker Jr. Center for Public Policy\
+University of Tennessee, Knoxville, TN\ 
+High-Performance Computing applications in national and nuclear security.\
+
+**Member** of ÚNeTe – Latinx Faculty/Staff Alliance at University of North Texas, 2020\ 
+
+**Member** of American Chemical Society\
+Division of Nuclear Chemistry & Technology 2015 - Present\
+Division of History 2015 - 2016\
+Division of Physical Chemistry 2015 - 2016
+
+**Member** of Association for Computing Machinery SIGHPC 2020 – Present\
+
+**XSEDE Campus Champion**, 06/2016 - 11/2020
+Provides access and application support to researchers and students in NSF eXtreme Scale Engineering Discovery Environment (XSEDE) computational resources.
+
+### Committee and Organizational Activities
+
+**Member**, Diversity, Equity, and Inclusion Action Committee (DEIAC), Nuclear Engineering, University of Tennessee, 2020 - Present
+
+**Social Media Manager** for UNT Research IT Services, 2018 - 2020 
+
+**Chair**, American Chemical Society Annual Meeting, Nuclear Chemistry and Technology Division (ACS NUCL), Session “Data Science & Artificial Intelligence Applications in Nuclear and Radiochemistry”, 05/2021
+
+**Chair**, American Chemical Society Annual Meeting, Nuclear Chemistry and Technology Division (ACS NUCL), Session “Computational Methods for Lanthanides & Actinides: Theory & Applications”, 08/2020, 05/2020, 08/2019, 05/2019, and 08/2018
+
+**Presider**, American Chemical Society Annual Meeting, Nuclear Chemistry and Technology Division (ACS NUCL), Session “Computational Methods for Lanthanides & Actinides: Theory & Applications” 05/2020, 08/2019, 08/2018, and 05/2018 
+
+**Presider**, American Chemical Society Annual Meeting, Division of Physical Chemistry (ACS PHYS), Session “Thermodynamics, reactivity, and spectroscopy of the heavy elements” 05/2014
+
+### Professional Training
+
+QMCPack User Workshop, Oak Ridge National Laboratory, TN, 05/2019\
+Workshop for current users and developers. Provided training in added features and planned improvements for the electronic structure code, QMCPACK (scientific software), which specializes in quantum Monte Carlo techniques
+
+OpenFabrics Alliance Workshop, Austin, TX, 03/2017\
+Workshop focused on the current and emerging needs of high-performance network community. This workshop discussed the emerging technologies of OpenFabrics and future needs and challenges in computing over high speed networks.
+
+DDN EXAScaler Technical Training, Colorado Spring, CO, 02/2016\
+Training course on setting up and maintaining high performance parallel file systems, managing large data storage and Lustre design for Big Data projects.
+
+XSEDE/PRACE EU-US HPC Summer School, Dublin, Ireland, 06/2012\ 
+Summer school for challenges of High-Performance Computing in computational sciences. Interactive training in current programming skills and software libraries.
+
+---
+
+# Publications
+
+Joseph F. DeJesusa, Ryan W. F. Kerr, Deborah A. Penchoff, Xian B. Carrolla, Charles C. Peterson, Polly L. Arnold and David M. Jenkins. “Actinide tetra-N-heterocyclic carbene sandwiches”. Chem. Sci., 2021.
+
+Deborah A. Penchoff, Charles C. Peterson, Eleigha M. Wrancher, George K. Schweitzer, Robert J. Harrison, Rose A. Boll, Paul D. Benny, Howard L. Hall. “Evaluating Complexation of Lanthanum and Actinium for Applications in Radiochemical Separations”. American Chemical Society Book series “Computational Science for Lanthanides and Actinides”, 2020. Invited chapter. DOI TBD.
+
+Charles C. Peterson, Jack Burn, Deborah A. Penchoff. “Artificial Intelligence in Nuclear and Radiochemistry” – American Chemical Society Book Series “Computational Science for Lanthanides and Actinides”, 2021. Invited chapter. DOI TBD.
+
+Joseph F. DeJesus, Ryan W. F. Kerr, Deborah A. Penchoff, Xian B. Carroll, Charles C. Peterson, Polly L. Arnold, David M. Jenkins. “Macrocyclic Tetra-carbene Actinide Sandwiches”. In preparation.
+
+Charles C. Peterson, Deborah A. Penchoff, John D. Auxier II, Howard L. Hall, “Establishing Cost-Effective Computational Models for the Prediction of Lanthanoid Binding in [Ln(NO3)]2+ (with Ln = La to Lu)”, ACS Omega, 2019, 4, 1, 1375-1385.
+
+Deborah A. Penchoff, Charles C. Peterson, Jon P. Camden, James Bradshaw, John D. Auxier II, George K. Schweitzer, David M. Jenkins, Robert J. Harrison, Howard L. Hall, “Structural Analysis of the Complexation of Uranyl, Neptunyl, Plutonyl, and Americyl with Cyclic Imide Dioximes”, ACS Omega, 2018, 3, 10, 13984-13993.
+
+Deborah A. Penchoff, Charles C. Peterson, Mark S. Quint, John D. Auxier II, George K. Schweitzer, David M. Jenkins, Robert J. Harrison, Howard L. Hall. “Structural Characteristics, Populations Analysis, and Binding Energies of [An(NO3)]2+, [with An = Ac – Lr]”, ACS Omega, 2018, 3, 10, 14127-14143.
+
+Charles Peterson, Deborah A. Penchoff, and Angela K. Wilson, “Prediction of thermochemical properties across the periodic table: A review of correlation consistent Composite Approach (ccCA) strategies and applications” Annual Reports in Computational Chemistry, Vol. 12, 2016. 
+
+Charles Peterson, Deborah A. Penchoff, and Angela K. Wilson, “Ab initio approaches for the determination of heavy element energetics: Ionization energies of trivalent lanthanides (Ln = La-Eu)” J. Chem. Phys., 2015, 143, 19, 194109.
+
+Cong Liu, Charles Peterson, and Angela K. Wilson, “C-O Bond Cleavage of Dimethyl Ether by Transition Metal Ions: A Systematic Study on Catalytic Properties of Metals and Performance of DFT Functionals” J. Phys. Chem. A, 2013, 117, 5140.
+
+Gbenga A. Oyedepo, Charles Peterson, George Schoendorff, and Angela K. Wilson, “Spectroscopic properties of Arx-Zn and Arx-Ag+ (x=1,2) van der Waals complexes” J. Chem. Phys., 2013, 138, 104116.
+
+Gbenga A. Oyedepo, Charles Peterson, and Angela K. Wilson, “Accurate predictions of the energetics of silicon compounds using the multireference correlation consistent composite approach” J. Chem. Phys., 2011, 135, 094103.
+
+# Presentations
+
+Charles C. Peterson, “Singularity on Hoffman2: Using containers on HPC resources” Workshop Series, UCLA, 04/29/2021.
+
+Charles C. Peterson, D. A. Penchoff, “Understanding Binding Selectivity of Lanthanide and Actinide Compounds by Computational Protocols” International Workshop on Theory Frontiers in Actinide Sciences: Chemistry and Materials, Santa Fe, NM, 02/2 – 5/2020.
+
+Charles C. Peterson, D. A. Penchoff, “Understanding Binding Selectivity of Lanthanides and Actinides by Computational Protocols” 64th Annual Radiobioassy & Radiochemical Measurements Conference, Santa Fe, NM, 08/28 – 30/2019.
+
+Charles C. Peterson “Machine Learning Techniques with High Performance Computing” Invited Webinar, Institute for Nuclear Security, University of Tennessee, Knoxville TN, 08/05/2019.
+ 
+Charles C. Peterson, D. A. Penchoff, “Computational protocol for binding selectivity of lanthanide and actinide systems” Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanide & Actinide Chemistry, 258th American Chemical Society National Meeting & Exposition, San Diego CA, 08/ 2019.
+
+Charles C. Peterson, D. A. Penchoff, H. L. Hall, R. J. Harrison, “Understanding selectivity of lanthanide and actinide compounds by computational techniques” Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanide & Actinide Chemistry, 257th American Chemical Society National Meeting & Exposition, Orlando FL, 05/2019.
+
+Charles C. Peterson, D. A. Penchoff, H. L. Hall, R. J. Harrison, “Utilizing computational protocols for binding selectivity of lanthanide and actinide compounds”, Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanides & Actinides: Theory & Application, 256th American Chemical Society National Meeting & Exposition, Boston MA, 08/2018.
+
+Charles C. Peterson, “Understanding structural and thermochemical properties of actinide-containing compounds”, Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanides & Actinides: Theory & Application Session, 255th American Chemical Society National Meeting & Exposition, New Orleans LA, 05/2018.
+
+Charles Peterson, Deborah A. Penchoff, Robert J. Harrison, “Investigation of the Selectivity of Cyclic Amidoxime Ligands to Uranyl by Theoretical Techniques”, 62nd Conference on Radiobioassay & Radiochemical Measurements, Honolulu, Hawai’i, 02/2017.
+
+Charles Peterson, Deborah Penchoff, Angela Wilson” Composite Approaches for accurate predictions of lanthanide and actinide chemistry” Division of Computers in Chemistry, Quantum Mechanics Session, 252nd American Chemical Society National Meeting & Exposition, Philadelphia PA, 08/2016.
+
+Charles Peterson, Deborah Penchoff, Angela Wilson, “Composite Approach Towards Accurate Predictions of Lanthanide and Actinide Thermochemistry” Division of Computers in Chemistry, Quantum Mechanics Session, 251st American Chemical Society National Meeting & Exposition, San Diego CA, 05/2016.
+
+Charles Peterson, Angela Wilson, “Ab initio Approaches for Accurate Predictions of Lanthanide Thermochemistry”, Division of Physical Chemistry, Physical Chemistry Poster Session 249th American Chemical Society National Meeting & Exposition, Denver CO, 05/2015.
+
+Charles Peterson, Angela K. Wilson, “Ab initio Approaches for the Predictions of Energetic Properties of Lanthanides”, Division of Physical Chemistry, Thermodynamics, Reactivity, and Spectroscopy of the Heavy Elements Fundamental Advances in Theory and Computation Session, 247th American Chemical Society National Meeting & Exposition, Dallas TX, 05/2014.
+
+Charles Peterson, Angela K. Wilson, “C-O Bond Activation of Dimethyl Ether by Transition Metal Ions”, 24th Austin Symposium on Molecular Structure and Dynamics at Dallas, 05/2014.
+
+Charles Peterson, Angela K. Wilson “Designing Advance Ab Initio Composite Methods for Scalable Computing” XSEDE/PRACE EU-US High Performance Computing Summer School, 06/2012, Dublin, Ireland
+
+Charles Peterson, Angela K. Wilson, “Accurate Predictions of Energetic Properties using the Multi-Reference correlation consistent Composite Approach (MR-ccCA)”, 22nd Austin Symposium on Molecular Structure and Dynamics, 05/2012.
+
+Charles Peterson, Angela K. Wilson, “MR-ccCA Predictions of the Energetics of Silicon-containing Compounds", Physical Division, 44thAmerican Chemical Society Meeting in Miniature, Tarleton State University, 04/2011.
+
+Charles Peterson, Angela K. Wilson, “MR-ccCA Predictions of the Energetics of Silicon-containing Compounds”, Poster Session, Southwest Theoretical Chemistry Conference, University of North Texas, 10/2010.
+
+Charles Peterson, Angela K. Wilson, “Application of the Multi-Reference correlation consistent Composite Approach (MR-ccCA)”, Physical Division, 43rd American Chemical Society Meeting in Miniature, University of Texas at Dallas, 04/2010.
+

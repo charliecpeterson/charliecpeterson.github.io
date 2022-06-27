@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Charles C. Peterson, PhD"
+  navbar:
+    right:
+      - about.qmd
+      - CV.qmd
+      - icon: github
+        href: https://github.com/charliecpeterson
+      - icon: twitter
+        href: https://twitter.com/Charlie_CCP3
+format:
+  html:
+    theme: superhero
+    css: styles.css
+
+
+
