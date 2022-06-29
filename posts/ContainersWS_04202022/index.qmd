@@ -1,0 +1,22 @@
+---
+title: "UCLA Containers Workshop"
+author: "Charles Peterson"
+date: "2022-04-20"
+categories: [UCLA, containers, workshops]
+
+---
+
+I hosted a workshop on using Containers for HPC.
+
+This Workshop took place via Zoom on April 20, 2022. 
+
+The repo containing the pdf and zoom recording is located on UCLA's ORAC github site
+
+https://github.com/ucla-oarc-hpc/hpc_workshops
+
+I went over using Singularity/Apptainer and Docker containers to run on HPC resources, like UCLA's Hoffman2 resource.
+
+I also had some examples with using GPUs and MPI applications.
+
+I will have a followup workshop in the Summer on making Containers.
+

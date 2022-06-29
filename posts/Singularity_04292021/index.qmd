@@ -10,7 +10,7 @@ This post is showing the link to a workshop I did using Singularity on Hoffman2 
 
 This Workshop took place via Zoom on April 29, 2021. 
 
-The repo containing the pdf and zoom recording is located on UCLA's IDRE gitlab site
+The repo containing the pdf and zoom recording is located on UCLA's OARC github site
 
 https://github.com/ucla-oarc-hpc/hpc_workshops
 

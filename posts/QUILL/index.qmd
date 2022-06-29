@@ -8,7 +8,9 @@ image: "quill.jpg"
 
 # Program Quill
 
-I have updated on GitHub a small, very simple Hartree Fock program, mostly written in C. I mostly wrote this code as a test to program Hartree Fock. I am thinking of adding more functions.
+I have updated on GitHub a small, very simple Hartree Fock program, mostly written in C. I mostly wrote this code as a test to program Hartree Fock. This code was mostly so I can learn how SCF/HF works. 
+
+It is named after my pet hedgehog, Quill Riker.
 
 The code is located on my GitHub page https://github.com/charliecpeterson/QUILL
 
