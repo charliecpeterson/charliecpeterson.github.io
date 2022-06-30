@@ -1,0 +1,19 @@
+---
+title: "Hoffman2 Happy Hour - Anaconda"
+author: "Charles Peterson"
+date: "2022-06-29"
+categories: [UCLA, anaconda, python, workshops, H2HH]
+image: H2HH.png
+---
+
+At UCLA, we have a series of workshops named Hoffman2 Happy Hour (H2HH). These workshops are small, interactive talks based on a certain topic relating to HPC.
+
+This Workshop took place via Zoom on June 29, 2022. 
+
+The repo containing the pdf and zoom recording is located on UCLA's IDRE github site
+
+https://github.com/ucla-oarc-hpc/hpc_workshops
+
+This H2HH went over using Anaconda on HPC. This was a small talk that had tips and tricks using anaconda on Hoffman2.
+
+Stay tuned for more workshops from the Hoffman2 Team!
