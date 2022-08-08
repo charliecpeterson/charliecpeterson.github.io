@@ -44,16 +44,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "High-Performance Computing R&D Scientist",
     "section": "",
-    "text": "Here I will post some fun stuff I have done.\nIf you would like to talk to me, feel free I contact me at charles.c.peterson3@gmail.com\n\n\n\n\n  \n\n\n\n\nHoffman2 Happy Hour - Anaconda\n\n\n\n\n\n\n\nUCLA\n\n\nanaconda\n\n\npython\n\n\nworkshops\n\n\nH2HH\n\n\n\n\nAt UCLA, we have a series of workshops named Hoffman2 Happy Hour (H2HH). These workshops are small, interactive talks based on a certain topic relating to HPC.\n\n\n\n\n\n\nJun 29, 2022\n\n\nCharles Peterson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA Containers Workshop\n\n\n\n\n\n\n\nUCLA\n\n\ncontainers\n\n\nworkshops\n\n\n\n\nI hosted a workshop on using Containers for HPC.\n\n\n\n\n\n\nApr 20, 2022\n\n\nCharles Peterson\n\n\n\n\n\n\n  \n\n\n\n\nHoffman2 Happy Hour - Rstudio\n\n\n\n\n\n\n\nUCLA\n\n\nrstudio\n\n\nworkshops\n\n\nH2HH\n\n\n\n\nAt UCLA, we have a series of workshops named Hoffman2 Happy Hour (H2HH). These workshops are small, interactive talks based on a certain topic relating to HPC.\n\n\n\n\n\n\nMar 30, 2022\n\n\nCharles Peterson\n\n\n\n\n\n\n  \n\n\n\n\nACS Book published\n\n\n\n\n\n\n\nACS\n\n\npublication\n\n\n\n\nAfter working on this book for a couple of years, a new ACS (American Chemical Society) book in the ACS symposium Series was published based on the ACS session that Deborah Penchoff, Theresa Windus, and myself organized.\n\n\n\n\n\n\nDec 31, 2021\n\n\nCharles Peterson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA Singularity Workshop\n\n\n\n\n\n\n\nUCLA\n\n\ncontainers\n\n\nworkshops\n\n\n\n\nThis post is showing the link to a workshop I did using Singularity on Hoffman2 (UCLA’s HPC cluster). This is the first workshop I gave at UCLA!!\n\n\n\n\n\n\nJul 3, 2021\n\n\nCharles Peterson\n\n\n\n\n\n\n  \n\n\n\n\nQuill Program for SCF calucations\n\n\n\n\n\n\n\nC\n\n\nchemistry\n\n\npython\n\n\n\n\nI have updated on GitHub a small, very simple Hartree Fock program, mostly written in C. I mostly wrote this code as a test to program Hartree Fock. This code was mostly so I can learn how SCF/HF works.\n\n\n\n\n\n\nJun 30, 2021\n\n\nCharles Peterson\n\n\n\n\n\n\nNo matching items\n\n\nCopyright 2022 Charles C. Peterson"
+    "text": "I will post some fun stuff that I have done.\nIf you would like to talk to me, feel free to contact me at charles.c.peterson3@gmail.com\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA Building Containers Workshop\n\n\n\n\n\n\n\nUCLA\n\n\ncontainers\n\n\nworkshops\n\n\n\n\n\n\n\n\n\n\n\nJul 6, 2022\n\n\nCharles Peterson\n\n\n\n\n\n\n  \n\n\n\n\nHoffman2 Happy Hour - Anaconda\n\n\n\n\n\n\n\nUCLA\n\n\nanaconda\n\n\npython\n\n\nworkshops\n\n\nH2HH\n\n\n\n\n\n\n\n\n\n\n\nJun 29, 2022\n\n\nCharles Peterson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA Containers Workshop\n\n\n\n\n\n\n\nUCLA\n\n\ncontainers\n\n\nworkshops\n\n\n\n\n\n\n\n\n\n\n\nApr 20, 2022\n\n\nCharles Peterson\n\n\n\n\n\n\n  \n\n\n\n\nHoffman2 Happy Hour - Rstudio\n\n\n\n\n\n\n\nUCLA\n\n\nrstudio\n\n\nworkshops\n\n\nH2HH\n\n\n\n\n\n\n\n\n\n\n\nMar 30, 2022\n\n\nCharles Peterson\n\n\n\n\n\n\n  \n\n\n\n\nACS Book published\n\n\n\n\n\n\n\nACS\n\n\npublication\n\n\n\n\n\n\n\n\n\n\n\nDec 31, 2021\n\n\nCharles Peterson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA Singularity Workshop\n\n\n\n\n\n\n\nUCLA\n\n\ncontainers\n\n\nworkshops\n\n\n\n\n\n\n\n\n\n\n\nJul 3, 2021\n\n\nCharles Peterson\n\n\n\n\n\n\n  \n\n\n\n\nQuill Program for SCF calucations\n\n\n\n\n\n\n\nC\n\n\nchemistry\n\n\npython\n\n\n\n\n\n\n\n\n\n\n\nJun 30, 2021\n\n\nCharles Peterson\n\n\n\n\n\n\nNo matching items\n\n\nCopyright 2022 Charles C. Peterson"
   },
   {
     "objectID": "posts/ContainersWS_04202022/index.html",
     "href": "posts/ContainersWS_04202022/index.html",
     "title": "UCLA Containers Workshop",
     "section": "",
-    "text": "This Workshop took place via Zoom on April 20, 2022.\nThe repo containing the pdf and zoom recording is located on UCLA’s ORAC github site\nhttps://github.com/ucla-oarc-hpc/hpc_workshops\nI went over using Singularity/Apptainer and Docker containers to run on HPC resources, like UCLA’s Hoffman2 resource.\nI also had some examples with using GPUs and MPI applications.\nI will have a followup workshop in the Summer on making Containers."
+    "text": "This Workshop took place via Zoom on April 20, 2022.\nThe repo containing the pdf and zoom recording is located on UCLA’s ORAC github site\nhttps://github.com/ucla-oarc-hpc/WS_containers\nI went over using Singularity/Apptainer and Docker containers to run on HPC resources, like UCLA’s Hoffman2 resource.\nI also had some examples with using GPUs and MPI applications.\nI will have a followup workshop in the Summer on making Containers."
   },
   {
     "objectID": "posts/H2HH_anaconda_06292022/index.html",
@@ -61,5 +61,12 @@
     "title": "Hoffman2 Happy Hour - Anaconda",
     "section": "",
     "text": "This Workshop took place via Zoom on June 29, 2022.\nThe repo containing the pdf and zoom recording is located on UCLA’s IDRE github site\nhttps://github.com/ucla-oarc-hpc/hpc_workshops\nThis H2HH went over using Anaconda on HPC. This was a small talk that had tips and tricks using anaconda on Hoffman2.\nStay tuned for more workshops from the Hoffman2 Team!"
+  },
+  {
+    "objectID": "posts/MakingContainersWS_07062022/index.html",
+    "href": "posts/MakingContainersWS_07062022/index.html",
+    "title": "UCLA Building Containers Workshop",
+    "section": "",
+    "text": "This Workshop took place via Zoom on July 6, 2022.\nThe repo containing the pdf and zoom recording is located on UCLA’s ORAC github site\nhttps://github.com/ucla-oarc-hpc/WS_MakingContainers\nThis workshop is a follow-up to a previous workshop on “Using Containers on HPC Resources”. This workshop will focus on creating containers to be ran on HPC resources. We will go over building containers using Docker/podman and Apptainer/Singularity. We will also use Hoffman2 to run our newly built containers. To follow along, users will need to install Docker or podman as well as Apptainer or Singularity on a computer they have root/admin access (Or you can just listen a watch). A GitHub or DockerHub account would also be needed to store our containers. We will provide a VM image for VituralBox with the software install. Any questions can be directed to cpeterson@oarc.ucla.edu."
   }
 ]

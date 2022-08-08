@@ -1,5 +1,5 @@
 ---
-title: "Welcome"
+title: "High-Performance Computing R&D Scientist"
 listing:
   id: sample-listings
   contents: posts
@@ -14,9 +14,9 @@ title-block-banner: true
 
 I am Charles (Charlie) Peterson and welcome to my site! 
 
-Here I will post some fun stuff I have done.
+I will post some fun stuff that I have done.
 
-If you would like to talk to me, feel free I contact me at charles.c.peterson3@gmail.com
+If you would like to talk to me, feel free to contact me at charles.c.peterson3@gmail.com
 
 ::: {#sample-listings}
 :::

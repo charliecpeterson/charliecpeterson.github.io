@@ -12,7 +12,7 @@ This Workshop took place via Zoom on April 20, 2022.
 
 The repo containing the pdf and zoom recording is located on UCLA's ORAC github site
 
-https://github.com/ucla-oarc-hpc/hpc_workshops
+https://github.com/ucla-oarc-hpc/WS_containers
 
 I went over using Singularity/Apptainer and Docker containers to run on HPC resources, like UCLA's Hoffman2 resource.
 
