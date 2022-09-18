@@ -2,10 +2,10 @@
 title: "CV"
 about:
   template: jolla
-
 ---
 
-# Charles Campbell Peterson III, Ph.D.
+Charles Campbell Peterson III, Ph.D.
+
 High-Performance Computing R&D Scientist
 
 ---
@@ -136,6 +136,8 @@ Summer school for challenges of High-Performance Computing in computational scie
 ---
 
 # Publications
+
+Edward F. Valeev, Robert J. Harrison, Charles C. Peterson, Deborah A. Penchoff. "Direct determination of optimal real-space orbitals for correlated electronic structure of molecules". 2022. 
 
 Joseph F. DeJesusa, Ryan W. F. Kerr, Deborah A. Penchoff, Xian B. Carrolla, Charles C. Peterson, Polly L. Arnold and David M. Jenkins. “Actinide tetra-N-heterocyclic carbene sandwiches”. Chem. Sci., 2021.
 
