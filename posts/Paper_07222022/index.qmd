@@ -1,15 +1,15 @@
 ---
-title: "Paper on Numberically Exact Orbitals"
+title: "Paper on Numerically Exact Orbitals"
 author: "Charles Peterson"
 date: "2022-07-22"
 categories: [chemistry, publication]
-
 ---
 
-[New paper](https://arxiv.org/abs/2207.10841) submitted by my co-workers (Edward F. Valeev, Robert J. Harrison, Deborah A. Penchoff) and myself.
+I am excited to share a [new paper](https://arxiv.org/abs/2207.10841) that I have co-authored with my esteemed colleagues, Edward F. Valeev, Robert J. Harrison, and Deborah A. Penchoff.
 
-Direct determination of optimal real-space orbitals for correlated electronic structure of molecules
+In this work, we present a method for determining nearly numerically exact orthonormal orbitals that are optimal for evaluating the energy of arbitrary (correlated) states of atoms and molecules by minimizing the energy Lagrangian. The orbitals are expressed in real space using a multiresolution spectral element basis that is adaptively refined to achieve the user-specified target precision while avoiding the ill-conditioning issues typically associated with AO basis set expansions in traditional correlated models of molecular electronic structure.
 
-Abstract:
+Our orbital solver, combined with a variational electronic structure model (selected Configuration Interaction or CI), provides energies of comparable precision to a state-of-the-art atomic CI solver for light atoms. The calculated electronic energies of atoms and molecules are significantly more accurate than those obtained with Gaussian AO bases of the same rank. Furthermore, our method can determine these energies even when linear dependence issues preclude the use of AO bases.
 
-We demonstrate how to determine nearly numerically exact orthonormal orbitals that are optimal for evaluation of the energy of arbitrary (correlated) states of atoms and molecules by minimization of the energy Lagrangian. Orbitals are expressed in real space using multiresolution spectral element basis that is refined adaptively to achieve the user-specified target precision while avoiding the ill-conditioning issues that plague AO basis set expansions traditionally used for correlated models of molecular electronic structure. For light atoms the orbital solver in conjunction with a variational electronic structure model [selected Configuration Interaction (CI)] provides energies of comparable precision to a state-of-the-art atomic CI solver. The computed electronic energies of atoms and molecules are significantly more accurate than the counterparts obtained with the Gaussian AO bases of the same rank, and can be determined even when linear dependence issues preclude the use of the AO bases.
+
+

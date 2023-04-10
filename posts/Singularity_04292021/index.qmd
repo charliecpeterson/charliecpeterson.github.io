@@ -6,16 +6,14 @@ categories: [UCLA, containers, workshops]
 
 ---
 
-This post is showing the link to a workshop I did using Singularity on Hoffman2 (UCLA's HPC cluster). This is the first workshop I gave at UCLA!!
+In this post, I am sharing the link to a workshop I conducted on using Singularity on Hoffman2, UCLA's High-Performance Computing (HPC) cluster. This workshop marked my first teaching experience at UCLA!
 
-This Workshop took place via Zoom on April 29, 2021. 
+The workshop was conducted via Zoom on April 29, 2021.
 
-The repo containing the pdf and zoom recording is located on UCLA's OARC github site
+You can find the repository containing the workshop materials, including the PDF presentation and Zoom recording, on UCLA's OARC GitHub site:
 
 https://github.com/ucla-oarc-hpc/hpc_workshops
 
-The is workshop is a basic lecture on using singularity to using containers on Hoffman2.
+During the workshop, I provided a basic lecture on how to use Singularity for managing containers on Hoffman2. The GitHub repository also contains example containers that demonstrate how to work with Python and various packages, such as TensorFlow and PySCF. Additionally, there are examples of using GPU containers.
 
-There are example containers in the gitlab repo, showing sample containers of with python and packages like TensorFlow and PySCF. Also a example using GPU containers.
-
-Stay tuned for more updates on Singularity on Hoffman2!
+Keep an eye out for more updates on using Singularity on Hoffman2!

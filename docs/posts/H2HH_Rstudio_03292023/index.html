@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Charles Peterson">
+<meta name="dcterms.date" content="2023-03-29">
 
-<title>Charles C. Peterson, PhD - About Charles C. Peterson</title>
+<title>Charles C. Peterson, PhD - Hoffman2 Happy Hour: Exploring RStudio on HPC</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,21 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -59,7 +62,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -69,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Charles C. Peterson, PhD</span>
     </a>
   </div>
@@ -80,11 +83,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About Charles C. Peterson</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV.html" rel="" target="">
+    <a class="nav-link" href="../../CV.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
@@ -105,71 +108,76 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Hoffman2 Happy Hour: Exploring RStudio on HPC</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">UCLA</div>
+                <div class="quarto-category">RStudio</div>
+                <div class="quarto-category">Workshops</div>
+                <div class="quarto-category">H2HH</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Charles Peterson </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 29, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="aboutme.jpeg" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About Charles C. Peterson</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="mailto:charliecpeterson@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope-paper-heart"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://twitter.com/Charlie_CCP3" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-  <a href="https://www.linkedin.com/in/charles-peterson-ba7944137/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/charliecpeterson" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://www.facebook.com/profile.php?id=100014097694832" class="about-link" rel="" target="">
-    <i class="bi bi-facebook"></i>
-     <span class="about-link-text">Facebook</span>
-  </a>
-  <a href="https://steamcommunity.com/id/chuckbetter" class="about-link" rel="" target="">
-    <i class="bi bi-steam"></i>
-     <span class="about-link-text">Steam</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<section id="welcome" class="level1">
-<h1>Welcome!</h1>
-<p>I am an interdisciplinary researcher, collaborator, and information technology professional with over ten years of experience in scientific computing and computational research applications across STEM and non-STEM areas.</p>
-<section id="focus" class="level2">
-<h2 data-anchor-id="focus">Focus</h2>
-<p>My focus is on applying advanced High-Performance Computing (HPC) capabilities to enhance research throughput, which involves closely collaborating with a diverse research community.</p>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="introducing-hoffman2-happy-hour-workshops" class="level2">
+<h2 class="anchored" data-anchor-id="introducing-hoffman2-happy-hour-workshops">Introducing Hoffman2 Happy Hour Workshops</h2>
+<p>Welcome to the exciting world of Hoffman2 Happy Hour (H2HH) workshops at UCLA! These interactive sessions are designed to offer participants valuable insights into various topics related to high-performance computing (HPC). Each workshop is carefully curated to promote an engaging and informative experience.</p>
 </section>
-<section id="research-interests" class="level2">
-<h2 data-anchor-id="research-interests">Research Interests</h2>
-<p>Using HPC and other advanced scientific computing techniques is essential to expand research by developing computational protocols to study heavy element chemistry with national security and other applications.</p>
+<section id="spotlight-on-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="spotlight-on-rstudio">Spotlight on RStudio</h2>
+<p>Our most recent H2HH workshop, held on March 29, 2023, focused on the use of RStudio—an integrated development environment (IDE) for R programming—on UCLA’s Hoffman2 HPC resource. The virtual workshop took place via Zoom and was met with an enthusiastic response from attendees.</p>
 </section>
-<section id="connect-with-me" class="level2">
-<h2 data-anchor-id="connect-with-me">Connect with Me</h2>
-<p>Find me on <a href="mailto:charliecpeterson@gmail.com">Email</a>, <a href="https://twitter.com/Charlie_CCP3">Twitter</a>, <a href="https://www.linkedin.com/in/charles-peterson-ba7944137/">LinkedIn</a>, <a href="https://github.com/charliecpeterson">Github</a>, <a href="https://www.facebook.com/profile.php?id=100014097694832">Facebook</a>, and <a href="https://steamcommunity.com/id/chuckbetter">Steam</a>.</p>
+<section id="exploring-rstudio-on-hoffman2" class="level2">
+<h2 class="anchored" data-anchor-id="exploring-rstudio-on-hoffman2">Exploring RStudio on Hoffman2</h2>
+<p>During the workshop, I demonstrated how to set up and use an RStudio Server container on Hoffman2. This containerized approach allows users to harness the full potential of RStudio in an HPC environment, enabling them to tackle complex data analysis and visualization tasks with ease.</p>
+</section>
+<section id="access-workshop-materials" class="level2">
+<h2 class="anchored" data-anchor-id="access-workshop-materials">Access Workshop Materials</h2>
+<p>For those who couldn’t attend or would like to revisit the content, we’ve made the workshop materials, including the presentation PDF and Zoom recording, available on UCLA’s IDRE GitHub site. Feel free to explore the repository using the following link:</p>
+<p><a href="https://github.com/ucla-oarc-hpc/H2HH_rstudio">H2HH RStudio Workshop Materials (GitHub)</a></p>
+</section>
+<section id="looking-ahead" class="level2">
+<h2 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h2>
+<p>The Hoffman2 Team is committed to empowering the research community with the knowledge and tools necessary for success in the HPC domain. Stay tuned for more workshops in the future, as we continue to explore and share the many facets of high-performance computing!</p>
+<p>Thank you for joining us on this journey, and we look forward to seeing you at the next Hoffman2 Happy Hour workshop!</p>
 
 
 </section>
-</section>
-</main></div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -190,6 +198,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

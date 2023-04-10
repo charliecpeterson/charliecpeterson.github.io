@@ -3,15 +3,18 @@ title: "UCLA Building Containers Workshop"
 author: "Charles Peterson"
 date: "2022-07-06"
 categories: [UCLA, containers, workshops]
-
 ---
 
-I hosted a workshop on Building Containers for HPC.
+I recently hosted a workshop at UCLA focused on **Building Containers for HPC**.
 
-This Workshop took place via Zoom on July 6, 2022. 
+The workshop took place via Zoom on July 6, 2022.
 
-The repo containing the pdf and zoom recording is located on UCLA's ORAC github site
+You can find the PDF and Zoom recording in the UCLA ORAC GitHub repository:
 
-https://github.com/ucla-oarc-hpc/WS_MakingContainers
+[https://github.com/ucla-oarc-hpc/WS_MakingContainers](https://github.com/ucla-oarc-hpc/WS_MakingContainers)
 
-This workshop is a follow-up to a previous workshop on “Using Containers on HPC Resources”. This workshop will focus on creating containers to be ran on HPC resources. We will go over building containers using Docker/podman and Apptainer/Singularity. We will also use Hoffman2 to run our newly built containers. To follow along, users will need to install Docker or podman as well as Apptainer or Singularity on a computer they have root/admin access (Or you can just listen a watch). A GitHub or DockerHub account would also be needed to store our containers. We will provide a VM image for VituralBox with the software install. Any questions can be directed to cpeterson@oarc.ucla.edu.
+This workshop was a follow-up to a previous session on “Using Containers on HPC Resources.” During the event, we concentrated on creating containers to run on HPC resources. We covered building containers using Docker/podman and Apptainer/Singularity and demonstrated how to use Hoffman2 to execute the newly built containers.
+
+To follow along with the workshop, participants needed to install Docker or podman and Apptainer or Singularity on a computer with root/admin access. A GitHub or DockerHub account was also required to store the created containers. As a convenience, we provided a VM image for VirtualBox with the necessary software pre-installed.
+
+If you have any questions or need further assistance, don't hesitate to contact me at cpeterson@oarc.ucla.edu.

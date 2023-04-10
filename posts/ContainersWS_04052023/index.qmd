@@ -1,0 +1,36 @@
+---
+title: "Mastering Containerization for HPC: UCLA Workshop Recap"
+author: "Charles Peterson"
+date: "2023-04-05"
+categories: [UCLA, Containers, Workshops, HPC]
+---
+
+## Overview
+
+The world of high-performance computing (HPC) is ever-evolving, and containerization has emerged as a powerful tool in the HPC ecosystem. I recently had the opportunity to host an engaging and informative workshop titled **Using Containers for HPC** at the University of California, Los Angeles (UCLA).
+
+## Workshop Details
+
+- **Date**: April 5, 2023
+- **Location**: Virtual (via Zoom)
+
+## Unlocking the Power of Containers
+
+During the workshop, participants gained valuable insights into using containers to enhance their HPC workflows. We discussed two widely-used containerization platforms: Singularity/Apptainer and Docker. These platforms allow users to create, deploy, and run applications in a self-contained environment, streamlining the process of managing software dependencies.
+
+We explored the use of containers on UCLA's Hoffman2 HPC resource and delved into practical examples, including:
+
+- Using containers with Graphics Processing Units (GPUs) for accelerated computing.
+- Running Message Passing Interface (MPI) applications within containers for distributed computing.
+
+## Access Workshop Resources
+
+Whether you're new to containerization or seeking to deepen your understanding, the workshop materials are a valuable resource. The presentation PDF and Zoom recording are available in the UCLA ORAC GitHub repository. You can access them using the following link:
+
+[Workshop Materials: Using Containers for HPC (GitHub)](https://github.com/ucla-oarc-hpc/WS_containers)
+
+## Final Thoughts
+
+The workshop served as a platform to share knowledge and foster collaborative learning within the HPC community. Containerization is an integral part of modern HPC, and we are excited to continue exploring its potential in future workshops.
+
+Thank you for your interest in the UCLA Containers Workshop, and we look forward to hosting more such events in the future!

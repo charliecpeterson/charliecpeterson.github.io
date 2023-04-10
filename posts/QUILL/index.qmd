@@ -1,22 +1,24 @@
 ---
-title: "Quill Program for SCF calucations "
+title: "Quill Program for SCF Calculations"
 author: "Charles Peterson"
 date: "2021-06-30"
-categories: [C,chemistry,python]
+categories: [C, chemistry, python]
 image: "quill.jpg"
 ---
 
 # Program Quill
 
-I have updated on GitHub a small, very simple Hartree Fock program, mostly written in C. I mostly wrote this code as a test to program Hartree Fock. This code was mostly so I can learn how SCF/HF works. 
+I've recently updated a small, straightforward Hartree Fock program, primarily written in C, on my GitHub page. I primarily developed this code to understand how SCF/HF works.
 
-It is named after my pet hedgehog, Quill Riker.
+The program is named after my pet hedgehog, Quill Riker.
 
-The code is located on my GitHub page https://github.com/charliecpeterson/QUILL
+You can find the code on my GitHub page at https://github.com/charliecpeterson/QUILL
 
-This program uses [PySCF](https://github.com/pyscf/pyscf) and [libcint](https://github.com/sunqm/libcint) to generate the 1e/2e integrals. It also uses the [Eigen3](https://eigen.tuxfamily.org/dox/) API for all Matrix/linear algbra routines. 
+This program utilizes [PySCF](https://github.com/pyscf/pyscf) and [libcint](https://github.com/sunqm/libcint) to generate the 1e/2e integrals. It also employs the [Eigen3](https://eigen.tuxfamily.org/dox/) API for all matrix and linear algebra routines.
 
-The input is very similar to NWChem. In the GitHub repo, there is a sample input `input.inp`
+The input format is similar to NWChem. In the GitHub repository, there is a sample input file named `input.inp`.
+
+
 
 ```
 geometry
@@ -66,20 +68,18 @@ num_elec 10
 end
 ```
 
-As of now, there are only three input blocks that is code accepts
+Currently, the code accepts only three input blocks:
 
 - geometry
 - basis
 - scf
 
-The **geometry** and **basis** blocks are very similar to NWChem, in fact, the basis set format is the same for NWCehm
+The **geometry** and **basis** blocks closely resemble NWChem, with the basis set format being identical to NWChem.
 
-The **scf** block only accepts num_elec. This code ONLY does RHF. Single reference, closed-shell systems ONLY
+The **scf** block accepts only num_elec. This code exclusively supports RHF. It works for single reference, closed-shell systems ONLY.
 
+I have tested this program on several compounds, and the energy difference from PySCF results is about 10^-2 atomic units. More work is required.
 
-I have tested this on a few compounds and it is about 10^-2 AU in energy different from results from PySCF. More work is needed.
+I plan to use this program as a starting point for adding and testing new libraries to run computational chemistry methods, particularly for Exascale systems.
 
-I'm thinking of using this program as a starting point to add and test new libraries to run computational chemistry methods, esp to the Exascale.
-
-Contact Me for any more information!
-
+Feel free to contact me for more information!

@@ -1,12 +1,12 @@
 ---
-title: "About"
+title: "About Charles C. Peterson"
 image: aboutme.jpeg
 about:
   template: trestles
   links:
     - icon: envelope-paper-heart
       text: Email
-      href: charliecpeterson@gmail.com
+      href: mailto:charliecpeterson@gmail.com
     - icon: twitter
       text: Twitter
       href: https://twitter.com/Charlie_CCP3
@@ -22,14 +22,20 @@ about:
     - icon: steam
       text: Steam
       href: https://steamcommunity.com/id/chuckbetter
-
 ---
 
-Welcome!!
+# Welcome!
 
-Interdisciplinary researcher, collaborator, and information technology professional with over ten years of experience in scientific computing and computational research applications across STEM and non-STEM areas.
+I am an interdisciplinary researcher, collaborator, and information technology professional with over ten years of experience in scientific computing and computational research applications across STEM and non-STEM areas.
 
-My focus is in applying advanced High-Performance Computing (HPC) capabilities to enhance research throughput that involves closely collaborating with a diverse research community.
+## Focus
+
+My focus is on applying advanced High-Performance Computing (HPC) capabilities to enhance research throughput, which involves closely collaborating with a diverse research community.
+
+## Research Interests
 
 Using HPC and other advanced scientific computing techniques is essential to expand research by developing computational protocols to study heavy element chemistry with national security and other applications.
 
+## Connect with Me
+
+Find me on [Email](mailto:charliecpeterson@gmail.com), [Twitter](https://twitter.com/Charlie_CCP3), [LinkedIn](https://www.linkedin.com/in/charles-peterson-ba7944137/), [Github](https://github.com/charliecpeterson), [Facebook](https://www.facebook.com/profile.php?id=100014097694832), and [Steam](https://steamcommunity.com/id/chuckbetter).
