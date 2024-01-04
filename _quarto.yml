@@ -17,5 +17,5 @@ format:
     theme: superhero
     css: styles.css
 
-
-
+body-footer: |
+  Copyright 2024 Charles C. Peterson

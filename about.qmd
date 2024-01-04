@@ -16,26 +16,27 @@ about:
     - icon: github
       text: Github
       href: https://github.com/charliecpeterson
-    - icon: facebook
-      text: Facebook
-      href: https://www.facebook.com/profile.php?id=100014097694832
-    - icon: steam
-      text: Steam
-      href: https://steamcommunity.com/id/chuckbetter
+
 ---
 
 # Welcome!
 
-I am an interdisciplinary researcher, collaborator, and information technology professional with over ten years of experience in scientific computing and computational research applications across STEM and non-STEM areas.
+I'm Charles (Charlie) Peterson. With over a decade of experience in High-Performance Computing (HPC) and a solid foundation in artificial intelligence and machine learning, I'm a Senior HPC System Administrator at UCLA and a passionate researcher in computational chemistry.
 
-## Focus
+## Professional Journey
 
-My focus is on applying advanced High-Performance Computing (HPC) capabilities to enhance research throughput, which involves closely collaborating with a diverse research community.
+My journey in HPC has been marked by collaboration with scientists across various disciplines such as chemistry, physics, and material science. I've dedicated my career to optimizing the interface between hardware and software, enhancing the performance and capability of scientific applications. This has involved not only managing and improving complex computing systems but also innovating and implementing solutions that advance the boundaries of research.
 
-## Research Interests
+## Independent Research
 
-Using HPC and other advanced scientific computing techniques is essential to expand research by developing computational protocols to study heavy element chemistry with national security and other applications.
+Parallel to my administrative role, I engage deeply in computational chemistry. My research is focused on developing advanced methods to accurately predict chemical properties of f-element containing compounds, vital for nuclear forensics and separation chemistry. My expertise in AI/ML has been instrumental in this quest, helping to drive innovation and expand the capabilities of computational research in these critical areas.
+
+## Collaboration and Impact
+
+Throughout my career, I've seen firsthand the transformative impact of HPC on research. My dual focus on practical system administration and theoretical innovation allows me to uniquely contribute to the ongoing evolution of scientific computing. I am committed to fostering a collaborative environment, bridging gaps between disciplines, and helping teams leverage the power of HPC for groundbreaking discoveries.
 
 ## Connect with Me
 
-Find me on [Email](mailto:charliecpeterson@gmail.com), [Twitter](https://twitter.com/Charlie_CCP3), [LinkedIn](https://www.linkedin.com/in/charles-peterson-ba7944137/), [Github](https://github.com/charliecpeterson), [Facebook](https://www.facebook.com/profile.php?id=100014097694832), and [Steam](https://steamcommunity.com/id/chuckbetter).
+Let's make a connection that matters. Whether you're interested in HPC, AI/ML, computational chemistry, or simply want to discuss the future of technology and research, I'm here for it.
+
+Find me on [Email](mailto:charliecpeterson@gmail.com), [Twitter](https://twitter.com/Charlie_CCP3), [LinkedIn](https://www.linkedin.com/in/charles-peterson-ba7944137/), and [Github](https://github.com/charliecpeterson).
