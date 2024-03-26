@@ -1,0 +1,21 @@
+---
+title: "UCLA Building Containers Workshop"
+author: "Charles Peterson"
+date: "2022-07-06"
+categories: [UCLA, containers, workshops]
+image: "hpcworkshopimage.png"
+---
+
+I recently hosted a workshop at UCLA focused on **Building Containers for HPC**.
+
+The workshop took place via Zoom on July 6, 2022.
+
+You can find the PDF and Zoom recording in the UCLA ORAC GitHub repository:
+
+[https://github.com/ucla-oarc-hpc/WS_MakingContainers](https://github.com/ucla-oarc-hpc/WS_MakingContainers)
+
+This workshop was a follow-up to a previous session on “Using Containers on HPC Resources.” During the event, we concentrated on creating containers to run on HPC resources. We covered building containers using Docker/podman and Apptainer/Singularity and demonstrated how to use Hoffman2 to execute the newly built containers.
+
+To follow along with the workshop, participants needed to install Docker or podman and Apptainer or Singularity on a computer with root/admin access. A GitHub or DockerHub account was also required to store the created containers. As a convenience, we provided a VM image for VirtualBox with the necessary software pre-installed.
+
+If you have any questions or need further assistance, don't hesitate to contact me at cpeterson@oarc.ucla.edu.

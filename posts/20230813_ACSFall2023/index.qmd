@@ -1,0 +1,32 @@
+---
+title: "Leading AI Innovations in Nuclear Chemistry at ACS Fall 2023"
+author: "Charles Peterson"
+date: "2023-08-13"
+categories: [Chemistry, AI, Meeting]
+image: "acs2023fall.png"
+---
+
+# Pioneering Data Science in Nuclear Chemistry: ACS Fall 2023 Insights
+
+At the prestigious American Chemical Society Fall 2023 Meeting, I had the honor of co-chairing a session within the Nuclear Division, titled "Data Science and Artificial Intelligence Applications in Nuclear and Radiochemistry."
+
+This session not only showcased groundbreaking research but also served as a platform for discussing the transformative impact of data science and AI on the field of nuclear and radiochemistry. Highlighting the event was my presentation, "Advanced Computational Strategies for Lanthanide and Actinide Systems," where I delved into the latest computational methodologies enhancing our understanding and manipulation of these complex elements.
+
+The discourse generated from this session underscored the vital role of AI and computational chemistry in advancing nuclear science, promising innovative solutions to longstanding challenges in the field.
+
+## Advanced Computational Strategies for Lanthanide and Actinide Systems
+
+Authors: Charles C. Peterson, Deborah A. Penchoff
+
+Affiliations:
+1. Office of Advanced Research Computing, University of California, Los Angeles, California, United States
+2. Innovative Computing Laboratory, University of Tennessee, Knoxville, Tennessee, United States
+
+Contact:
+Peterson, cpeterson@oarc.ucla.edu
+Penchoff, dpenchof@utk.edu
+
+Modeling lanthanide and actinide chemistry through accurate computational methodologies is important to better understand binding selectivity of lanthanides and actinides in nuclear and radiochemical applications. This is crucial for nuclear forensics, designing separation agents, and understanding spectra. Theoretical predictions using molecular modeling methods, such as ab initio and DFT, have been popular to simulate binding interactions. Computational protocols are determined with highly accurate predictions that include effects from relativity, spin-orbit coupling, and core correlation. Using modern data modeling methods, like Artificial Intelligence techniques including Machine Learning, can be insightful to understand binding selectivity properties.
+
+
+![](pic.png)

@@ -1,0 +1,17 @@
+---
+title: "AI-Driven Solutions for Environmental Remediation"
+author: "Charles Peterson"
+date: "2023-10-19"
+categories: [Chemistry, AI]
+image: "AI_env_rem.jpeg"
+---
+
+# Collaborative Meeting on AI for Environmental Remediation
+
+Funded by the AI Tennessee Initiative, the AI for Environmental Remediation Project aims to leverage artificial intelligence technologies to mitigate environmental harm caused by nuclear and radiochemical activities. This project  develops research and development initiatives that promote sustainability. The primary objectives include utilizing AI to minimize environmental pollution from human-made sources and create eco-friendly methods for separating Rare Earth Elements (REEs).
+
+The collaborative event, held from July 17 to 19, 2023, marked a significant milestone in fostering synchronized collaboration among various researchers. This meeting underscored the importance of innovative approaches in tackling environmental challenges and advancing sustainability efforts.
+
+![Project Collaboration Meeting](pic.jpeg)
+
+

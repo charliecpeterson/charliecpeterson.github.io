@@ -1,0 +1,17 @@
+---
+title: "Advancing Nuclear Tech with HPC Panel"
+author: "Charles Peterson"
+date: "2023-04-15"
+categories: [Chemistry, Artificial Intelligence, Meeting]
+image: "anslogo.png"
+---
+
+# High-Performance Computing Panel at the ANS Student Conference
+
+I had the privilege of participating in a panel titled "High-Performance Computing in Nuclear Technology," held during the American Nuclear Society Student Conference on April 15, 2023.
+
+The focus was on the pivotal role of High-Performance Computing (HPC) and its transformative impact over the past decade, especially with the advent of Exascale computing. HPC has proven instrumental in propelling research and innovation across various fields, including climate science, healthcare, material science, and national security, by enabling more complex and detailed simulations than ever before.
+
+This panel served as an engaging platform for students to explore the integration of HPC in nuclear science and engineering, featuring enlightening presentations on the evolution of HPC, its scalability, performance characteristics, and a lively discussion on the latest advancements and persisting challenges within HPC applications.
+
+![Insights from the HPC Panel Discussion](pic.png)

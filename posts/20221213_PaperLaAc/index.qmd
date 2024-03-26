@@ -1,0 +1,17 @@
+---
+title: "Combining Molecular Modeling with ML for Enhanced Predictive Analysis"
+author: "Charles Peterson"
+date: "2022-12-13"
+categories: [Chemistry, paper]
+image: "pic.png"
+---
+
+# Advanced Predictive Models for Lanthanum and Actinium Systems
+
+Our research paper, "Evaluations of molecular modeling and machine learning for predictive capabilities in binding of lanthanum and actinium with carboxylic acids," was published in the Journal of Radioanalytical and Nuclear Chemistry on December 13, 2022. I extend my sincere appreciation to my co-authors: Deborah A. Penchoff, Eleigha M. Wrancher, George Bosilca, Robert J. Harrison, Edward F. Valeev, and Paul D. Benny for their collaborative efforts and contributions.
+
+[Read the full paper here](https://doi.org/10.1007/s10967-022-08620-7)
+
+## Abstract
+
+Optimization of separations for selective binding of rare earth elements and actinides is critical to guarantee a supply of materials essential to needs including national security and defense, technology, medicine, and communications. Computational modeling is key to accelerate solutions for selective separations; however, tools to predict accurate representations of the physical systems of interest require high performance computing resources to be developed to facilitate robust modeling. This study evaluates computational molecular modeling and machine learning applications on property analysis relevant to the binding of lanthanum and actinium with carboxylic acids. It focuses on assessing accuracy of computational predictions based on benchmark computational results due to lack of experimental information. Properties evaluated include Gibbs free energies of reaction, relativistic effects, diagnostics, partial charges, structural characteristics, and coordination sphere and equivalent volume.
