@@ -1,0 +1,17 @@
+---
+title: "UCLA GPU Workshop"
+author: "Charles Peterson"
+date: "2024-05-01"
+categories: [UCLA, containers, workshops]
+image: "hpcworkshopimage.png"
+---
+
+In our latest workshop, “Optimizing Research with GPUs on Hoffman2,” computing professionals and researchers had the chance to explore the immense potential of GPU computing in high-performance research environments. Whether they were newcomers to GPU programming or seasoned veterans, participants found valuable insights tailored to their expertise levels.
+
+This workshop focused on equipping attendees with the essential skills needed to harness the power of GPUs, particularly within Python and R environments. We delved into the core concepts of GPU computing, starting with an overview of general-purpose GPU processing and quickly moving into practical applications.
+
+A highlight of the workshop was the deep dive into CUDA programming for NVIDIA GPUs. Participants learned to optimize their code by mastering memory management techniques, parallel computing strategies, and other advanced GPU coding practices. These skills are crucial for those looking to push the boundaries of computational efficiency in their research projects.
+
+The hands-on sessions provided a robust platform for attendees to implement what they learned in real-time, experimenting with various GPU codes and observing the performance gains firsthand. By the end of the workshop, participants were well-equipped to integrate GPU computing into their workflows, significantly boosting the speed and efficiency of their research on the Hoffman2 cluster.
+
+This event underscored the transformative power of GPUs in research, offering a pathway for professionals to elevate their computational capabilities and achieve new levels of innovation.

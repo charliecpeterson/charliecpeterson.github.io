@@ -1,0 +1,13 @@
+---
+title: "CNF HPC/AI Workshop"
+author: "Charles Peterson"
+date: "2024-07-24"
+categories: [HPC, AI, CNF, workshops]
+image: "CNF.png"
+---
+
+We recently had the opportunity to collaborate with the [Consortium for Nuclear Forensics](https://www.nuclearforensicsconsortium.org/about) (CNF) to host a workshop at Berkeley National Laboratory on July 24, 2024. This workshop was designed for undergraduate students, introducing them to the essential concepts of High-Performance Computing (HPC) and Artificial Intelligence (AI) as they relate to nuclear applications.
+
+During the workshop, participants explored a variety of HPC and AI tools, with hands-on examples that included predicting energies using NWChem. Students also learned how to train machine learning models based on data, gaining valuable insights into the intersection of computational power and nuclear science.
+
+This event provided a unique opportunity for budding scientists to engage with cutting-edge technology, bridging the gap between theoretical knowledge and practical application in the field of nuclear forensics.
