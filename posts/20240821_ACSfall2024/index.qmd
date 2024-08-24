@@ -1,0 +1,18 @@
+---
+title: "ACS Fall 2024"
+author: "Charles Peterson"
+date: "2024-08-21"
+categories: [chemistry, AI, ACS]
+image: "acsfall2024.png"
+---
+
+# REACKT: Advancing Separations of Lanthanides and Actinides: ACS Fall 2024 
+
+I recently presented at the ACS Fall 2024 meeting, delivering a talk titled “REACKT: Advancing Separations of Lanthanides and Actinides.” This presentation highlighted the innovative strides made by the REACKT project in improving the separation processes for these critical elements.
+
+![](REACKT.png)
+
+Abstract:
+
+The elucidation of the binding selectivity of lanthanides and actinides is quintessential for advancing nuclear and radiochemical applications, encompassing nuclear forensics, the design of separation agents, and the interpretation of spectra. Theoretical investigations employing molecular modeling methods, such as ab initio and Density Functional Theory (DFT), have been instrumental in simulating binding interactions, with computational protocols being refined for superior accuracy encompassing relativity, spin-orbit coupling, and core correlation effects. The integration of contemporary data modeling approaches, like Artificial Intelligence (AI) and Machine Learning (ML), further augments our understanding of binding selectivity properties. A notable stride in this domain is the advent of the REACKT program, which endeavors to bolster the precision and efficiency of computational methodologies. This presentation delineates the development and integration of computational protocols within the REACKT framework, illustrating how this program propels the frontier of lanthanide and actinide chemistry modeling. By leveraging the REACKT program, we elucidate how a synergistic blend of traditional computational chemistry methods and modern data analytics can significantly enhance predictive accuracy and provide deeper insights into the complex behavior of lanthanide and actinide systems.
+
