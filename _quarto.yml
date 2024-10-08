@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Charles C. Peterson, PhD"
+  google-analytics: "G-3L7ENR0B5H"
   navbar:
     right:
       - about.qmd
