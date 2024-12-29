@@ -2,13 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.290">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Dedicated to enhancing High-Performance Computing infrastructure and advancing computational chemistry research">
 
-<title>Charles C. Peterson, PhD - Charles C. Peterson</title>
+<title>Dedicated to enhancing High-Performance Computing infrastructure and advancing computational chemistry research – Charles C. Peterson, PhD</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./profileicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -38,17 +38,24 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-79108a0fc1995748cbd19a5b0e3e3e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,8 +64,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -101,8 +110,35 @@ gtag('js', new Date());
 gtag('config', 'G-3L7ENR0B5H', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -110,42 +146,46 @@ gtag('config', 'G-3L7ENR0B5H', { 'anonymize_ip': true});
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Charles C. Peterson, PhD</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About Charles C. Peterson</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About Charles Peterson</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV.html" rel="" target="">
- <span class="menu-text">CV</span></a>
+    <a class="nav-link" href="./CV.html"> 
+<span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/charliecpeterson" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/charliecpeterson"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/Charlie_CCP3" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/Charlie_CCP3"> <i class="bi bi-twitter" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app/profile/charlespeterson.dev"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="ri:bluesky-fill" aria-label="Icon bluesky-fill from ri Iconify.design set." title="Icon bluesky-fill from ri Iconify.design set."></iconify-icon></span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -153,17 +193,12 @@ gtag('config', 'G-3L7ENR0B5H', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Charles C. Peterson</h1>
-                  <div>
-        <div class="description">
-          Dedicated to enhancing High-Performance Computing infrastructure and advancing computational chemistry research
-        </div>
-      </div>
-                </div>
+      <h1 class="title">Dedicated to enhancing High-Performance Computing infrastructure and advancing computational chemistry research</h1>
+                      </div>
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
       
     
@@ -176,9 +211,10 @@ gtag('config', 'G-3L7ENR0B5H', { 'anonymize_ip': true});
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(20)</span></div><div class="category" data-category="ACS">ACS <span class="quarto-category-count">(2)</span></div><div class="category" data-category="AI">AI <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Artificial Intelligence">Artificial Intelligence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Big Data">Big Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="C">C <span class="quarto-category-count">(1)</span></div><div class="category" data-category="CNF">CNF <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Chemistry">Chemistry <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Containers">Containers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="H2HH">H2HH <span class="quarto-category-count">(3)</span></div><div class="category" data-category="HPC">HPC <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Meeting">Meeting <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RStudio">RStudio <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UCLA">UCLA <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Workshops">Workshops <span class="quarto-category-count">(2)</span></div><div class="category" data-category="anaconda">anaconda <span class="quarto-category-count">(1)</span></div><div class="category" data-category="chemistry">chemistry <span class="quarto-category-count">(3)</span></div><div class="category" data-category="containers">containers <span class="quarto-category-count">(5)</span></div><div class="category" data-category="paper">paper <span class="quarto-category-count">(2)</span></div><div class="category" data-category="publication">publication <span class="quarto-category-count">(2)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="rstudio">rstudio <span class="quarto-category-count">(1)</span></div><div class="category" data-category="workshops">workshops <span class="quarto-category-count">(9)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(20)</span></div><div class="category" data-category="QUNT">ACS <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ==">Artificial Intelligence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QmlnJTIwRGF0YQ==">Big Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Qw==">C <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q05G">CNF <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2hlbWlzdHJ5">Chemistry <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Q29udGFpbmVycw==">Containers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SDJISA==">H2HH <span class="quarto-category-count">(3)</span></div><div class="category" data-category="SFBD">HPC <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWVldGluZw==">Meeting <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UlN0dWRpbw==">RStudio <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VUNMQQ==">UCLA <span class="quarto-category-count">(10)</span></div><div class="category" data-category="V29ya3Nob3Bz">Workshops <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YW5hY29uZGE=">anaconda <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2hlbWlzdHJ5">chemistry <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Y29udGFpbmVycw==">containers <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cGFwZXI=">paper <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cHVibGljYXRpb24=">publication <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cHl0aG9u">python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cnN0dWRpbw==">rstudio <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d29ya3Nob3Bz">workshops <span class="quarto-category-count">(9)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
 
 
 
@@ -206,29 +242,29 @@ gtag('config', 'G-3L7ENR0B5H', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="recent-posts">Recent Posts</h2>
 <div id="listing-sample-listings" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="chemistry,AI,ACS" data-listing-date-sort="1724223600000" data-listing-file-modified-sort="1728414786386" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="0" data-categories="Y2hlbWlzdHJ5JTJDQUklMkNBQ1M=" data-listing-date-sort="1724223600000" data-listing-file-modified-sort="1724471348065" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
 <a href="./posts/20240821_ACSfall2024/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20240821_ACSfall2024/acsfall2024.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20240821_ACSfall2024/acsfall2024.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 ACS Fall 2024
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('chemistry'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Y2hlbWlzdHJ5'); return false;">
 chemistry
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">
 AI
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ACS'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('QUNT'); return false;">
 ACS
 </div>
 </div>
 <div class="card-text listing-description">
-I recently presented at the ACS Fall 2024 meeting, delivering a talk titled “REACKT: Advancing Separations…
+I recently presented at the ACS Fall 2024 meeting, delivering a talk titled “REACKT: Advancing Separations of Lanthanides and Actinides.” This presentation highlighted the…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -242,32 +278,32 @@ Aug 21, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="HPC,AI,CNF,workshops" data-listing-date-sort="1721804400000" data-listing-file-modified-sort="1728414786384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="1" data-categories="SFBDJTJDQUklMkNDTkYlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1721804400000" data-listing-file-modified-sort="1723941580994" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
 <a href="./posts/20240724_CNFWorkshop/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20240724_CNFWorkshop/CNF.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20240724_CNFWorkshop/CNF.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 CNF HPC/AI Workshop
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('HPC'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('SFBD'); return false;">
 HPC
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">
 AI
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('CNF'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Q05G'); return false;">
 CNF
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('workshops'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
 workshops
 </div>
 </div>
 <div class="card-text listing-description">
-We recently had the opportunity to collaborate with the Consortium for Nuclear Forensics (CNF) to host a workshop at Berkeley National Laboratory on July 24, 2024. This workshop was designed for undergraduate students, introducing them to the essential concepts…
+We recently had the opportunity to collaborate with the Consortium for Nuclear Forensics (CNF) to host a workshop at Berkeley National Laboratory on July 24, 2024. This…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -281,24 +317,24 @@ Jul 24, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="UCLA,containers,workshops" data-listing-date-sort="1714546800000" data-listing-file-modified-sort="1728414786383" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="2" data-categories="VUNMQSUyQ2NvbnRhaW5lcnMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1714546800000" data-listing-file-modified-sort="1723941844237" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
 <a href="./posts/202405012024_WS_GPU/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/202405012024_WS_GPU/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/202405012024_WS_GPU/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 UCLA GPU Workshop
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UCLA'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
 UCLA
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('containers'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Y29udGFpbmVycw=='); return false;">
 containers
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('workshops'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
 workshops
 </div>
 </div>
@@ -317,21 +353,21 @@ May 1, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Chemistry,paper" data-listing-date-sort="1697698800000" data-listing-file-modified-sort="1728414786382" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="3" data-categories="Q2hlbWlzdHJ5JTJDcGFwZXI=" data-listing-date-sort="1697698800000" data-listing-file-modified-sort="1723940856800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
 <a href="./posts/20231219_paperpublish/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20231219_paperpublish/pic.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20231219_paperpublish/pic.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Advancing Orbital Optimization: Published Research
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Chemistry'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Q2hlbWlzdHJ5'); return false;">
 Chemistry
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('paper'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">
 paper
 </div>
 </div>
@@ -350,21 +386,21 @@ Oct 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Chemistry,AI" data-listing-date-sort="1697698800000" data-listing-file-modified-sort="1728414786381" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="4" data-categories="Q2hlbWlzdHJ5JTJDQUk=" data-listing-date-sort="1697698800000" data-listing-file-modified-sort="1723940856800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
 <a href="./posts/20231019_AI_Env_meeting/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20231019_AI_Env_meeting/AI_env_rem.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20231019_AI_Env_meeting/AI_env_rem.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 AI-Driven Solutions for Environmental Remediation
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Chemistry'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Q2hlbWlzdHJ5'); return false;">
 Chemistry
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">
 AI
 </div>
 </div>
@@ -383,29 +419,29 @@ Oct 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Chemistry,AI,Meeting" data-listing-date-sort="1691910000000" data-listing-file-modified-sort="1728414786381" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="5" data-categories="Q2hlbWlzdHJ5JTJDQUklMkNNZWV0aW5n" data-listing-date-sort="1691910000000" data-listing-file-modified-sort="1723940856799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="251">
 <a href="./posts/20230813_ACSFall2023/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20230813_ACSFall2023/acs2023fall.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20230813_ACSFall2023/acs2023fall.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Leading AI Innovations in Nuclear Chemistry at ACS Fall 2023
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Chemistry'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Q2hlbWlzdHJ5'); return false;">
 Chemistry
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('AI'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">
 AI
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Meeting'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('TWVldGluZw=='); return false;">
 Meeting
 </div>
 </div>
 <div class="card-text listing-description">
-At the prestigious American Chemical Society Fall…
+At the prestigious American Chemical Society Fall 2023 Meeting, I had the honor of co-chairing a session within the Nuclear Division, titled “Data Science and Artificial…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -419,29 +455,29 @@ Aug 13, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="Chemistry,Artificial Intelligence,Meeting" data-listing-date-sort="1681542000000" data-listing-file-modified-sort="1728414786373" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="6" data-categories="Q2hlbWlzdHJ5JTJDQXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ01lZXRpbmc=" data-listing-date-sort="1681542000000" data-listing-file-modified-sort="1723940856789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
 <a href="./posts/20230415_HPC_Nuclear_panel/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20230415_HPC_Nuclear_panel/anslogo.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20230415_HPC_Nuclear_panel/anslogo.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Advancing Nuclear Tech with HPC Panel
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Chemistry'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Q2hlbWlzdHJ5'); return false;">
 Chemistry
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Artificial Intelligence'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">
 Artificial Intelligence
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Meeting'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('TWVldGluZw=='); return false;">
 Meeting
 </div>
 </div>
 <div class="card-text listing-description">
-I had…
+I had the privilege of participating in a panel titled “High-Performance Computing in Nuclear Technology,” held during the American Nuclear Society Student Conference on…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -455,29 +491,29 @@ Apr 15, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="UCLA,containers,workshops" data-listing-date-sort="1681282800000" data-listing-file-modified-sort="1728414786373" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="7" data-categories="VUNMQSUyQ2NvbnRhaW5lcnMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1681282800000" data-listing-file-modified-sort="1723940856789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
 <a href="./posts/20230412_MakingContainersWS/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20230412_MakingContainersWS/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20230412_MakingContainersWS/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Mastering Container Creation: UCLA HPC Workshop Recap
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UCLA'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
 UCLA
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('containers'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Y29udGFpbmVycw=='); return false;">
 containers
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('workshops'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
 workshops
 </div>
 </div>
 <div class="card-text listing-description">
-On April 12, 2023, I had the pleasure of hosting an engaging workshop at…
+On April 12, 2023, I had the pleasure of hosting an engaging workshop at UCLA, titled Mastering Container Creation for High-Performance Computing (HPC). The event was…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -491,32 +527,32 @@ Apr 12, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="UCLA,Containers,Workshops,HPC" data-listing-date-sort="1680678000000" data-listing-file-modified-sort="1728414786372" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="8" data-categories="VUNMQSUyQ0NvbnRhaW5lcnMlMkNXb3Jrc2hvcHMlMkNIUEM=" data-listing-date-sort="1680678000000" data-listing-file-modified-sort="1723940856788" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="248">
 <a href="./posts/20230405_ContainersWS/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20230405_ContainersWS/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20230405_ContainersWS/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Mastering Containerization for HPC: UCLA Workshop Recap
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UCLA'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
 UCLA
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Containers'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFpbmVycw=='); return false;">
 Containers
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Workshops'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('V29ya3Nob3Bz'); return false;">
 Workshops
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('HPC'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('SFBD'); return false;">
 HPC
 </div>
 </div>
 <div class="card-text listing-description">
-
+The world of high-performance computing (HPC) is ever-evolving, and containerization has emerged as a powerful tool in the HPC ecosystem. I recently had the opportunity to…<strong></strong>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -530,32 +566,32 @@ Apr 5, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="UCLA,RStudio,Workshops,H2HH" data-listing-date-sort="1680073200000" data-listing-file-modified-sort="1728414786371" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="9" data-categories="VUNMQSUyQ1JTdHVkaW8lMkNXb3Jrc2hvcHMlMkNIMkhI" data-listing-date-sort="1680073200000" data-listing-file-modified-sort="1723940856787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="247">
 <a href="./posts/20230329_H2HH_Rstudio/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20230329_H2HH_Rstudio/H2HH.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20230329_H2HH_Rstudio/H2HH.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Hoffman2 Happy Hour: Exploring RStudio on HPC
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UCLA'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
 UCLA
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('RStudio'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('UlN0dWRpbw=='); return false;">
 RStudio
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Workshops'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('V29ya3Nob3Bz'); return false;">
 Workshops
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('H2HH'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('SDJISA=='); return false;">
 H2HH
 </div>
 </div>
 <div class="card-text listing-description">
-
+Welcome to the exciting world of Hoffman2 Happy Hour (H2HH) workshops at UCLA! These interactive sessions are designed to offer participants valuable insights into various…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -569,21 +605,21 @@ Mar 29, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="Chemistry,paper" data-listing-date-sort="1670918400000" data-listing-file-modified-sort="1728414786371" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="10" data-categories="Q2hlbWlzdHJ5JTJDcGFwZXI=" data-listing-date-sort="1670918400000" data-listing-file-modified-sort="1723940856787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
 <a href="./posts/20221213_PaperLaAc/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20221213_PaperLaAc/pic.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20221213_PaperLaAc/pic.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Combining Molecular Modeling with ML for Enhanced Predictive Analysis
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Chemistry'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Q2hlbWlzdHJ5'); return false;">
 Chemistry
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('paper'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">
 paper
 </div>
 </div>
@@ -602,29 +638,29 @@ Dec 13, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="UCLA,Big Data,workshops" data-listing-date-sort="1666594800000" data-listing-file-modified-sort="1728414786371" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="11" data-categories="VUNMQSUyQ0JpZyUyMERhdGElMkN3b3Jrc2hvcHM=" data-listing-date-sort="1666594800000" data-listing-file-modified-sort="1723940856786" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
 <a href="./posts/20221024_WS_BigData/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20221024_WS_BigData/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20221024_WS_BigData/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Exploring Big Data on HPC: Workshop Recap
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UCLA'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
 UCLA
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('Big Data'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('QmlnJTIwRGF0YQ=='); return false;">
 Big Data
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('workshops'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
 workshops
 </div>
 </div>
 <div class="card-text listing-description">
-
+I recently had the pleasure of hosting a workshop on <strong>Exploring Big Data on High-Performance Computing (HPC)</strong> at the University of California, Los Angeles (UCLA). In this…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -638,26 +674,26 @@ Oct 24, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="chemistry,publication" data-listing-date-sort="1658473200000" data-listing-file-modified-sort="1728414786370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="12" data-categories="Y2hlbWlzdHJ5JTJDcHVibGljYXRpb24=" data-listing-date-sort="1658473200000" data-listing-file-modified-sort="1723940856786" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="171">
 <a href="./posts/20220722_Paper/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20220722_Paper/pic.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20220722_Paper/pic.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Paper on Numerically Exact Orbitals
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('chemistry'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Y2hlbWlzdHJ5'); return false;">
 chemistry
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('publication'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cHVibGljYXRpb24='); return false;">
 publication
 </div>
 </div>
 <div class="card-text listing-description">
-
+I am excited to share a new paper that I have co-authored with my esteemed colleagues, Edward F. Valeev, Robert J. Harrison, and Deborah A. Penchoff.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -671,29 +707,29 @@ Jul 22, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="UCLA,containers,workshops" data-listing-date-sort="1657090800000" data-listing-file-modified-sort="1728414786370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="13" data-categories="VUNMQSUyQ2NvbnRhaW5lcnMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1657090800000" data-listing-file-modified-sort="1723940856785" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
 <a href="./posts/20220706_MakingContainersWS/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20220706_MakingContainersWS/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20220706_MakingContainersWS/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 UCLA Building Containers Workshop
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UCLA'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
 UCLA
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('containers'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Y29udGFpbmVycw=='); return false;">
 containers
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('workshops'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
 workshops
 </div>
 </div>
 <div class="card-text listing-description">
-
+I recently hosted a workshop at UCLA focused on <strong>Building Containers for HPC</strong>.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -707,35 +743,35 @@ Jul 6, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="UCLA,anaconda,python,workshops,H2HH" data-listing-date-sort="1656486000000" data-listing-file-modified-sort="1728414786369" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="14" data-categories="VUNMQSUyQ2FuYWNvbmRhJTJDcHl0aG9uJTJDd29ya3Nob3BzJTJDSDJISA==" data-listing-date-sort="1656486000000" data-listing-file-modified-sort="1723940856784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="83">
 <a href="./posts/20220629_H2HH_anaconda/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20220629_H2HH_anaconda/H2HH.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20220629_H2HH_anaconda/H2HH.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Hoffman2 Happy Hour - Anaconda
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UCLA'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
 UCLA
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('anaconda'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('YW5hY29uZGE='); return false;">
 anaconda
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">
 python
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('workshops'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
 workshops
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('H2HH'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('SDJISA=='); return false;">
 H2HH
 </div>
 </div>
 <div class="card-text listing-description">
-
+UCLA hosts a series of interactive workshops called <strong>Hoffman2 Happy Hour (H2HH)</strong>. These sessions focus on various topics related to high-performance computing (HPC).
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -749,24 +785,24 @@ Jun 29, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="15" data-categories="UCLA,containers,workshops" data-listing-date-sort="1650438000000" data-listing-file-modified-sort="1728414786369" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="15" data-categories="VUNMQSUyQ2NvbnRhaW5lcnMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1650438000000" data-listing-file-modified-sort="1723940856784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
 <a href="./posts/20220420_ContainersWS/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20220420_ContainersWS/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20220420_ContainersWS/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 UCLA Containers Workshop
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UCLA'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
 UCLA
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('containers'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Y29udGFpbmVycw=='); return false;">
 containers
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('workshops'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
 workshops
 </div>
 </div>
@@ -785,32 +821,32 @@ Apr 20, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="16" data-categories="UCLA,rstudio,workshops,H2HH" data-listing-date-sort="1648623600000" data-listing-file-modified-sort="1728414786368" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="16" data-categories="VUNMQSUyQ3JzdHVkaW8lMkN3b3Jrc2hvcHMlMkNIMkhI" data-listing-date-sort="1648623600000" data-listing-file-modified-sort="1723940856784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
 <a href="./posts/20220330_H2HH_Rstudio/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20220330_H2HH_Rstudio/H2HH.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20220330_H2HH_Rstudio/H2HH.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Hoffman2 Happy Hour - Rstudio
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UCLA'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
 UCLA
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('rstudio'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cnN0dWRpbw=='); return false;">
 rstudio
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('workshops'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
 workshops
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('H2HH'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('SDJISA=='); return false;">
 H2HH
 </div>
 </div>
 <div class="card-text listing-description">
-
+At UCLA, we have a series of workshops named Hoffman2 Happy Hour (H2HH). These workshops are small, interactive talks based on a certain topic relating to HPC.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -824,26 +860,26 @@ Mar 30, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="17" data-categories="ACS,publication" data-listing-date-sort="1640937600000" data-listing-file-modified-sort="1728414786368" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="17" data-categories="QUNTJTJDcHVibGljYXRpb24=" data-listing-date-sort="1640937600000" data-listing-file-modified-sort="1723940856783" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
 <a href="./posts/20211231_ACS_book/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/20211231_ACS_book/bookcover.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./posts/20211231_ACS_book/bookcover.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 ACS Book Published
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('ACS'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('QUNT'); return false;">
 ACS
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('publication'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cHVibGljYXRpb24='); return false;">
 publication
 </div>
 </div>
 <div class="card-text listing-description">
-
+I’m excited to announce that after a couple of years of hard work, a new ACS (American Chemical Society) book in the ACS Symposium Series has been published. This book is…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -857,29 +893,29 @@ Dec 31, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="18" data-categories="UCLA,containers,workshops" data-listing-date-sort="1625295600000" data-listing-file-modified-sort="1728414786364" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="18" data-categories="VUNMQSUyQ2NvbnRhaW5lcnMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1625295600000" data-listing-file-modified-sort="1723940856779" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="119">
 <a href="./posts/20210429_Singularity/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/20210429_Singularity/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" data-src="./posts/20210429_Singularity/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 UCLA Singularity Workshop
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UCLA'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
 UCLA
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('containers'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Y29udGFpbmVycw=='); return false;">
 containers
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('workshops'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
 workshops
 </div>
 </div>
 <div class="card-text listing-description">
-In this post, I am sharing…
+In this post, I am sharing the link to a workshop I conducted on using Singularity on Hoffman2, UCLA’s High-Performance Computing (HPC) cluster. This workshop marked my…
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -893,29 +929,29 @@ Jul 3, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="19" data-categories="C,chemistry,python" data-listing-date-sort="1625036400000" data-listing-file-modified-sort="1728414786364" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="g-col-1" data-index="19" data-categories="QyUyQ2NoZW1pc3RyeSUyQ3B5dGhvbg==" data-listing-date-sort="1625036400000" data-listing-file-modified-sort="1723940856779" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1280">
 <a href="./posts/20210630_QUILL/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="./posts/20210630_QUILL/quill.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" data-src="./posts/20210630_QUILL/quill.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Quill Program for SCF Calculations
 </h5>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('C'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Qw=='); return false;">
 C
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('chemistry'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('Y2hlbWlzdHJ5'); return false;">
 chemistry
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">
 python
 </div>
 </div>
 <div class="card-text listing-description">
-
+I’ve recently updated a small, straightforward Hartree Fock program, primarily written in C, on my GitHub page. I primarily developed this code to understand how SCF/HF works.
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -979,18 +1015,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -1022,11 +1047,48 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1036,8 +1098,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1049,7 +1120,129 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1093,6 +1286,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1118,6 +1312,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1178,6 +1398,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

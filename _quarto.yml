@@ -4,18 +4,22 @@ project:
 
 website:
   title: "Charles C. Peterson, PhD"
+  favicon: profileicon.png
   google-analytics: "G-3L7ENR0B5H"
   navbar:
     right:
-      - about.qmd
-      - CV.qmd
+      - text: about
+        href: about.qmd
+      - text: CV
+        href: CV.qmd
       - icon: github
         href: https://github.com/charliecpeterson
       - icon: twitter
         href: https://twitter.com/Charlie_CCP3
+      - text: "{{< iconify ri:bluesky-fill >}}"
+        href: https://bsky.app/profile/charlespeterson.dev
 format:
   html:
-    theme: superhero
     css: styles.css
 
 body-footer: |

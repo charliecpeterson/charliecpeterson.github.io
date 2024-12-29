@@ -10,5 +10,65 @@
   },
   "posts/20240821_ACSfall2024/index.qmd": {
     "index.html": "dc2dee48"
+  },
+  "about.qmd": {
+    "about.html": "5baade39"
+  },
+  "CV.qmd": {
+    "CV.html": "2c8cbafe"
+  },
+  "posts/20231219_paperpublish/index.qmd": {
+    "index.html": "0a1824ce"
+  },
+  "posts/20211231_ACS_book/index.qmd": {
+    "index.html": "79ce9941"
+  },
+  "posts/20230813_ACSFall2023/index.qmd": {
+    "index.html": "966c0b8c"
+  },
+  "posts/20231019_AI_Env_meeting/index.qmd": {
+    "index.html": "f85d9e43"
+  },
+  "posts/20220629_H2HH_anaconda/index.qmd": {
+    "index.html": "f9cd68bb"
+  },
+  "posts/20220722_Paper/index.qmd": {
+    "index.html": "de9534c5"
+  },
+  "posts/20230415_HPC_Nuclear_panel/index.qmd": {
+    "index.html": "ef48f65f"
+  },
+  "posts/20220330_H2HH_Rstudio/index.qmd": {
+    "index.html": "4abbdc1e"
+  },
+  "posts/20221213_PaperLaAc/index.qmd": {
+    "index.html": "83f819b9"
+  },
+  "posts/20230329_H2HH_Rstudio/index.qmd": {
+    "index.html": "f363a2de"
+  },
+  "posts/20210429_Singularity/index.qmd": {
+    "index.html": "e65be121"
+  },
+  "posts/20220420_ContainersWS/index.qmd": {
+    "index.html": "7312eed4"
+  },
+  "posts/20220706_MakingContainersWS/index.qmd": {
+    "index.html": "7b1ef733"
+  },
+  "posts/20230405_ContainersWS/index.qmd": {
+    "index.html": "d957993a"
+  },
+  "posts/20221024_WS_BigData/index.qmd": {
+    "index.html": "8ebadecb"
+  },
+  "posts/20210630_QUILL/index.qmd": {
+    "index.html": "ad249484"
+  },
+  "posts/20230412_MakingContainersWS/index.qmd": {
+    "index.html": "887b50dd"
+  },
+  "404.qmd": {
+    "404.html": "8f15127d"
   }
 }

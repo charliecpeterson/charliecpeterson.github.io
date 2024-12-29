@@ -1,6 +1,6 @@
 ---
-title: "Charles C. Peterson"
-description: "Dedicated to enhancing High-Performance Computing infrastructure and advancing computational chemistry research"
+title: "Dedicated to enhancing High-Performance Computing infrastructure and advancing computational chemistry research"
+#description: "Dedicated to enhancing High-Performance Computing infrastructure and advancing computational chemistry research"
 listing:
   id: sample-listings
   contents: posts
