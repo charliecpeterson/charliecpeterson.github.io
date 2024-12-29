@@ -11,4 +11,11 @@ quarto add mcanouil/quarto-iconify
 ```
 
 If CV changed (Changes to CV.qmd), update the pdf by running the createCVpdf.R script)
+
+
+Updated website to docs
+
+```
+quarto render
+```
  
