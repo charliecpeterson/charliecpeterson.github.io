@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Charles Peterson",
-    "section": "",
-    "text": "I’m Charles (Charlie) Peterson. With over a decade of experience in High-Performance Computing (HPC) and a solid foundation in artificial intelligence and machine learning, I’m a Senior HPC System Administrator at UCLA and a passionate researcher in computational chemistry.\n\n\nMy journey in HPC has been marked by collaboration with scientists across various disciplines such as chemistry, physics, and material science. I’ve dedicated my career to optimizing the interface between hardware and software, enhancing the performance and capability of scientific applications. This has involved not only managing and improving complex computing systems but also innovating and implementing solutions that advance the boundaries of research.\n\n\n\nParallel to my administrative role, I engage deeply in computational chemistry. My research is focused on developing advanced methods to accurately predict chemical properties of f-element containing compounds, vital for nuclear forensics and separation chemistry. My expertise in AI/ML has been instrumental in this quest, helping to drive innovation and expand the capabilities of computational research in these critical areas.\n\n\n\nThroughout my career, I’ve seen firsthand the transformative impact of HPC on research. My dual focus on practical system administration and theoretical innovation allows me to uniquely contribute to the ongoing evolution of scientific computing. I am committed to fostering a collaborative environment, bridging gaps between disciplines, and helping teams leverage the power of HPC for groundbreaking discoveries.\n\n\n\nLet’s make a connection that matters. Whether you’re interested in HPC, AI/ML, computational chemistry, or simply want to discuss the future of technology and research, I’m here for it.\nFind me on Email, Twitter, LinkedIn, and Github Bluesky."
-  },
-  {
-    "objectID": "posts/H2HH_Rstudio_03302022/index.html",
-    "href": "posts/H2HH_Rstudio_03302022/index.html",
-    "title": "Hoffman2 Happy Hour - Rstudio",
-    "section": "",
-    "text": "This Workshop took place via Zoom on March 30, 2022.\nThe repo containing the pdf and zoom recording is located on UCLA’s IDRE github site\nhttps://github.com/ucla-oarc-hpc/hpc_workshops\nThis was based on using Rstudio on UCLA’s Hoffman2 resource. I had setup a Container with Rstudio Server that can be used on Hoffman2.\nStay tuned for more workshops from the Hoffman2 Team!"
-  },
-  {
-    "objectID": "posts/ACS_book/index.html",
-    "href": "posts/ACS_book/index.html",
-    "title": "ACS Book published",
-    "section": "",
-    "text": "This book have many great chapters that discuses current advances and challenges in nuclear and radiochemistry, that focus on computational approaches.\nThis book by can viewed at https://pubs.acs.org/doi/book/10.1021/bk-2021-1388"
-  },
-  {
-    "objectID": "posts/Singularity_04292021/index.html",
-    "href": "posts/Singularity_04292021/index.html",
-    "title": "UCLA Singularity Workshop",
-    "section": "",
-    "text": "This Workshop took place via Zoom on April 29, 2021.\nThe repo containing the pdf and zoom recording is located on UCLA’s OARC github site\nhttps://github.com/ucla-oarc-hpc/hpc_workshops\nThe is workshop is a basic lecture on using singularity to using containers on Hoffman2.\nThere are example containers in the gitlab repo, showing sample containers of with python and packages like TensorFlow and PySCF. Also a example using GPU containers.\nStay tuned for more updates on Singularity on Hoffman2!"
-  },
-  {
-    "objectID": "posts/QUILL/index.html",
-    "href": "posts/QUILL/index.html",
-    "title": "Quill Program for SCF calucations",
-    "section": "",
-    "text": "I have updated on GitHub a small, very simple Hartree Fock program, mostly written in C. I mostly wrote this code as a test to program Hartree Fock. This code was mostly so I can learn how SCF/HF works.\nIt is named after my pet hedgehog, Quill Riker.\nThe code is located on my GitHub page https://github.com/charliecpeterson/QUILL\nThis program uses PySCF and libcint to generate the 1e/2e integrals. It also uses the Eigen3 API for all Matrix/linear algbra routines.\nThe input is very similar to NWChem. In the GitHub repo, there is a sample input input.inp\ngeometry\nC  -0.000000000000   0.000000000000   0.000000000000\nH   1.183771681898  -1.183771681898  -1.183771681898\nH   1.183771681898   1.183771681898   1.183771681898\nH  -1.183771681898   1.183771681898  -1.183771681898\nH  -1.183771681898  -1.183771681898   1.183771681898\nend\nbasis\nH    S\n      3.387000E+01           6.068000E-03           0.000000E+00           0.000000E+00\n      5.095000E+00           4.530800E-02           0.000000E+00           0.000000E+00\n      1.159000E+00           2.028220E-01           0.000000E+00           0.000000E+00\n      3.258000E-01           5.039030E-01           1.000000E+00           0.000000E+00\n      1.027000E-01           3.834210E-01           0.000000E+00           1.000000E+00\nH    P\n      1.407000E+00           1.000000E+00           0.000000E+00\n      3.880000E-01           0.000000E+00           1.000000E+00\nH    D\n      1.057000E+00           1.0000000\nC    S\n      8.236000E+03           5.310000E-04          -1.130000E-04           0.000000E+00           0.000000E+00\n      1.235000E+03           4.108000E-03          -8.780000E-04           0.000000E+00           0.000000E+00\n      2.808000E+02           2.108700E-02          -4.540000E-03           0.000000E+00           0.000000E+00\n      7.927000E+01           8.185300E-02          -1.813300E-02           0.000000E+00           0.000000E+00\n      2.559000E+01           2.348170E-01          -5.576000E-02           0.000000E+00           0.000000E+00\n      8.997000E+00           4.344010E-01          -1.268950E-01           0.000000E+00           0.000000E+00\n      3.319000E+00           3.461290E-01          -1.703520E-01           0.000000E+00           0.000000E+00\n      9.059000E-01           3.937800E-02           1.403820E-01           1.000000E+00           0.000000E+00\n      3.643000E-01          -8.983000E-03           5.986840E-01           0.000000E+00           0.000000E+00\n      1.285000E-01           2.385000E-03           3.953890E-01           0.000000E+00           1.000000E+00\nC    P\n      1.871000E+01           1.403100E-02           0.000000E+00           0.000000E+00\n      4.133000E+00           8.686600E-02           0.000000E+00           0.000000E+00\n      1.200000E+00           2.902160E-01           0.000000E+00           0.000000E+00\n      3.827000E-01           5.010080E-01           1.000000E+00           0.000000E+00\n      1.209000E-01           3.434060E-01           0.000000E+00           1.000000E+00\nC    D\n      1.097000E+00           1.000000E+00           0.000000E+00\n      3.180000E-01           0.000000E+00           1.000000E+00\nC    F\n      7.610000E-01           1.0000000\nend\nscf\nnum_elec 10\nend\nAs of now, there are only three input blocks that is code accepts\n\ngeometry\nbasis\nscf\n\nThe geometry and basis blocks are very similar to NWChem, in fact, the basis set format is the same for NWCehm\nThe scf block only accepts num_elec. This code ONLY does RHF. Single reference, closed-shell systems ONLY\nI have tested this on a few compounds and it is about 10^-2 AU in energy different from results from PySCF. More work is needed.\nI’m thinking of using this program as a starting point to add and test new libraries to run computational chemistry methods, esp to the Exascale.\nContact Me for any more information!"
-  },
-  {
     "objectID": "CV.html",
     "href": "CV.html",
     "title": "Curriculum Vitae",
@@ -42,326 +7,67 @@
     "text": "Download Full CV (PDF)\n\n\nHigh-Performance Computing R&D Scientist\nEmail: Charles.C.Peterson3@gmail.com\nWebsite: CharlesPeterson.dev\nInterdisciplinary researcher, collaborator, and information technology professional with over ten years of experience in scientific computing and computational research applications across STEM and non-STEM areas. My focus is in applying advanced High-Performance Computing (HPC) capabilities to enhance research throughput that involves closely collaborating with a diverse research community. My interests are using data modeling (Artificial Intelligence and Big Data techniques) and molecular modeling to describe Rare Earth Element systems. Using HPC and other advanced scientific computing techniques is essential to expand research by developing computational protocols to study heavy element chemistry with national security and other applications."
   },
   {
+    "objectID": "CV.html#charles-c.-peterson-ph.d.",
+    "href": "CV.html#charles-c.-peterson-ph.d.",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "High-Performance Computing R&D Scientist\nEmail: Charles.C.Peterson3@gmail.com\nWebsite: CharlesPeterson.dev"
+  },
+  {
+    "objectID": "CV.html#skills",
+    "href": "CV.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "Skills",
+    "text": "Skills\n\n\n\nProgramming\n\nPython, R, C/C++, Fortran\n\n\n\nTools\n\nRStudio, Jupyter, Containerized Software\n\n\n\nScientific Expertise\n\nComputational Chemistry\nPhysical Chemistry\nNuclear Chemistry\nSpectroscopy\n\n\n\n\n\nData Analysis\n\nMachine Learning\nArtificial Intelligence\nBioinformatics\nNumerical Analysis\nData Visualization\n\n\n\nProfessional Skills\n\nHPC System Administration\nLinux Administration\nParallel Filesystems\nFast Computer Network Communications\nScalable Parallel Programming\nGPU Programming\nBig Data Analysis\nMolecular Modeling\nRelativistic Chemistry\nMaterial Science\n\n\n\n\nCollaborative and Communication Skills\n\nScientific Consultation\nMultidisciplinary Collaboration\nScientific Writing"
+  },
+  {
+    "objectID": "CV.html#work-experience",
+    "href": "CV.html#work-experience",
+    "title": "Curriculum Vitae",
+    "section": "Work Experience",
+    "text": "Work Experience\n\n\n\n\n\n\nSenior HPC System Administrator\n\n\n\n\n\n\nOrganization: Office of Advanced Research Computing, University of California, Los Angeles\nYears: December 2020 – Present\nResponsibilities:\n\nOperate UCLA’s HPC resources and provide consultation services.\nInstall and maintain hardware and software for scientific applications.\nEnsure applications run at maximum efficiency.\n\n\n\n\n\n\n\n\n\n\n\nResearch Scientist II\n\n\n\n\n\n\nOrganization: North Texas Scientific Computing, University of North Texas\nYears: November 2019 – December 2020\nResponsibilities:\n\nProvide consultation services for UNT researchers.\nExplore grant opportunities and evaluate HPC technologies.\nMentor and instruct graduate students.\nPerform research in AI and machine learning applications.\n\n\n\n\n\n\n\n\n\n\n\nCross-Functional IT Support Analyst\n\n\n\n\n\n\nOrganization: Research IT Services, University of North Texas\nYears: February 2018 – November 2019\nResponsibilities:\n\nEnhance scientific computing resources.\nOptimize software and libraries for materials science and data analytics.\nConduct community training and outreach programs.\n\n\n\n\n\n\n\n\n\n\n\nIT Manager I – High Performance Computing\n\n\n\n\n\n\nOrganization: Academic Computing & User Services, University of North Texas\nYears: April 2015 – February 2018\nResponsibilities:\n\nMaintain HPC resources and allocations.\nProvide end-user HPC support and software development.\n\n\n\n\n\n\n\n\n\n\n\nGraduate Research Assistant\n\n\n\n\n\n\nOrganization: Center for Advanced Scientific Computing and Modeling (CASCaM), University of North Texas\nYears: May 2008 – December 2015\nResponsibilities:\n\nDevelop composite strategies for computational quantum chemistry.\nAdvance theoretical techniques for simulating chemical properties.\nConduct studies on energetics of silicon modules, noble gases, and small lanthanide systems."
+  },
+  {
+    "objectID": "CV.html#education",
+    "href": "CV.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\nDoctor of Philosophy in Physical Chemistry\n\n\n\n\n\n\nInstitution: University of North Texas, Denton, TX\nYear: December 2015\nDissertation: Accurate Energetics across the Periodic Table via Quantum Chemistry\n\n\n\n\n\n\n\n\n\n\nBachelor of Science in Chemistry\n\n\n\n\n\n\nInstitution: University of North Texas, Denton, TX\nYear: May 2009\nMajor: Chemistry\nMinor: Computer Science"
+  },
+  {
+    "objectID": "CV.html#professional-activities",
+    "href": "CV.html#professional-activities",
+    "title": "Curriculum Vitae",
+    "section": "Professional Activities",
+    "text": "Professional Activities\n\n\n\n\n\n\nPublication and Editorial Service\n\n\n\n\n\n\nReviewer for PEARC21 conference, 2021\nEditor, American Chemical Society Book Series “Computational Science Applications in Nuclear and Radiochemistry”, 2020\nHPC allocation management for University of North Texas HPC allocations, 2015 - 2022\nReviewer for XSEDE EMPOWER Program, 2020\n\n\n\n\n\n\n\n\n\n\nProfessional Organizations\n\n\n\n\n\n\nSenior Scientific Fellow, Institute for Nuclear Security, Howard H. Baker Jr. Center for Public Policy, University of Tennessee, Knoxville, TN (06/2017 – 2024)\n\nFocus: High-Performance Computing applications in national and nuclear security.\n\nMember of ÚNeTe – Latinx Faculty/Staff Alliance at University of North Texas, 2020\nMember of American Chemical Society\n\nDivision of Nuclear Chemistry & Technology (2015 - Present)\nDivision of History (2015 - 2016)\nDivision of Physical Chemistry (2015 - 2016)\n\nMember of Association for Computing Machinery SIGHPC (2020 – 2024)\nXSEDE Campus Champion UNT (06/2016 – 12/2020)\n\nProvides access and application support to researchers and students in NSF eXtreme Scale Engineering Discovery Environment (XSEDE) computational resources.\n\n\n\n\n\n\n\n\n\n\n\nCommittee and Organizational Activities\n\n\n\n\n\n\nMember, AI Accelerator Program, UCLA OARC, 2024\nMember, Diversity, Equity, and Inclusion Action Committee (DEIAC), Nuclear Engineering, University of Tennessee (2020 - Present)\nSocial Media Manager for UNT Research IT Services (2018 - 2020)\nChair, American Chemical Society Annual Meeting, Nuclear Chemistry and Technology Division (ACS NUCL), Session “Data Science & Artificial Intelligence Applications in Nuclear and Radiochemistry” (05/2021, 05/2022, 08/2022, and 08/2023)\nChair, American Chemical Society Annual Meeting, Nuclear Chemistry and Technology Division (ACS NUCL), Session “Computational Methods for Lanthanides & Actinides: Theory & Applications” (08/2020, 05/2020, 08/2019, 05/2019, and 08/2018)\nPresider, American Chemical Society Annual Meeting, Nuclear Chemistry and Technology Division (ACS NUCL), Session “Computational Methods for Lanthanides & Actinides: Theory & Applications” (05/2020, 08/2019, 08/2018, and 05/2018)\nPresider, American Chemical Society Annual Meeting, Division of Physical Chemistry (ACS PHYS), Session “Thermodynamics, reactivity, and spectroscopy of the heavy elements” (05/2014)\n\n\n\n\n\n\n\n\n\n\nProfessional Training\n\n\n\n\n\n\nAI Core Capabilities, UCLA OARC, Training in AI’s furture potential, risks, and direction to deliver effective research-foused AI services to support research at UCLA, 2024\nQMCPack User Workshop, Oak Ridge National Laboratory, TN (05/2019)\n\nWorkshop for current users and developers. Training in added features and planned improvements for the electronic structure code, QMCPACK.\n\nOpenFabrics Alliance Workshop, Austin, TX (03/2017)\n\nFocused on the emerging needs of high-performance networks and discussed challenges in computing over high-speed networks.\n\nDDN EXAScaler Technical Training, Colorado Spring, CO (02/2016)\n\nTraining on high-performance parallel file systems, large data storage, and Lustre design for Big Data projects.\n\nXSEDE/PRACE EU-US HPC Summer School, Dublin, Ireland (06/2012)\n\nSummer school addressing challenges of High-Performance Computing in computational sciences, including interactive training on programming skills and software libraries."
+  },
+  {
+    "objectID": "CV.html#awards-and-recognitions",
+    "href": "CV.html#awards-and-recognitions",
+    "title": "Curriculum Vitae",
+    "section": "Awards and Recognitions",
+    "text": "Awards and Recognitions\n\n\n\n\n\n\nNote\n\n\n\n\n\n\n“Extra Mile” Award – University of North Texas (2018)\nTuition Reduction Benefit Award - University of North Texas (2015)\nGraduate Research Assistant Scholarship - University of North Texas (2009)\nDallas/Fort Worth American Chemical Society Award (2009)\nJ. L. Carrico Award - Department of Chemistry, University of North Texas (2009)\nAmerican Chemical Society Analytical Chemistry Award (2008)\nUndergraduate Dean’s List - University of North Texas (2005, 2006, 2008)"
+  },
+  {
+    "objectID": "CV.html#publications",
+    "href": "CV.html#publications",
+    "title": "Curriculum Vitae",
+    "section": "Publications",
+    "text": "Publications\n\n\n\n\n\n\nSelected Presentations\n\n\n\n\n\n\nCharles C. Peterson, “Singularity on Hoffman2: Using containers on HPC resources” Workshop Series, UCLA, 04/29/2021.\nCharles C. Peterson, D. A. Penchoff, “Understanding Binding Selectivity of Lanthanide and Actinide Compounds by Computational Protocols” International Workshop, 2020.\nCharles C. Peterson, “Machine Learning Techniques with High Performance Computing” Invited Webinar, University of Tennessee, 2019.\n\n\n\n\n\n\n\n\n\n\nComplete List of Publications\n\n\n\n\n\n\nEdward F. Valeev, Robert J. Harrison, Charles C. Peterson, Deborah A. Penchoff, “Direct determination of optimal real-space orbitals for correlated electronic structure of molecules”, J. Chem. Theory Comput, 2023.\nDeborah A. Penchoff, Charles C. Peterson, Eleigha M. Wrancher, George Bosilca, Robert J. Harrison, Edward F. Valeev, Paul D. Benny, “Evaluations of Molecular Modeling and Machine Learning for Predictive Capabilities in Binding of Lanthanum and Actinium with Carboxylic Acids”, JRNC, 331 (12), 2022.\nEdward F. Valeev, Robert J. Harrison, Charles C. Peterson, Deborah A. Penchoff, “Direct determination of optimal real-space orbitals for correlated electronic structure of molecules”, arXiv:2207.10841, 2022.\nJoseph F. DeJesusa, Ryan W. F. Kerr, Deborah A. Penchoff, Xian B. Carrolla, Charles C. Peterson, Polly L. Arnold and David M. Jenkins. “Actinide tetra-N-heterocyclic carbene sandwiches”. Chem. Sci., 2021.\nDeborah A. Penchoff, Charles C. Peterson, Eleigha M. Wrancher, George K. Schweitzer, Robert J. Harrison, Rose A. Boll, Paul D. Benny, Howard L. Hall. “Evaluating Complexation of Lanthanum and Actinium for Applications in Radiochemical Separations”. American Chemical Society Book series “Computational Science for Lanthanides and Actinides”, 2020. Invited chapter.\nCharles C. Peterson, Jack Burn, Deborah A. Penchoff. “Artificial Intelligence in Nuclear and Radiochemistry” – American Chemical Society Book Series “Computational Science for Lanthanides and Actinides”, 2021. Invited chapter.\nCharles C. Peterson, Deborah A. Penchoff, John D. Auxier II, Howard L. Hall, “Establishing Cost-Effective Computational Models for the Prediction of Lanthanoid Binding in [Ln(NO3)]2+ (with Ln = La to Lu)”, ACS Omega, 2019, 4, 1, 1375-1385.\nDeborah A. Penchoff, Charles C. Peterson, Jon P. Camden, James Bradshaw, John D. Auxier II, George K. Schweitzer, David M. Jenkins, Robert J. Harrison, Howard L. Hall, “Structural Analysis of the Complexation of Uranyl, Neptunyl, Plutonyl, and Americyl with Cyclic Imide Dioximes”, ACS Omega, 2018, 3, 10, 13984-13993.\nDeborah A. Penchoff, Charles C. Peterson, Mark S. Quint, John D. Auxier II, George K. Schweitzer, David M. Jenkins, Robert J. Harrison, Howard L. Hall. “Structural Characteristics, Populations Analysis, and Binding Energies of [An(NO3)]2+, [with An = Ac – Lr]”, ACS Omega, 2018, 3, 10, 14127-14143.\nCharles Peterson, Deborah A. Penchoff, and Angela K. Wilson, “Prediction of thermochemical properties across the periodic table: A review of correlation consistent Composite Approach (ccCA) strategies and applications” Annual Reports in Computational Chemistry, Vol. 12, 2016.\nCharles Peterson, Deborah A. Penchoff, and Angela K. Wilson, “Ab initio approaches for the determination of heavy element energetics: Ionization energies of trivalent lanthanides (Ln = La-Eu)” J. Chem. Phys., 2015, 143, 19, 194109.\nCong Liu, Charles Peterson, and Angela K. Wilson, “C-O Bond Cleavage of Dimethyl Ether by Transition Metal Ions: A Systematic Study on Catalytic Properties of Metals and Performance of DFT Functionals” J. Phys. Chem. A, 2013, 117, 5140.\nGbenga A. Oyedepo, Charles Peterson, George Schoendorff, and Angela K. Wilson, “Spectroscopic properties of Arx-Zn and Arx-Ag+ (x=1,2) van der Waals complexes” J. Chem. Phys., 2013, 138, 104116.\nGbenga A. Oyedepo, Charles Peterson, and Angela K. Wilson, “Accurate predictions of the energetics of silicon compounds using the multireference correlation consistent composite approach” J. Chem. Phys., 2011, 135, 094103.[Insert comprehensive list of publications here.]"
+  },
+  {
+    "objectID": "CV.html#presentations",
+    "href": "CV.html#presentations",
+    "title": "Curriculum Vitae",
+    "section": "Presentations",
+    "text": "Presentations\n\n\n\n\n\n\nSelected Presentations\n\n\n\n\n\n\nCharles C. Peterson, Deborah A. Penchoff “REACKT: Advancing Separations of Lanthanides and Actinides” ACS National Meeting and Expo, Division of Nuclear Chemistry and Technology, Fall 2024.\nCharles C. Peterson, Deborah A. Penchoff “Advanced Computational Strategies for Lanthanide and Actinide Systems” ACS National Meeting and Expo, Division of Nuclear Chemistry and Technology, Fall 2023.\nCharles C. Peterson “Big Data on HPC”, Workshop Series, UCLA, 06/29/2023.\n\n\n\n\n\n\n\n\n\n\nComplete List of Presentations\n\n\n\n\n\n\nCharles C. Peterson, Deborah A. Penchoff “REACKT: Advancing Separations of Lanthanides and Actinides” ACS National Meeting and Expo, Division of Nuclear Chemistry and Technology, Fall 2024.\nCharles C. Peterson, Deborah A. Penchoff “Advanced Computational Strategies for Lanthanide and Actinide Systems” ACS National Meeting and Expo, Division of Nuclear Chemistry and Technology, Fall 2023.\nCharles C. Peterson “Big Data on HPC”, Workshop Series, UCLA, 06/29/2023.\nCharles C. Peterson, “Hoffman2 Happy Hour: Using RStudio”, Workshop Series, UCLA, 09/28/2022.\nCharles C. Peterson, “Hoffman2 Happy Hour: Anaconda”, Workshop Series, UCLA, 09/21/2022.\nCharles C. Peterson, “Building Containers for HPC”, Workshop Series, UCLA, 07/06/2022.\nCharles C. Peterson, “Using Containers on HPC Resources”, Workshop Series, UCLA, 04/20/2022.\nCharles C. Peterson, “Singularity on Hoffman2: Using containers on HPC resources” Workshop Series, UCLA, 04/29/2021.\nCharles C. Peterson, D. A. Penchoff, “Understanding Binding Selectivity of Lanthanide and Actinide Compounds by Computational Protocols” International Workshop on Theory Frontiers in Actinide Sciences: Chemistry and Materials, Santa Fe, NM, 02/2 – 5/2020.\nCharles C. Peterson, D. A. Penchoff, “Understanding Binding Selectivity of Lanthanides and Actinides by Computational Protocols” 64th Annual Radiobioassy & Radiochemical Measurements Conference, Santa Fe, NM, 08/28 – 30/2019.\nCharles C. Peterson “Machine Learning Techniques with High Performance Computing” Invited Webinar, Institute for Nuclear Security, University of Tennessee, Knoxville TN, 08/05/2019.\nCharles C. Peterson, D. A. Penchoff, “Computational protocol for binding selectivity of lanthanide and actinide systems” Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanide & Actinide Chemistry, 258th American Chemical Society National Meeting & Exposition, San Diego CA, 08/ 2019.\nCharles C. Peterson, D. A. Penchoff, H. L. Hall, R. J. Harrison, “Understanding selectivity of lanthanide and actinide compounds by computational techniques” Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanide & Actinide Chemistry, 257th American Chemical Society National Meeting & Exposition, Orlando FL, 05/2019.\nCharles C. Peterson, D. A. Penchoff, H. L. Hall, R. J. Harrison, “Utilizing computational protocols for binding selectivity of lanthanide and actinide compounds”, Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanides & Actinides: Theory & Application, 256th American Chemical Society National Meeting & Exposition, Boston MA, 08/2018.\nCharles C. Peterson, “Understanding structural and thermochemical properties of actinide-containing compounds”, Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanides & Actinides: Theory & Application Session, 255th American Chemical Society National Meeting & Exposition, New Orleans LA, 05/2018.\nCharles Peterson, Deborah A. Penchoff, Robert J. Harrison, “Investigation of the Selectivity of Cyclic Amidoxime Ligands to Uranyl by Theoretical Techniques”, 62nd Conference on Radiobioassay & Radiochemical Measurements, Honolulu, Hawai’i, 02/2017.\nCharles Peterson, Deborah Penchoff, Angela Wilson” Composite Approaches for accurate predictions of lanthanide and actinide chemistry” Division of Computers in Chemistry, Quantum Mechanics Session, 252nd American Chemical Society National Meeting & Exposition, Philadelphia PA, 08/2016.\nCharles Peterson, Deborah Penchoff, Angela Wilson, “Composite Approach Towards Accurate Predictions of Lanthanide and Actinide Thermochemistry” Division of Computers in Chemistry, Quantum Mechanics Session, 251st American Chemical Society National Meeting & Exposition, San Diego CA, 05/2016.\nCharles Peterson, Angela Wilson, “Ab initio Approaches for Accurate Predictions of Lanthanide Thermochemistry”, Division of Physical Chemistry, Physical Chemistry Poster Session 249th American Chemical Society National Meeting & Exposition, Denver CO, 05/2015.\nCharles Peterson, Angela K. Wilson, “Ab initio Approaches for the Predictions of Energetic Properties of Lanthanides”, Division of Physical Chemistry, Thermodynamics, Reactivity, and Spectroscopy of the Heavy Elements Fundamental Advances in Theory and Computation Session, 247th American Chemical Society National Meeting & Exposition, Dallas TX, 05/2014.\nCharles Peterson, Angela K. Wilson, “C-O Bond Activation of Dimethyl Ether by Transition Metal Ions”, 24th Austin Symposium on Molecular Structure and Dynamics at Dallas, 05/2014.\nCharles Peterson, Angela K. Wilson “Designing Advance Ab Initio Composite Methods for Scalable Computing” XSEDE/PRACE EU-US High Performance Computing Summer School, 06/2012, Dublin, Ireland.\nCharles Peterson, Angela K. Wilson, “Accurate Predictions of Energetic Properties using the Multi-Reference correlation consistent Composite Approach (MR-ccCA)”, 22nd Austin Symposium on Molecular Structure and Dynamics, 05/2012.\nCharles Peterson, Angela K. Wilson, “MR-ccCA Predictions of the Energetics of Silicon-containing Compounds”, Physical Division, 44th American Chemical Society Meeting in Miniature, Tarleton State University, 04/2011.\nCharles Peterson, Angela K. Wilson, “MR-ccCA Predictions of the Energetics of Silicon-containing Compounds”, Poster Session, Southwest Theoretical Chemistry Conference, University of North Texas, 10/2010.\nCharles Peterson, Angela K. Wilson, “Application of the Multi-Reference correlation consistent Composite Approach (MR-ccCA)”, Physical Division, 43rd American Chemical Society Meeting in Miniature, University of Texas at Dallas, 04/2010.\n\n\n\n\nBack to Top"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Advancing HPC Infrastructure & Computational Chemistry Research",
     "section": "",
     "text": "Welcome! I’m Charles “Charlie” Peterson, a visionary at the crossroads of High-Performance Computing (HPC), Artificial Intelligence (AI), and Machine Learning (ML) at UCLA. As a Senior HPC System Administrator and an avid researcher in computational chemistry, I’m pioneering the use of AI/ML to revolutionize scientific exploration and discovery.\n\n\nMy journey at UCLA involves not just optimizing HPC infrastructures for unparalleled computational power but also integrating AI and ML methodologies to advance research capabilities. My research focuses on leveraging AI to untangle complex problems in nuclear forensics and separation chemistry, aiming to bring transformative solutions to longstanding challenges.\n\n\nBy incorporating AI and ML algorithms into computational chemistry, I explore new horizons in predictive analytics, molecular modeling, and data-driven insights. This synergy allows for more accurate simulations, faster problem-solving, and groundbreaking discoveries that were previously beyond reach.\n\n\n\n\nIf you’re passionate about the potential of AI and ML to redefine the landscape of scientific research or are curious about the power of HPC to support such advancements, I welcome the opportunity to connect. Whether it’s to discuss potential collaborations, exchange knowledge, or explore new ideas, you can reach me at charles.c.peterson3@gmail.com.\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\nReading Time\n\n\n\n\n\n\n\n\n\nAug 21, 2024\n\n\nACS Fall 2024\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nJul 24, 2024\n\n\nCNF HPC/AI Workshop\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nMay 1, 2024\n\n\nUCLA GPU Workshop\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nOct 19, 2023\n\n\nAdvancing Orbital Optimization: Published Research\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nOct 19, 2023\n\n\nAI-Driven Solutions for Environmental Remediation\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nAug 13, 2023\n\n\nLeading AI Innovations in Nuclear Chemistry at ACS Fall 2023\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nApr 15, 2023\n\n\nAdvancing Nuclear Tech with HPC Panel\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nApr 12, 2023\n\n\nMastering Container Creation: UCLA HPC Workshop Recap\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nApr 5, 2023\n\n\nMastering Containerization for HPC: UCLA Workshop Recap\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nHoffman2 Happy Hour: Exploring RStudio on HPC\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nDec 13, 2022\n\n\nCombining Molecular Modeling with ML for Enhanced Predictive Analysis\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nOct 24, 2022\n\n\nExploring Big Data on HPC: Workshop Recap\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nJul 22, 2022\n\n\nPaper on Numerically Exact Orbitals\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nJul 6, 2022\n\n\nUCLA Building Containers Workshop\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nJun 29, 2022\n\n\nHoffman2 Happy Hour - Anaconda\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nApr 20, 2022\n\n\nUCLA Containers Workshop\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nMar 30, 2022\n\n\nHoffman2 Happy Hour - Rstudio\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nDec 31, 2021\n\n\nACS Book Published\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nJul 3, 2021\n\n\nUCLA Singularity Workshop\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nJun 30, 2021\n\n\nQuill Program for SCF Calculations\n\n\nCharles Peterson\n\n\n7 min\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/ContainersWS_04202022/index.html",
-    "href": "posts/ContainersWS_04202022/index.html",
-    "title": "UCLA Containers Workshop",
-    "section": "",
-    "text": "This Workshop took place via Zoom on April 20, 2022.\nThe repo containing the pdf and zoom recording is located on UCLA’s ORAC github site\nhttps://github.com/ucla-oarc-hpc/WS_containers\nI went over using Singularity/Apptainer and Docker containers to run on HPC resources, like UCLA’s Hoffman2 resource.\nI also had some examples with using GPUs and MPI applications.\nI will have a followup workshop in the Summer on making Containers."
-  },
-  {
-    "objectID": "posts/H2HH_anaconda_06292022/index.html",
-    "href": "posts/H2HH_anaconda_06292022/index.html",
-    "title": "Hoffman2 Happy Hour - Anaconda",
-    "section": "",
-    "text": "This Workshop took place via Zoom on June 29, 2022.\nThe repo containing the pdf and zoom recording is located on UCLA’s IDRE github site\nhttps://github.com/ucla-oarc-hpc/hpc_workshops\nThis H2HH went over using Anaconda on HPC. This was a small talk that had tips and tricks using anaconda on Hoffman2.\nStay tuned for more workshops from the Hoffman2 Team!"
-  },
-  {
-    "objectID": "posts/MakingContainersWS_07062022/index.html",
-    "href": "posts/MakingContainersWS_07062022/index.html",
-    "title": "UCLA Building Containers Workshop",
-    "section": "",
-    "text": "This Workshop took place via Zoom on July 6, 2022.\nThe repo containing the pdf and zoom recording is located on UCLA’s ORAC github site\nhttps://github.com/ucla-oarc-hpc/WS_MakingContainers\nThis workshop is a follow-up to a previous workshop on “Using Containers on HPC Resources”. This workshop will focus on creating containers to be ran on HPC resources. We will go over building containers using Docker/podman and Apptainer/Singularity. We will also use Hoffman2 to run our newly built containers. To follow along, users will need to install Docker or podman as well as Apptainer or Singularity on a computer they have root/admin access (Or you can just listen a watch). A GitHub or DockerHub account would also be needed to store our containers. We will provide a VM image for VituralBox with the software install. Any questions can be directed to cpeterson@oarc.ucla.edu."
-  },
-  {
-    "objectID": "posts/Paper_07222022/index.html",
-    "href": "posts/Paper_07222022/index.html",
-    "title": "Paper on Numberically Exact Orbitals",
-    "section": "",
-    "text": "Direct determination of optimal real-space orbitals for correlated electronic structure of molecules\nAbstract:\nWe demonstrate how to determine nearly numerically exact orthonormal orbitals that are optimal for evaluation of the energy of arbitrary (correlated) states of atoms and molecules by minimization of the energy Lagrangian. Orbitals are expressed in real space using multiresolution spectral element basis that is refined adaptively to achieve the user-specified target precision while avoiding the ill-conditioning issues that plague AO basis set expansions traditionally used for correlated models of molecular electronic structure. For light atoms the orbital solver in conjunction with a variational electronic structure model [selected Configuration Interaction (CI)] provides energies of comparable precision to a state-of-the-art atomic CI solver. The computed electronic energies of atoms and molecules are significantly more accurate than the counterparts obtained with the Gaussian AO bases of the same rank, and can be determined even when linear dependence issues preclude the use of the AO bases."
-  },
-  {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
-    "title": "Advancing HPC Infrastructure & Computational Chemistry Research",
-    "section": "",
-    "text": "chemistry\n\n\nAI\n\n\nACS\n\n\n\n\n\n\n\nCharles Peterson\n\n\nAug 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHPC\n\n\nAI\n\n\nCNF\n\n\nworkshops\n\n\n\n\n\n\n\nCharles Peterson\n\n\nJul 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA\n\n\ncontainers\n\n\nworkshops\n\n\n\n\n\n\n\nCharles Peterson\n\n\nMay 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChemistry\n\n\npaper\n\n\n\n\n\n\n\nCharles Peterson\n\n\nOct 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChemistry\n\n\nAI\n\n\n\n\n\n\n\nCharles Peterson\n\n\nOct 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChemistry\n\n\nAI\n\n\nMeeting\n\n\n\n\n\n\n\nCharles Peterson\n\n\nAug 13, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChemistry\n\n\nArtificial Intelligence\n\n\nMeeting\n\n\n\n\n\n\n\nCharles Peterson\n\n\nApr 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA\n\n\ncontainers\n\n\nworkshops\n\n\n\n\n\n\n\nCharles Peterson\n\n\nApr 12, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA\n\n\nContainers\n\n\nWorkshops\n\n\nHPC\n\n\n\n\n\n\n\nCharles Peterson\n\n\nApr 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA\n\n\nRStudio\n\n\nWorkshops\n\n\nH2HH\n\n\n\n\n\n\n\nCharles Peterson\n\n\nMar 29, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChemistry\n\n\npaper\n\n\n\n\n\n\n\nCharles Peterson\n\n\nDec 13, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA\n\n\nBig Data\n\n\nworkshops\n\n\n\n\n\n\n\nCharles Peterson\n\n\nOct 24, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nchemistry\n\n\npublication\n\n\n\n\n\n\n\nCharles Peterson\n\n\nJul 22, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA\n\n\ncontainers\n\n\nworkshops\n\n\n\n\n\n\n\nCharles Peterson\n\n\nJul 6, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA\n\n\nanaconda\n\n\npython\n\n\nworkshops\n\n\nH2HH\n\n\n\n\n\n\n\nCharles Peterson\n\n\nJun 29, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA\n\n\ncontainers\n\n\nworkshops\n\n\n\n\n\n\n\nCharles Peterson\n\n\nApr 20, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA\n\n\nrstudio\n\n\nworkshops\n\n\nH2HH\n\n\n\n\n\n\n\nCharles Peterson\n\n\nMar 30, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nACS\n\n\npublication\n\n\n\n\n\n\n\nCharles Peterson\n\n\nDec 31, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA\n\n\ncontainers\n\n\nworkshops\n\n\n\n\n\n\n\nCharles Peterson\n\n\nJul 3, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nC\n\n\nchemistry\n\n\npython\n\n\n\n\n\n\n\nCharles Peterson\n\n\nJun 30, 2021\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#get-in-touch",
-    "href": "index.html#get-in-touch",
-    "title": "Charles C. Peterson: High-Performance Computing R&D Scientist",
-    "section": "",
-    "text": "If you would like to talk to me or have any questions, feel free to contact me at charles.c.peterson3@gmail.com.\nCopyright 2023 Charles C. Peterson"
-  },
-  {
-    "objectID": "about.html#focus",
-    "href": "about.html#focus",
-    "title": "About Charles C. Peterson",
-    "section": "",
-    "text": "My focus is on applying advanced High-Performance Computing (HPC) capabilities to enhance research throughput, which involves closely collaborating with a diverse research community."
-  },
-  {
-    "objectID": "about.html#research-interests",
-    "href": "about.html#research-interests",
-    "title": "About Charles C. Peterson",
-    "section": "",
-    "text": "Using HPC and other advanced scientific computing techniques is essential to expand research by developing computational protocols to study heavy element chemistry with national security and other applications."
-  },
-  {
-    "objectID": "about.html#connect-with-me",
-    "href": "about.html#connect-with-me",
-    "title": "About Charles Peterson",
-    "section": "",
-    "text": "Let’s make a connection that matters. Whether you’re interested in HPC, AI/ML, computational chemistry, or simply want to discuss the future of technology and research, I’m here for it.\nFind me on Email, Twitter, LinkedIn, and Github Bluesky."
-  },
-  {
-    "objectID": "posts/WS_BigData_10242022/index.html",
-    "href": "posts/WS_BigData_10242022/index.html",
-    "title": "Exploring Big Data on HPC: Workshop Recap",
-    "section": "",
-    "text": "I recently had the pleasure of hosting a workshop on Exploring Big Data on High-Performance Computing (HPC) at the University of California, Los Angeles (UCLA). In this workshop, we delved into the challenges and solutions associated with Big Data processing using HPC resources."
-  },
-  {
-    "objectID": "posts/WS_BigData_10242022/index.html#overview",
-    "href": "posts/WS_BigData_10242022/index.html#overview",
-    "title": "Exploring Big Data on HPC: Workshop Recap",
-    "section": "",
-    "text": "I recently had the pleasure of hosting a workshop on Exploring Big Data on High-Performance Computing (HPC) at the University of California, Los Angeles (UCLA). In this workshop, we delved into the challenges and solutions associated with Big Data processing using HPC resources."
-  },
-  {
-    "objectID": "posts/WS_BigData_10242022/index.html#event-details",
-    "href": "posts/WS_BigData_10242022/index.html#event-details",
-    "title": "Exploring Big Data on HPC: Workshop Recap",
-    "section": "Event Details",
-    "text": "Event Details\n\nDate: Sept 24, 2022\nLocation: Virtual (via Zoom)"
-  },
-  {
-    "objectID": "posts/WS_BigData_10242022/index.html#workshop-highlights",
-    "href": "posts/WS_BigData_10242022/index.html#workshop-highlights",
-    "title": "Exploring Big Data on HPC: Workshop Recap",
-    "section": "Workshop Highlights",
-    "text": "Workshop Highlights\nThe central theme of the workshop revolved around the application of Big Data techniques on HPC infrastructure. As data grows in size and complexity, traditional computing methods become less effective. Similarly, training complex machine learning models can pose challenges.\nDuring the workshop, participants were introduced to various tools and techniques to address these challenges. Specifically, we covered the following topics:\n\nBig Data Processing: Approaches and Challenges\nUsing UCLA’s HPC Resource: Hoffman2\nIntroduction to Big Data Libraries: Apache Spark and Dask"
-  },
-  {
-    "objectID": "posts/WS_BigData_10242022/index.html#workshop-materials",
-    "href": "posts/WS_BigData_10242022/index.html#workshop-materials",
-    "title": "Exploring Big Data on HPC: Workshop Recap",
-    "section": "Workshop Materials",
-    "text": "Workshop Materials\nThe workshop materials, including the presentation PDF and Zoom recording, are available in the UCLA ORAC GitHub repository. You can access them using the following link:\nWorkshop Materials (GitHub)"
-  },
-  {
-    "objectID": "posts/WS_BigData_10242022/index.html#conclusion",
-    "href": "posts/WS_BigData_10242022/index.html#conclusion",
-    "title": "Exploring Big Data on HPC: Workshop Recap",
-    "section": "Conclusion",
-    "text": "Conclusion\nThis introductory workshop served as an opportunity for participants to learn more about the world of Big Data and HPC. We look forward to hosting similar events in the future and continuing to explore the intersection of Big Data and High-Performance Computing."
-  },
-  {
-    "objectID": "posts/H2HH_Rstudio_03292023/index.html",
-    "href": "posts/H2HH_Rstudio_03292023/index.html",
-    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
-    "section": "",
-    "text": "Welcome to the exciting world of Hoffman2 Happy Hour (H2HH) workshops at UCLA! These interactive sessions are designed to offer participants valuable insights into various topics related to high-performance computing (HPC). Each workshop is carefully curated to promote an engaging and informative experience."
-  },
-  {
-    "objectID": "posts/H2HH_Rstudio_03292023/index.html#introducing-hoffman2-happy-hour-workshops",
-    "href": "posts/H2HH_Rstudio_03292023/index.html#introducing-hoffman2-happy-hour-workshops",
-    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
-    "section": "",
-    "text": "Welcome to the exciting world of Hoffman2 Happy Hour (H2HH) workshops at UCLA! These interactive sessions are designed to offer participants valuable insights into various topics related to high-performance computing (HPC). Each workshop is carefully curated to promote an engaging and informative experience."
-  },
-  {
-    "objectID": "posts/H2HH_Rstudio_03292023/index.html#spotlight-on-rstudio",
-    "href": "posts/H2HH_Rstudio_03292023/index.html#spotlight-on-rstudio",
-    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
-    "section": "Spotlight on RStudio",
-    "text": "Spotlight on RStudio\nOur most recent H2HH workshop, held on March 29, 2023, focused on the use of RStudio—an integrated development environment (IDE) for R programming—on UCLA’s Hoffman2 HPC resource. The virtual workshop took place via Zoom and was met with an enthusiastic response from attendees."
-  },
-  {
-    "objectID": "posts/H2HH_Rstudio_03292023/index.html#exploring-rstudio-on-hoffman2",
-    "href": "posts/H2HH_Rstudio_03292023/index.html#exploring-rstudio-on-hoffman2",
-    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
-    "section": "Exploring RStudio on Hoffman2",
-    "text": "Exploring RStudio on Hoffman2\nDuring the workshop, I demonstrated how to set up and use an RStudio Server container on Hoffman2. This containerized approach allows users to harness the full potential of RStudio in an HPC environment, enabling them to tackle complex data analysis and visualization tasks with ease."
-  },
-  {
-    "objectID": "posts/H2HH_Rstudio_03292023/index.html#access-workshop-materials",
-    "href": "posts/H2HH_Rstudio_03292023/index.html#access-workshop-materials",
-    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
-    "section": "Access Workshop Materials",
-    "text": "Access Workshop Materials\nFor those who couldn’t attend or would like to revisit the content, we’ve made the workshop materials, including the presentation PDF and Zoom recording, available on UCLA’s IDRE GitHub site. Feel free to explore the repository using the following link:\nH2HH RStudio Workshop Materials (GitHub)"
-  },
-  {
-    "objectID": "posts/H2HH_Rstudio_03292023/index.html#looking-ahead",
-    "href": "posts/H2HH_Rstudio_03292023/index.html#looking-ahead",
-    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
-    "section": "Looking Ahead",
-    "text": "Looking Ahead\nThe Hoffman2 Team is committed to empowering the research community with the knowledge and tools necessary for success in the HPC domain. Stay tuned for more workshops in the future, as we continue to explore and share the many facets of high-performance computing!\nThank you for joining us on this journey, and we look forward to seeing you at the next Hoffman2 Happy Hour workshop!"
-  },
-  {
-    "objectID": "posts/ContainersWS_04052023/index.html",
-    "href": "posts/ContainersWS_04052023/index.html",
-    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
-    "section": "",
-    "text": "The world of high-performance computing (HPC) is ever-evolving, and containerization has emerged as a powerful tool in the HPC ecosystem. I recently had the opportunity to host an engaging and informative workshop titled Using Containers for HPC at the University of California, Los Angeles (UCLA)."
-  },
-  {
-    "objectID": "posts/ContainersWS_04052023/index.html#overview",
-    "href": "posts/ContainersWS_04052023/index.html#overview",
-    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
-    "section": "",
-    "text": "The world of high-performance computing (HPC) is ever-evolving, and containerization has emerged as a powerful tool in the HPC ecosystem. I recently had the opportunity to host an engaging and informative workshop titled Using Containers for HPC at the University of California, Los Angeles (UCLA)."
-  },
-  {
-    "objectID": "posts/ContainersWS_04052023/index.html#workshop-details",
-    "href": "posts/ContainersWS_04052023/index.html#workshop-details",
-    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
-    "section": "Workshop Details",
-    "text": "Workshop Details\n\nDate: April 5, 2023\nLocation: Virtual (via Zoom)"
-  },
-  {
-    "objectID": "posts/ContainersWS_04052023/index.html#unlocking-the-power-of-containers",
-    "href": "posts/ContainersWS_04052023/index.html#unlocking-the-power-of-containers",
-    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
-    "section": "Unlocking the Power of Containers",
-    "text": "Unlocking the Power of Containers\nDuring the workshop, participants gained valuable insights into using containers to enhance their HPC workflows. We discussed two widely-used containerization platforms: Singularity/Apptainer and Docker. These platforms allow users to create, deploy, and run applications in a self-contained environment, streamlining the process of managing software dependencies.\nWe explored the use of containers on UCLA’s Hoffman2 HPC resource and delved into practical examples, including:\n\nUsing containers with Graphics Processing Units (GPUs) for accelerated computing.\nRunning Message Passing Interface (MPI) applications within containers for distributed computing."
-  },
-  {
-    "objectID": "posts/ContainersWS_04052023/index.html#access-workshop-resources",
-    "href": "posts/ContainersWS_04052023/index.html#access-workshop-resources",
-    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
-    "section": "Access Workshop Resources",
-    "text": "Access Workshop Resources\nWhether you’re new to containerization or seeking to deepen your understanding, the workshop materials are a valuable resource. The presentation PDF and Zoom recording are available in the UCLA ORAC GitHub repository. You can access them using the following link:\nWorkshop Materials: Using Containers for HPC (GitHub)"
-  },
-  {
-    "objectID": "posts/ContainersWS_04052023/index.html#final-thoughts",
-    "href": "posts/ContainersWS_04052023/index.html#final-thoughts",
-    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
-    "section": "Final Thoughts",
-    "text": "Final Thoughts\nThe workshop served as a platform to share knowledge and foster collaborative learning within the HPC community. Containerization is an integral part of modern HPC, and we are excited to continue exploring its potential in future workshops.\nThank you for your interest in the UCLA Containers Workshop, and we look forward to hosting more such events in the future!"
-  },
-  {
-    "objectID": "posts/MakingContainersWS_04122023/index.html",
-    "href": "posts/MakingContainersWS_04122023/index.html",
-    "title": "Mastering Container Creation: UCLA HPC Workshop Recap",
-    "section": "",
-    "text": "On April 12, 2023, I had the pleasure of hosting an engaging workshop at UCLA, titled Mastering Container Creation for High-Performance Computing (HPC). The event was conducted via Zoom, allowing participants from diverse locations to join and learn.\nFor those who missed the live session, we have made the workshop’s PDF and Zoom recording available in the UCLA ORAC GitHub repository. Access the resources here:\nhttps://github.com/ucla-oarc-hpc/WS_MakingContainers\nThis workshop served as a follow-up to our previous session about basic container usage on Hoffman2. The primary focus of the event was to teach attendees how to create containers tailored for HPC resources. We delved into building containers using Docker/podman and Apptainer/Singularity, and showcased the execution of the newly constructed containers on the Hoffman2 cluster.\nFor those who wish to practice the techniques discussed during the workshop, it is essential to install Docker or podman, and Apptainer or Singularity on a computer with root/admin access. Additionally, a GitHub or DockerHub account is necessary for storing the created containers. To make the process smoother, we have provided a pre-installed VM image for VirtualBox.\nFeel free to reach out to me at cpeterson@oarc.ucla.edu if you have any questions or require further assistance."
-  },
-  {
-    "objectID": "index.html#connect-with-me",
-    "href": "index.html#connect-with-me",
-    "title": "Charles C. Peterson",
-    "section": "",
-    "text": "Interested in collaborating or learning more? Reach out to me at charles.c.peterson3@gmail.com.\nLet’s innovate together!"
-  },
-  {
-    "objectID": "index.html#my-role-and-research",
-    "href": "index.html#my-role-and-research",
-    "title": "Charles C. Peterson",
-    "section": "",
-    "text": "At UCLA, I drive the optimization of HPC systems, collaborating with diverse research teams to ensure their work is empowered by reliable and powerful computing resources. In my independent research, I delve into computational chemistry, focusing on nuclear forensics and separation chemistry. My dual focus on system administration and theoretical research fuels my commitment to technological and scientific progress."
-  },
-  {
-    "objectID": "about.html#professional-journey",
-    "href": "about.html#professional-journey",
-    "title": "About Charles Peterson",
-    "section": "",
-    "text": "My journey in HPC has been marked by collaboration with scientists across various disciplines such as chemistry, physics, and material science. I’ve dedicated my career to optimizing the interface between hardware and software, enhancing the performance and capability of scientific applications. This has involved not only managing and improving complex computing systems but also innovating and implementing solutions that advance the boundaries of research."
-  },
-  {
-    "objectID": "about.html#independent-research",
-    "href": "about.html#independent-research",
-    "title": "About Charles Peterson",
-    "section": "",
-    "text": "Parallel to my administrative role, I engage deeply in computational chemistry. My research is focused on developing advanced methods to accurately predict chemical properties of f-element containing compounds, vital for nuclear forensics and separation chemistry. My expertise in AI/ML has been instrumental in this quest, helping to drive innovation and expand the capabilities of computational research in these critical areas."
-  },
-  {
-    "objectID": "about.html#collaboration-and-impact",
-    "href": "about.html#collaboration-and-impact",
-    "title": "About Charles Peterson",
-    "section": "",
-    "text": "Throughout my career, I’ve seen firsthand the transformative impact of HPC on research. My dual focus on practical system administration and theoretical innovation allows me to uniquely contribute to the ongoing evolution of scientific computing. I am committed to fostering a collaborative environment, bridging gaps between disciplines, and helping teams leverage the power of HPC for groundbreaking discoveries."
-  },
-  {
-    "objectID": "posts/11202023_AI_Env_meeting/index.html",
-    "href": "posts/11202023_AI_Env_meeting/index.html",
-    "title": "AI-Driven Solutions for Environmental Remediation",
-    "section": "",
-    "text": "Collaborative Meeting on AI for Environmental Remediation\nFunded by the AI Tennessee Initiative, the AI for Environmental Remediation Project aims to leverage artificial intelligence technologies to mitigate environmental harm caused by nuclear and radiochemical activities. This project develops research and development initiatives that promote sustainability. The primary objectives include utilizing AI to minimize environmental pollution from human-made sources and create eco-friendly methods for separating Rare Earth Elements (REEs).\nThe collaborative event, held from July 17 to 19, 2023, marked a significant milestone in fostering synchronized collaboration among various researchers. This meeting underscored the importance of innovative approaches in tackling environmental challenges and advancing sustainability efforts.\n\n\n\nProject Collaboration Meeting"
-  },
-  {
-    "objectID": "posts/20230415_HPC_Nuclear_panel/index.html",
-    "href": "posts/20230415_HPC_Nuclear_panel/index.html",
-    "title": "Advancing Nuclear Tech with HPC Panel",
-    "section": "",
-    "text": "High-Performance Computing Panel at the ANS Student Conference\nI had the privilege of participating in a panel titled “High-Performance Computing in Nuclear Technology,” held during the American Nuclear Society Student Conference on April 15, 2023.\nThe focus was on the pivotal role of High-Performance Computing (HPC) and its transformative impact over the past decade, especially with the advent of Exascale computing. HPC has proven instrumental in propelling research and innovation across various fields, including climate science, healthcare, material science, and national security, by enabling more complex and detailed simulations than ever before.\nThis panel served as an engaging platform for students to explore the integration of HPC in nuclear science and engineering, featuring enlightening presentations on the evolution of HPC, its scalability, performance characteristics, and a lively discussion on the latest advancements and persisting challenges within HPC applications.\n\n\n\nInsights from the HPC Panel Discussion"
-  },
-  {
-    "objectID": "posts/20231019_AI_Env_meeting/index.html",
-    "href": "posts/20231019_AI_Env_meeting/index.html",
-    "title": "AI-Driven Solutions for Environmental Remediation",
-    "section": "",
-    "text": "Collaborative Meeting on AI for Environmental Remediation\nFunded by the AI Tennessee Initiative, the AI for Environmental Remediation Project aims to leverage artificial intelligence technologies to mitigate environmental harm caused by nuclear and radiochemical activities. This project develops research and development initiatives that promote sustainability. The primary objectives include utilizing AI to minimize environmental pollution from human-made sources and create eco-friendly methods for separating Rare Earth Elements (REEs).\nThe collaborative event, held from July 17 to 19, 2023, marked a significant milestone in fostering synchronized collaboration among various researchers. This meeting underscored the importance of innovative approaches in tackling environmental challenges and advancing sustainability efforts.\n\n\n\nProject Collaboration Meeting"
-  },
-  {
-    "objectID": "posts/20230813_ACSFall2023/index.html",
-    "href": "posts/20230813_ACSFall2023/index.html",
-    "title": "Leading AI Innovations in Nuclear Chemistry at ACS Fall 2023",
-    "section": "",
-    "text": "At the prestigious American Chemical Society Fall 2023 Meeting, I had the honor of co-chairing a session within the Nuclear Division, titled “Data Science and Artificial Intelligence Applications in Nuclear and Radiochemistry.”\nThis session not only showcased groundbreaking research but also served as a platform for discussing the transformative impact of data science and AI on the field of nuclear and radiochemistry. Highlighting the event was my presentation, “Advanced Computational Strategies for Lanthanide and Actinide Systems,” where I delved into the latest computational methodologies enhancing our understanding and manipulation of these complex elements.\nThe discourse generated from this session underscored the vital role of AI and computational chemistry in advancing nuclear science, promising innovative solutions to longstanding challenges in the field.\n\n\nAuthors: Charles C. Peterson, Deborah A. Penchoff\nAffiliations: 1. Office of Advanced Research Computing, University of California, Los Angeles, California, United States 2. Innovative Computing Laboratory, University of Tennessee, Knoxville, Tennessee, United States\nContact: Peterson, cpeterson@oarc.ucla.edu Penchoff, dpenchof@utk.edu\nModeling lanthanide and actinide chemistry through accurate computational methodologies is important to better understand binding selectivity of lanthanides and actinides in nuclear and radiochemical applications. This is crucial for nuclear forensics, designing separation agents, and understanding spectra. Theoretical predictions using molecular modeling methods, such as ab initio and DFT, have been popular to simulate binding interactions. Computational protocols are determined with highly accurate predictions that include effects from relativity, spin-orbit coupling, and core correlation. Using modern data modeling methods, like Artificial Intelligence techniques including Machine Learning, can be insightful to understand binding selectivity properties."
-  },
-  {
-    "objectID": "posts/20230813_ACSFall2023/index.html#advanced-computational-strategies-for-lanthanide-and-actinide-systems",
-    "href": "posts/20230813_ACSFall2023/index.html#advanced-computational-strategies-for-lanthanide-and-actinide-systems",
-    "title": "Leading AI Innovations in Nuclear Chemistry at ACS Fall 2023",
-    "section": "",
-    "text": "Authors: Charles C. Peterson, Deborah A. Penchoff\nAffiliations: 1. Office of Advanced Research Computing, University of California, Los Angeles, California, United States 2. Innovative Computing Laboratory, University of Tennessee, Knoxville, Tennessee, United States\nContact: Peterson, cpeterson@oarc.ucla.edu Penchoff, dpenchof@utk.edu\nModeling lanthanide and actinide chemistry through accurate computational methodologies is important to better understand binding selectivity of lanthanides and actinides in nuclear and radiochemical applications. This is crucial for nuclear forensics, designing separation agents, and understanding spectra. Theoretical predictions using molecular modeling methods, such as ab initio and DFT, have been popular to simulate binding interactions. Computational protocols are determined with highly accurate predictions that include effects from relativity, spin-orbit coupling, and core correlation. Using modern data modeling methods, like Artificial Intelligence techniques including Machine Learning, can be insightful to understand binding selectivity properties."
-  },
-  {
-    "objectID": "posts/20210429_Singularity/index.html",
-    "href": "posts/20210429_Singularity/index.html",
-    "title": "UCLA Singularity Workshop",
-    "section": "",
-    "text": "In this post, I am sharing the link to a workshop I conducted on using Singularity on Hoffman2, UCLA’s High-Performance Computing (HPC) cluster. This workshop marked my first teaching experience at UCLA!\nThe workshop was conducted via Zoom on April 29, 2021.\nYou can find the repository containing the workshop materials, including the PDF presentation and Zoom recording, on UCLA’s OARC GitHub site:\nhttps://github.com/ucla-oarc-hpc/hpc_workshops\nDuring the workshop, I provided a basic lecture on how to use Singularity for managing containers on Hoffman2. The GitHub repository also contains example containers that demonstrate how to work with Python and various packages, such as TensorFlow and PySCF. Additionally, there are examples of using GPU containers.\nKeep an eye out for more updates on using Singularity on Hoffman2!"
-  },
-  {
-    "objectID": "posts/20220420_ContainersWS/index.html",
-    "href": "posts/20220420_ContainersWS/index.html",
-    "title": "UCLA Containers Workshop",
-    "section": "",
-    "text": "I recently hosted a workshop on Using Containers for HPC at UCLA.\nThe workshop took place via Zoom on April 20, 2022.\nYou can find the PDF and Zoom recording in the UCLA ORAC GitHub repository:\nhttps://github.com/ucla-oarc-hpc/WS_containers\nDuring the workshop, I covered using Singularity/Apptainer and Docker containers to run on HPC resources, such as UCLA’s Hoffman2 resource. Additionally, I provided examples for using GPUs and MPI applications with containers.\nStay tuned for a follow-up workshop this summer focusing on building containers for HPC."
-  },
-  {
-    "objectID": "posts/20230412_MakingContainersWS/index.html",
-    "href": "posts/20230412_MakingContainersWS/index.html",
-    "title": "Mastering Container Creation: UCLA HPC Workshop Recap",
-    "section": "",
-    "text": "On April 12, 2023, I had the pleasure of hosting an engaging workshop at UCLA, titled Mastering Container Creation for High-Performance Computing (HPC). The event was conducted via Zoom, allowing participants from diverse locations to join and learn.\nFor those who missed the live session, we have made the workshop’s PDF and Zoom recording available in the UCLA ORAC GitHub repository. Access the resources here:\nhttps://github.com/ucla-oarc-hpc/WS_MakingContainers\nThis workshop served as a follow-up to our previous session about basic container usage on Hoffman2. The primary focus of the event was to teach attendees how to create containers tailored for HPC resources. We delved into building containers using Docker/podman and Apptainer/Singularity, and showcased the execution of the newly constructed containers on the Hoffman2 cluster.\nFor those who wish to practice the techniques discussed during the workshop, it is essential to install Docker or podman, and Apptainer or Singularity on a computer with root/admin access. Additionally, a GitHub or DockerHub account is necessary for storing the created containers. To make the process smoother, we have provided a pre-installed VM image for VirtualBox.\nFeel free to reach out to me at cpeterson@oarc.ucla.edu if you have any questions or require further assistance."
-  },
-  {
-    "objectID": "posts/20231219_paperpublish/index.html",
-    "href": "posts/20231219_paperpublish/index.html",
-    "title": "Advancing Orbital Optimization: Published Research",
-    "section": "",
-    "text": "I’m thrilled to announce the publication of our paper, “Economical quasi-Newton unitary optimization of electronic orbitals,” in Physical Chemistry Chemical Physics on December 19, 2023. My heartfelt gratitude goes to my fellow authors: Samuel A. Slattery, Kshitijkumar A. Surjuse, Deborah A. Penchoff, and Edward F. Valeev for their invaluable contributions to this work.\nAccess the full paper here\n\n\nWe present an efficient quasi-Newton orbital solver optimized to reduce the number of gradient evaluations and other computational steps of comparable cost. The solver optimizes orthogonal orbitals by sequences of unitary rotations generated by the (preconditioned) limited-memory Broyden–Fletcher–Goldfarb–Shanno (L-BFGS) algorithm equipped with trust-region step restriction. The low-rank structure of the L-BFGS inverse Hessian is exploited when solving the trust-region problem. The efficiency of the proposed “Quasi-Newton Unitary Optimization with Trust-Region” (QUOTR) solver is compared to that of the standard Roothaan–Hall approach accelerated by the Direct Inversion of Iterative Subspace (DIIS), and other exact and approximate Newton solvers for mean-field (Hartree–Fock and Kohn–Sham) problems."
-  },
-  {
-    "objectID": "posts/20231219_paperpublish/index.html#abstract",
-    "href": "posts/20231219_paperpublish/index.html#abstract",
-    "title": "Advancing Orbital Optimization: Published Research",
-    "section": "",
-    "text": "We present an efficient quasi-Newton orbital solver optimized to reduce the number of gradient evaluations and other computational steps of comparable cost. The solver optimizes orthogonal orbitals by sequences of unitary rotations generated by the (preconditioned) limited-memory Broyden–Fletcher–Goldfarb–Shanno (L-BFGS) algorithm equipped with trust-region step restriction. The low-rank structure of the L-BFGS inverse Hessian is exploited when solving the trust-region problem. The efficiency of the proposed “Quasi-Newton Unitary Optimization with Trust-Region” (QUOTR) solver is compared to that of the standard Roothaan–Hall approach accelerated by the Direct Inversion of Iterative Subspace (DIIS), and other exact and approximate Newton solvers for mean-field (Hartree–Fock and Kohn–Sham) problems."
-  },
-  {
-    "objectID": "posts/20221213_PaperLaAc/index.html",
-    "href": "posts/20221213_PaperLaAc/index.html",
-    "title": "Combining Molecular Modeling with ML for Enhanced Predictive Analysis",
-    "section": "",
-    "text": "Our research paper, “Evaluations of molecular modeling and machine learning for predictive capabilities in binding of lanthanum and actinium with carboxylic acids,” was published in the Journal of Radioanalytical and Nuclear Chemistry on December 13, 2022. I extend my sincere appreciation to my co-authors: Deborah A. Penchoff, Eleigha M. Wrancher, George Bosilca, Robert J. Harrison, Edward F. Valeev, and Paul D. Benny for their collaborative efforts and contributions.\nRead the full paper here\n\n\nOptimization of separations for selective binding of rare earth elements and actinides is critical to guarantee a supply of materials essential to needs including national security and defense, technology, medicine, and communications. Computational modeling is key to accelerate solutions for selective separations; however, tools to predict accurate representations of the physical systems of interest require high performance computing resources to be developed to facilitate robust modeling. This study evaluates computational molecular modeling and machine learning applications on property analysis relevant to the binding of lanthanum and actinium with carboxylic acids. It focuses on assessing accuracy of computational predictions based on benchmark computational results due to lack of experimental information. Properties evaluated include Gibbs free energies of reaction, relativistic effects, diagnostics, partial charges, structural characteristics, and coordination sphere and equivalent volume."
-  },
-  {
-    "objectID": "posts/20221213_PaperLaAc/index.html#abstract",
-    "href": "posts/20221213_PaperLaAc/index.html#abstract",
-    "title": "Combining Molecular Modeling with ML for Enhanced Predictive Analysis",
-    "section": "",
-    "text": "Optimization of separations for selective binding of rare earth elements and actinides is critical to guarantee a supply of materials essential to needs including national security and defense, technology, medicine, and communications. Computational modeling is key to accelerate solutions for selective separations; however, tools to predict accurate representations of the physical systems of interest require high performance computing resources to be developed to facilitate robust modeling. This study evaluates computational molecular modeling and machine learning applications on property analysis relevant to the binding of lanthanum and actinium with carboxylic acids. It focuses on assessing accuracy of computational predictions based on benchmark computational results due to lack of experimental information. Properties evaluated include Gibbs free energies of reaction, relativistic effects, diagnostics, partial charges, structural characteristics, and coordination sphere and equivalent volume."
   },
   {
     "objectID": "index.html#fusing-hpc-ai-and-computational-chemistry",
@@ -378,151 +84,18 @@
     "text": "If you’re passionate about the potential of AI and ML to redefine the landscape of scientific research or are curious about the power of HPC to support such advancements, I welcome the opportunity to connect. Whether it’s to discuss potential collaborations, exchange knowledge, or explore new ideas, you can reach me at charles.c.peterson3@gmail.com."
   },
   {
-    "objectID": "posts/20240724_CNFWorkshop/index.html",
-    "href": "posts/20240724_CNFWorkshop/index.html",
-    "title": "CNF HPC/AI Workshop",
+    "objectID": "index.html#my-stories",
+    "href": "index.html#my-stories",
+    "title": "Advancing HPC Infrastructure & Computational Chemistry Research",
     "section": "",
-    "text": "We recently had the opportunity to collaborate with the Consortium for Nuclear Forensics (CNF) to host a workshop at Berkeley National Laboratory on July 24, 2024. This workshop was designed for undergraduate students, introducing them to the essential concepts of High-Performance Computing (HPC) and Artificial Intelligence (AI) as they relate to nuclear applications.\nDuring the workshop, participants explored a variety of HPC and AI tools, with hands-on examples that included predicting energies using NWChem. Students also learned how to train machine learning models based on data, gaining valuable insights into the intersection of computational power and nuclear science.\nThis event provided a unique opportunity for budding scientists to engage with cutting-edge technology, bridging the gap between theoretical knowledge and practical application in the field of nuclear forensics."
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\nReading Time\n\n\n\n\n\n\n\n\n\nAug 21, 2024\n\n\nACS Fall 2024\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nJul 24, 2024\n\n\nCNF HPC/AI Workshop\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nMay 1, 2024\n\n\nUCLA GPU Workshop\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nOct 19, 2023\n\n\nAdvancing Orbital Optimization: Published Research\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nOct 19, 2023\n\n\nAI-Driven Solutions for Environmental Remediation\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nAug 13, 2023\n\n\nLeading AI Innovations in Nuclear Chemistry at ACS Fall 2023\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nApr 15, 2023\n\n\nAdvancing Nuclear Tech with HPC Panel\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nApr 12, 2023\n\n\nMastering Container Creation: UCLA HPC Workshop Recap\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nApr 5, 2023\n\n\nMastering Containerization for HPC: UCLA Workshop Recap\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nHoffman2 Happy Hour: Exploring RStudio on HPC\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nDec 13, 2022\n\n\nCombining Molecular Modeling with ML for Enhanced Predictive Analysis\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nOct 24, 2022\n\n\nExploring Big Data on HPC: Workshop Recap\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nJul 22, 2022\n\n\nPaper on Numerically Exact Orbitals\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nJul 6, 2022\n\n\nUCLA Building Containers Workshop\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nJun 29, 2022\n\n\nHoffman2 Happy Hour - Anaconda\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nApr 20, 2022\n\n\nUCLA Containers Workshop\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nMar 30, 2022\n\n\nHoffman2 Happy Hour - Rstudio\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nDec 31, 2021\n\n\nACS Book Published\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nJul 3, 2021\n\n\nUCLA Singularity Workshop\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nJun 30, 2021\n\n\nQuill Program for SCF Calculations\n\n\nCharles Peterson\n\n\n7 min\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/202405012024_WS_GPU/index.html",
-    "href": "posts/202405012024_WS_GPU/index.html",
-    "title": "UCLA GPU Workshop",
+    "objectID": "posts/20230412_MakingContainersWS/index.html",
+    "href": "posts/20230412_MakingContainersWS/index.html",
+    "title": "Mastering Container Creation: UCLA HPC Workshop Recap",
     "section": "",
-    "text": "In our latest workshop, “Optimizing Research with GPUs on Hoffman2,” computing professionals and researchers had the chance to explore the immense potential of GPU computing in high-performance research environments. Whether they were newcomers to GPU programming or seasoned veterans, participants found valuable insights tailored to their expertise levels.\nThis workshop focused on equipping attendees with the essential skills needed to harness the power of GPUs, particularly within Python and R environments. We delved into the core concepts of GPU computing, starting with an overview of general-purpose GPU processing and quickly moving into practical applications.\nA highlight of the workshop was the deep dive into CUDA programming for NVIDIA GPUs. Participants learned to optimize their code by mastering memory management techniques, parallel computing strategies, and other advanced GPU coding practices. These skills are crucial for those looking to push the boundaries of computational efficiency in their research projects.\nThe hands-on sessions provided a robust platform for attendees to implement what they learned in real-time, experimenting with various GPU codes and observing the performance gains firsthand. By the end of the workshop, participants were well-equipped to integrate GPU computing into their workflows, significantly boosting the speed and efficiency of their research on the Hoffman2 cluster.\nThis event underscored the transformative power of GPUs in research, offering a pathway for professionals to elevate their computational capabilities and achieve new levels of innovation."
-  },
-  {
-    "objectID": "posts/20240821_ACSfall2024/index.html",
-    "href": "posts/20240821_ACSfall2024/index.html",
-    "title": "ACS Fall 2024",
-    "section": "",
-    "text": "REACKT: Advancing Separations of Lanthanides and Actinides: ACS Fall 2024\nI recently presented at the ACS Fall 2024 meeting, delivering a talk titled “REACKT: Advancing Separations of Lanthanides and Actinides.” This presentation highlighted the innovative strides made by the REACKT project in improving the separation processes for these critical elements.\n\nAbstract:\nThe elucidation of the binding selectivity of lanthanides and actinides is quintessential for advancing nuclear and radiochemical applications, encompassing nuclear forensics, the design of separation agents, and the interpretation of spectra. Theoretical investigations employing molecular modeling methods, such as ab initio and Density Functional Theory (DFT), have been instrumental in simulating binding interactions, with computational protocols being refined for superior accuracy encompassing relativity, spin-orbit coupling, and core correlation effects. The integration of contemporary data modeling approaches, like Artificial Intelligence (AI) and Machine Learning (ML), further augments our understanding of binding selectivity properties. A notable stride in this domain is the advent of the REACKT program, which endeavors to bolster the precision and efficiency of computational methodologies. This presentation delineates the development and integration of computational protocols within the REACKT framework, illustrating how this program propels the frontier of lanthanide and actinide chemistry modeling. By leveraging the REACKT program, we elucidate how a synergistic blend of traditional computational chemistry methods and modern data analytics can significantly enhance predictive accuracy and provide deeper insights into the complex behavior of lanthanide and actinide systems."
-  },
-  {
-    "objectID": "posts/20210630_QUILL/index.html",
-    "href": "posts/20210630_QUILL/index.html",
-    "title": "Quill Program for SCF Calculations",
-    "section": "",
-    "text": "Program Quill\nI’ve recently updated a small, straightforward Hartree Fock program, primarily written in C, on my GitHub page. I primarily developed this code to understand how SCF/HF works.\nThe program is named after my pet hedgehog, Quill Riker.\nYou can find the code on my GitHub page at https://github.com/charliecpeterson/QUILL\nThis program utilizes PySCF and libcint to generate the 1e/2e integrals. It also employs the Eigen3 API for all matrix and linear algebra routines.\nThe input format is similar to NWChem. In the GitHub repository, there is a sample input file named input.inp.\ngeometry\nC  -0.000000000000   0.000000000000   0.000000000000\nH   1.183771681898  -1.183771681898  -1.183771681898\nH   1.183771681898   1.183771681898   1.183771681898\nH  -1.183771681898   1.183771681898  -1.183771681898\nH  -1.183771681898  -1.183771681898   1.183771681898\nend\nbasis\nH    S\n      3.387000E+01           6.068000E-03           0.000000E+00           0.000000E+00\n      5.095000E+00           4.530800E-02           0.000000E+00           0.000000E+00\n      1.159000E+00           2.028220E-01           0.000000E+00           0.000000E+00\n      3.258000E-01           5.039030E-01           1.000000E+00           0.000000E+00\n      1.027000E-01           3.834210E-01           0.000000E+00           1.000000E+00\nH    P\n      1.407000E+00           1.000000E+00           0.000000E+00\n      3.880000E-01           0.000000E+00           1.000000E+00\nH    D\n      1.057000E+00           1.0000000\nC    S\n      8.236000E+03           5.310000E-04          -1.130000E-04           0.000000E+00           0.000000E+00\n      1.235000E+03           4.108000E-03          -8.780000E-04           0.000000E+00           0.000000E+00\n      2.808000E+02           2.108700E-02          -4.540000E-03           0.000000E+00           0.000000E+00\n      7.927000E+01           8.185300E-02          -1.813300E-02           0.000000E+00           0.000000E+00\n      2.559000E+01           2.348170E-01          -5.576000E-02           0.000000E+00           0.000000E+00\n      8.997000E+00           4.344010E-01          -1.268950E-01           0.000000E+00           0.000000E+00\n      3.319000E+00           3.461290E-01          -1.703520E-01           0.000000E+00           0.000000E+00\n      9.059000E-01           3.937800E-02           1.403820E-01           1.000000E+00           0.000000E+00\n      3.643000E-01          -8.983000E-03           5.986840E-01           0.000000E+00           0.000000E+00\n      1.285000E-01           2.385000E-03           3.953890E-01           0.000000E+00           1.000000E+00\nC    P\n      1.871000E+01           1.403100E-02           0.000000E+00           0.000000E+00\n      4.133000E+00           8.686600E-02           0.000000E+00           0.000000E+00\n      1.200000E+00           2.902160E-01           0.000000E+00           0.000000E+00\n      3.827000E-01           5.010080E-01           1.000000E+00           0.000000E+00\n      1.209000E-01           3.434060E-01           0.000000E+00           1.000000E+00\nC    D\n      1.097000E+00           1.000000E+00           0.000000E+00\n      3.180000E-01           0.000000E+00           1.000000E+00\nC    F\n      7.610000E-01           1.0000000\nend\nscf\nnum_elec 10\nend\nCurrently, the code accepts only three input blocks:\n\ngeometry\nbasis\nscf\n\nThe geometry and basis blocks closely resemble NWChem, with the basis set format being identical to NWChem.\nThe scf block accepts only num_elec. This code exclusively supports RHF. It works for single reference, closed-shell systems ONLY.\nI have tested this program on several compounds, and the energy difference from PySCF results is about 10^-2 atomic units. More work is required.\nI plan to use this program as a starting point for adding and testing new libraries to run computational chemistry methods, particularly for Exascale systems.\nFeel free to contact me for more information!"
-  },
-  {
-    "objectID": "posts/20230405_ContainersWS/index.html",
-    "href": "posts/20230405_ContainersWS/index.html",
-    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
-    "section": "",
-    "text": "The world of high-performance computing (HPC) is ever-evolving, and containerization has emerged as a powerful tool in the HPC ecosystem. I recently had the opportunity to host an engaging and informative workshop titled Using Containers for HPC at the University of California, Los Angeles (UCLA)."
-  },
-  {
-    "objectID": "posts/20230405_ContainersWS/index.html#overview",
-    "href": "posts/20230405_ContainersWS/index.html#overview",
-    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
-    "section": "",
-    "text": "The world of high-performance computing (HPC) is ever-evolving, and containerization has emerged as a powerful tool in the HPC ecosystem. I recently had the opportunity to host an engaging and informative workshop titled Using Containers for HPC at the University of California, Los Angeles (UCLA)."
-  },
-  {
-    "objectID": "posts/20230405_ContainersWS/index.html#workshop-details",
-    "href": "posts/20230405_ContainersWS/index.html#workshop-details",
-    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
-    "section": "Workshop Details",
-    "text": "Workshop Details\n\nDate: April 5, 2023\nLocation: Virtual (via Zoom)"
-  },
-  {
-    "objectID": "posts/20230405_ContainersWS/index.html#unlocking-the-power-of-containers",
-    "href": "posts/20230405_ContainersWS/index.html#unlocking-the-power-of-containers",
-    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
-    "section": "Unlocking the Power of Containers",
-    "text": "Unlocking the Power of Containers\nDuring the workshop, participants gained valuable insights into using containers to enhance their HPC workflows. We discussed two widely-used containerization platforms: Singularity/Apptainer and Docker. These platforms allow users to create, deploy, and run applications in a self-contained environment, streamlining the process of managing software dependencies.\nWe explored the use of containers on UCLA’s Hoffman2 HPC resource and delved into practical examples, including:\n\nUsing containers with Graphics Processing Units (GPUs) for accelerated computing.\nRunning Message Passing Interface (MPI) applications within containers for distributed computing."
-  },
-  {
-    "objectID": "posts/20230405_ContainersWS/index.html#access-workshop-resources",
-    "href": "posts/20230405_ContainersWS/index.html#access-workshop-resources",
-    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
-    "section": "Access Workshop Resources",
-    "text": "Access Workshop Resources\nWhether you’re new to containerization or seeking to deepen your understanding, the workshop materials are a valuable resource. The presentation PDF and Zoom recording are available in the UCLA ORAC GitHub repository. You can access them using the following link:\nWorkshop Materials: Using Containers for HPC (GitHub)"
-  },
-  {
-    "objectID": "posts/20230405_ContainersWS/index.html#final-thoughts",
-    "href": "posts/20230405_ContainersWS/index.html#final-thoughts",
-    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
-    "section": "Final Thoughts",
-    "text": "Final Thoughts\nThe workshop served as a platform to share knowledge and foster collaborative learning within the HPC community. Containerization is an integral part of modern HPC, and we are excited to continue exploring its potential in future workshops.\nThank you for your interest in the UCLA Containers Workshop, and we look forward to hosting more such events in the future!"
-  },
-  {
-    "objectID": "posts/20230329_H2HH_Rstudio/index.html",
-    "href": "posts/20230329_H2HH_Rstudio/index.html",
-    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
-    "section": "",
-    "text": "Welcome to the exciting world of Hoffman2 Happy Hour (H2HH) workshops at UCLA! These interactive sessions are designed to offer participants valuable insights into various topics related to high-performance computing (HPC). Each workshop is carefully curated to promote an engaging and informative experience."
-  },
-  {
-    "objectID": "posts/20230329_H2HH_Rstudio/index.html#introducing-hoffman2-happy-hour-workshops",
-    "href": "posts/20230329_H2HH_Rstudio/index.html#introducing-hoffman2-happy-hour-workshops",
-    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
-    "section": "",
-    "text": "Welcome to the exciting world of Hoffman2 Happy Hour (H2HH) workshops at UCLA! These interactive sessions are designed to offer participants valuable insights into various topics related to high-performance computing (HPC). Each workshop is carefully curated to promote an engaging and informative experience."
-  },
-  {
-    "objectID": "posts/20230329_H2HH_Rstudio/index.html#spotlight-on-rstudio",
-    "href": "posts/20230329_H2HH_Rstudio/index.html#spotlight-on-rstudio",
-    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
-    "section": "Spotlight on RStudio",
-    "text": "Spotlight on RStudio\nOur most recent H2HH workshop, held on March 29, 2023, focused on the use of RStudio—an integrated development environment (IDE) for R programming—on UCLA’s Hoffman2 HPC resource. The virtual workshop took place via Zoom and was met with an enthusiastic response from attendees."
-  },
-  {
-    "objectID": "posts/20230329_H2HH_Rstudio/index.html#exploring-rstudio-on-hoffman2",
-    "href": "posts/20230329_H2HH_Rstudio/index.html#exploring-rstudio-on-hoffman2",
-    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
-    "section": "Exploring RStudio on Hoffman2",
-    "text": "Exploring RStudio on Hoffman2\nDuring the workshop, I demonstrated how to set up and use an RStudio Server container on Hoffman2. This containerized approach allows users to harness the full potential of RStudio in an HPC environment, enabling them to tackle complex data analysis and visualization tasks with ease."
-  },
-  {
-    "objectID": "posts/20230329_H2HH_Rstudio/index.html#access-workshop-materials",
-    "href": "posts/20230329_H2HH_Rstudio/index.html#access-workshop-materials",
-    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
-    "section": "Access Workshop Materials",
-    "text": "Access Workshop Materials\nFor those who couldn’t attend or would like to revisit the content, we’ve made the workshop materials, including the presentation PDF and Zoom recording, available on UCLA’s IDRE GitHub site. Feel free to explore the repository using the following link:\nH2HH RStudio Workshop Materials (GitHub)"
-  },
-  {
-    "objectID": "posts/20230329_H2HH_Rstudio/index.html#looking-ahead",
-    "href": "posts/20230329_H2HH_Rstudio/index.html#looking-ahead",
-    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
-    "section": "Looking Ahead",
-    "text": "Looking Ahead\nThe Hoffman2 Team is committed to empowering the research community with the knowledge and tools necessary for success in the HPC domain. Stay tuned for more workshops in the future, as we continue to explore and share the many facets of high-performance computing!\nThank you for joining us on this journey, and we look forward to seeing you at the next Hoffman2 Happy Hour workshop!"
-  },
-  {
-    "objectID": "posts/20220330_H2HH_Rstudio/index.html",
-    "href": "posts/20220330_H2HH_Rstudio/index.html",
-    "title": "Hoffman2 Happy Hour - Rstudio",
-    "section": "",
-    "text": "At UCLA, we have a series of workshops named Hoffman2 Happy Hour (H2HH). These workshops are small, interactive talks based on a certain topic relating to HPC.\nThis Workshop took place via Zoom on March 30, 2022.\nThe repo containing the pdf and zoom recording is located on UCLA’s IDRE github site\nhttps://github.com/ucla-oarc-hpc/hpc_workshops\nThis was based on using Rstudio on UCLA’s Hoffman2 resource. I had setup a Container with Rstudio Server that can be used on Hoffman2.\nStay tuned for more workshops from the Hoffman2 Team!"
-  },
-  {
-    "objectID": "posts/20220722_Paper/index.html",
-    "href": "posts/20220722_Paper/index.html",
-    "title": "Paper on Numerically Exact Orbitals",
-    "section": "",
-    "text": "I am excited to share a new paper that I have co-authored with my esteemed colleagues, Edward F. Valeev, Robert J. Harrison, and Deborah A. Penchoff.\nIn this work, we present a method for determining nearly numerically exact orthonormal orbitals that are optimal for evaluating the energy of arbitrary (correlated) states of atoms and molecules by minimizing the energy Lagrangian. The orbitals are expressed in real space using a multiresolution spectral element basis that is adaptively refined to achieve the user-specified target precision while avoiding the ill-conditioning issues typically associated with AO basis set expansions in traditional correlated models of molecular electronic structure.\nOur orbital solver, combined with a variational electronic structure model (selected Configuration Interaction or CI), provides energies of comparable precision to a state-of-the-art atomic CI solver for light atoms. The calculated electronic energies of atoms and molecules are significantly more accurate than those obtained with Gaussian AO bases of the same rank. Furthermore, our method can determine these energies even when linear dependence issues preclude the use of AO bases."
-  },
-  {
-    "objectID": "posts/20211231_ACS_book/index.html",
-    "href": "posts/20211231_ACS_book/index.html",
-    "title": "ACS Book Published",
-    "section": "",
-    "text": "I’m excited to announce that after a couple of years of hard work, a new ACS (American Chemical Society) book in the ACS Symposium Series has been published. This book is based on the ACS session that Deborah Penchoff, Theresa Windus, and I organized.\nThe book features numerous insightful chapters that discuss current advances and challenges in nuclear and radiochemistry, with a focus on computational approaches.\nYou can view the book at https://pubs.acs.org/doi/book/10.1021/bk-2021-1388."
-  },
-  {
-    "objectID": "posts/20220629_H2HH_anaconda/index.html",
-    "href": "posts/20220629_H2HH_anaconda/index.html",
-    "title": "Hoffman2 Happy Hour - Anaconda",
-    "section": "",
-    "text": "UCLA hosts a series of interactive workshops called Hoffman2 Happy Hour (H2HH). These sessions focus on various topics related to high-performance computing (HPC).\nThis particular workshop took place via Zoom on June 29, 2022.\nYou can find the PDF and Zoom recording in the UCLA IDRE GitHub repository:\nhttps://github.com/ucla-oarc-hpc/hpc_workshops\nDuring this H2HH session, we discussed using Anaconda on HPC, specifically on Hoffman2. The workshop covered tips and tricks for utilizing Anaconda effectively in an HPC environment.\nKeep an eye out for more informative workshops from the Hoffman2 team!"
-  },
-  {
-    "objectID": "posts/20220706_MakingContainersWS/index.html",
-    "href": "posts/20220706_MakingContainersWS/index.html",
-    "title": "UCLA Building Containers Workshop",
-    "section": "",
-    "text": "I recently hosted a workshop at UCLA focused on Building Containers for HPC.\nThe workshop took place via Zoom on July 6, 2022.\nYou can find the PDF and Zoom recording in the UCLA ORAC GitHub repository:\nhttps://github.com/ucla-oarc-hpc/WS_MakingContainers\nThis workshop was a follow-up to a previous session on “Using Containers on HPC Resources.” During the event, we concentrated on creating containers to run on HPC resources. We covered building containers using Docker/podman and Apptainer/Singularity and demonstrated how to use Hoffman2 to execute the newly built containers.\nTo follow along with the workshop, participants needed to install Docker or podman and Apptainer or Singularity on a computer with root/admin access. A GitHub or DockerHub account was also required to store the created containers. As a convenience, we provided a VM image for VirtualBox with the necessary software pre-installed.\nIf you have any questions or need further assistance, don’t hesitate to contact me at cpeterson@oarc.ucla.edu."
+    "text": "On April 12, 2023, I had the pleasure of hosting an engaging workshop at UCLA, titled Mastering Container Creation for High-Performance Computing (HPC). The event was conducted via Zoom, allowing participants from diverse locations to join and learn.\nFor those who missed the live session, we have made the workshop’s PDF and Zoom recording available in the UCLA ORAC GitHub repository. Access the resources here:\nhttps://github.com/ucla-oarc-hpc/WS_MakingContainers\nThis workshop served as a follow-up to our previous session about basic container usage on Hoffman2. The primary focus of the event was to teach attendees how to create containers tailored for HPC resources. We delved into building containers using Docker/podman and Apptainer/Singularity, and showcased the execution of the newly constructed containers on the Hoffman2 cluster.\nFor those who wish to practice the techniques discussed during the workshop, it is essential to install Docker or podman, and Apptainer or Singularity on a computer with root/admin access. Additionally, a GitHub or DockerHub account is necessary for storing the created containers. To make the process smoother, we have provided a pre-installed VM image for VirtualBox.\nFeel free to reach out to me at cpeterson@oarc.ucla.edu if you have any questions or require further assistance."
   },
   {
     "objectID": "posts/20221024_WS_BigData/index.html",
@@ -567,101 +140,255 @@
     "text": "Conclusion\nThis introductory workshop served as an opportunity for participants to learn more about the world of Big Data and HPC. We look forward to hosting similar events in the future and continuing to explore the intersection of Big Data and High-Performance Computing."
   },
   {
-    "objectID": "CV.html#education",
-    "href": "CV.html#education",
-    "title": "Curriculum Vitae",
-    "section": "Education",
-    "text": "Education\n\n\n\n\n\n\nDoctor of Philosophy in Physical Chemistry\n\n\n\n\n\n\nInstitution: University of North Texas, Denton, TX\nYear: December 2015\nDissertation: Accurate Energetics across the Periodic Table via Quantum Chemistry\n\n\n\n\n\n\n\n\n\n\nBachelor of Science in Chemistry\n\n\n\n\n\n\nInstitution: University of North Texas, Denton, TX\nYear: May 2009\nMajor: Chemistry\nMinor: Computer Science"
-  },
-  {
-    "objectID": "CV.html#work-experience",
-    "href": "CV.html#work-experience",
-    "title": "Curriculum Vitae",
-    "section": "Work Experience",
-    "text": "Work Experience\n\n\n\n\n\n\nSenior HPC System Administrator\n\n\n\n\n\n\nOrganization: Office of Advanced Research Computing, University of California, Los Angeles\nYears: December 2020 – Present\nResponsibilities:\n\nOperate UCLA’s HPC resources and provide consultation services.\nInstall and maintain hardware and software for scientific applications.\nEnsure applications run at maximum efficiency.\n\n\n\n\n\n\n\n\n\n\n\nResearch Scientist II\n\n\n\n\n\n\nOrganization: North Texas Scientific Computing, University of North Texas\nYears: November 2019 – December 2020\nResponsibilities:\n\nProvide consultation services for UNT researchers.\nExplore grant opportunities and evaluate HPC technologies.\nMentor and instruct graduate students.\nPerform research in AI and machine learning applications.\n\n\n\n\n\n\n\n\n\n\n\nCross-Functional IT Support Analyst\n\n\n\n\n\n\nOrganization: Research IT Services, University of North Texas\nYears: February 2018 – November 2019\nResponsibilities:\n\nEnhance scientific computing resources.\nOptimize software and libraries for materials science and data analytics.\nConduct community training and outreach programs.\n\n\n\n\n\n\n\n\n\n\n\nIT Manager I – High Performance Computing\n\n\n\n\n\n\nOrganization: Academic Computing & User Services, University of North Texas\nYears: April 2015 – February 2018\nResponsibilities:\n\nMaintain HPC resources and allocations.\nProvide end-user HPC support and software development.\n\n\n\n\n\n\n\n\n\n\n\nGraduate Research Assistant\n\n\n\n\n\n\nOrganization: Center for Advanced Scientific Computing and Modeling (CASCaM), University of North Texas\nYears: May 2008 – December 2015\nResponsibilities:\n\nDevelop composite strategies for computational quantum chemistry.\nAdvance theoretical techniques for simulating chemical properties.\nConduct studies on energetics of silicon modules, noble gases, and small lanthanide systems."
-  },
-  {
-    "objectID": "CV.html#skills",
-    "href": "CV.html#skills",
-    "title": "Curriculum Vitae",
-    "section": "Skills",
-    "text": "Skills\n\n\n\nProgramming\n\nPython, R, C/C++, Fortran\n\n\n\nTools\n\nRStudio, Jupyter, Containerized Software\n\n\n\nScientific Expertise\n\nComputational Chemistry\nPhysical Chemistry\nNuclear Chemistry\nSpectroscopy\n\n\n\n\n\nData Analysis\n\nMachine Learning\nArtificial Intelligence\nBioinformatics\nNumerical Analysis\nData Visualization\n\n\n\nProfessional Skills\n\nHPC System Administration\nLinux Administration\nParallel Filesystems\nFast Computer Network Communications\nScalable Parallel Programming\nGPU Programming\nBig Data Analysis\nMolecular Modeling\nRelativistic Chemistry\nMaterial Science\n\n\n\n\nCollaborative and Communication Skills\n\nScientific Consultation\nMultidisciplinary Collaboration\nScientific Writing"
-  },
-  {
-    "objectID": "CV.html#publications",
-    "href": "CV.html#publications",
-    "title": "Curriculum Vitae",
-    "section": "Publications",
-    "text": "Publications\n\n\n\n\n\n\nSelected Presentations\n\n\n\n\n\n\nCharles C. Peterson, “Singularity on Hoffman2: Using containers on HPC resources” Workshop Series, UCLA, 04/29/2021.\nCharles C. Peterson, D. A. Penchoff, “Understanding Binding Selectivity of Lanthanide and Actinide Compounds by Computational Protocols” International Workshop, 2020.\nCharles C. Peterson, “Machine Learning Techniques with High Performance Computing” Invited Webinar, University of Tennessee, 2019.\n\n\n\n\n\n\n\n\n\n\nComplete List of Publications\n\n\n\n\n\n\nEdward F. Valeev, Robert J. Harrison, Charles C. Peterson, Deborah A. Penchoff, “Direct determination of optimal real-space orbitals for correlated electronic structure of molecules”, J. Chem. Theory Comput, 2023.\nDeborah A. Penchoff, Charles C. Peterson, Eleigha M. Wrancher, George Bosilca, Robert J. Harrison, Edward F. Valeev, Paul D. Benny, “Evaluations of Molecular Modeling and Machine Learning for Predictive Capabilities in Binding of Lanthanum and Actinium with Carboxylic Acids”, JRNC, 331 (12), 2022.\nEdward F. Valeev, Robert J. Harrison, Charles C. Peterson, Deborah A. Penchoff, “Direct determination of optimal real-space orbitals for correlated electronic structure of molecules”, arXiv:2207.10841, 2022.\nJoseph F. DeJesusa, Ryan W. F. Kerr, Deborah A. Penchoff, Xian B. Carrolla, Charles C. Peterson, Polly L. Arnold and David M. Jenkins. “Actinide tetra-N-heterocyclic carbene sandwiches”. Chem. Sci., 2021.\nDeborah A. Penchoff, Charles C. Peterson, Eleigha M. Wrancher, George K. Schweitzer, Robert J. Harrison, Rose A. Boll, Paul D. Benny, Howard L. Hall. “Evaluating Complexation of Lanthanum and Actinium for Applications in Radiochemical Separations”. American Chemical Society Book series “Computational Science for Lanthanides and Actinides”, 2020. Invited chapter.\nCharles C. Peterson, Jack Burn, Deborah A. Penchoff. “Artificial Intelligence in Nuclear and Radiochemistry” – American Chemical Society Book Series “Computational Science for Lanthanides and Actinides”, 2021. Invited chapter.\nCharles C. Peterson, Deborah A. Penchoff, John D. Auxier II, Howard L. Hall, “Establishing Cost-Effective Computational Models for the Prediction of Lanthanoid Binding in [Ln(NO3)]2+ (with Ln = La to Lu)”, ACS Omega, 2019, 4, 1, 1375-1385.\nDeborah A. Penchoff, Charles C. Peterson, Jon P. Camden, James Bradshaw, John D. Auxier II, George K. Schweitzer, David M. Jenkins, Robert J. Harrison, Howard L. Hall, “Structural Analysis of the Complexation of Uranyl, Neptunyl, Plutonyl, and Americyl with Cyclic Imide Dioximes”, ACS Omega, 2018, 3, 10, 13984-13993.\nDeborah A. Penchoff, Charles C. Peterson, Mark S. Quint, John D. Auxier II, George K. Schweitzer, David M. Jenkins, Robert J. Harrison, Howard L. Hall. “Structural Characteristics, Populations Analysis, and Binding Energies of [An(NO3)]2+, [with An = Ac – Lr]”, ACS Omega, 2018, 3, 10, 14127-14143.\nCharles Peterson, Deborah A. Penchoff, and Angela K. Wilson, “Prediction of thermochemical properties across the periodic table: A review of correlation consistent Composite Approach (ccCA) strategies and applications” Annual Reports in Computational Chemistry, Vol. 12, 2016.\nCharles Peterson, Deborah A. Penchoff, and Angela K. Wilson, “Ab initio approaches for the determination of heavy element energetics: Ionization energies of trivalent lanthanides (Ln = La-Eu)” J. Chem. Phys., 2015, 143, 19, 194109.\nCong Liu, Charles Peterson, and Angela K. Wilson, “C-O Bond Cleavage of Dimethyl Ether by Transition Metal Ions: A Systematic Study on Catalytic Properties of Metals and Performance of DFT Functionals” J. Phys. Chem. A, 2013, 117, 5140.\nGbenga A. Oyedepo, Charles Peterson, George Schoendorff, and Angela K. Wilson, “Spectroscopic properties of Arx-Zn and Arx-Ag+ (x=1,2) van der Waals complexes” J. Chem. Phys., 2013, 138, 104116.\nGbenga A. Oyedepo, Charles Peterson, and Angela K. Wilson, “Accurate predictions of the energetics of silicon compounds using the multireference correlation consistent composite approach” J. Chem. Phys., 2011, 135, 094103.[Insert comprehensive list of publications here.]"
-  },
-  {
-    "objectID": "CV.html#awards-and-recognitions",
-    "href": "CV.html#awards-and-recognitions",
-    "title": "Curriculum Vitae",
-    "section": "Awards and Recognitions",
-    "text": "Awards and Recognitions\n\n\n\n\n\n\nNote\n\n\n\n\n\n\n“Extra Mile” Award – University of North Texas (2018)\nTuition Reduction Benefit Award - University of North Texas (2015)\nGraduate Research Assistant Scholarship - University of North Texas (2009)\nDallas/Fort Worth American Chemical Society Award (2009)\nJ. L. Carrico Award - Department of Chemistry, University of North Texas (2009)\nAmerican Chemical Society Analytical Chemistry Award (2008)\nUndergraduate Dean’s List - University of North Texas (2005, 2006, 2008)"
-  },
-  {
-    "objectID": "CV.html#professional-activities",
-    "href": "CV.html#professional-activities",
-    "title": "Curriculum Vitae",
-    "section": "Professional Activities",
-    "text": "Professional Activities\n\n\n\n\n\n\nPublication and Editorial Service\n\n\n\n\n\n\nReviewer for PEARC21 conference, 2021\nEditor, American Chemical Society Book Series “Computational Science Applications in Nuclear and Radiochemistry”, 2020\nHPC allocation management for University of North Texas HPC allocations, 2015 - 2022\nReviewer for XSEDE EMPOWER Program, 2020\n\n\n\n\n\n\n\n\n\n\nProfessional Organizations\n\n\n\n\n\n\nSenior Scientific Fellow, Institute for Nuclear Security, Howard H. Baker Jr. Center for Public Policy, University of Tennessee, Knoxville, TN (06/2017 – 2024)\n\nFocus: High-Performance Computing applications in national and nuclear security.\n\nMember of ÚNeTe – Latinx Faculty/Staff Alliance at University of North Texas, 2020\nMember of American Chemical Society\n\nDivision of Nuclear Chemistry & Technology (2015 - Present)\nDivision of History (2015 - 2016)\nDivision of Physical Chemistry (2015 - 2016)\n\nMember of Association for Computing Machinery SIGHPC (2020 – 2024)\nXSEDE Campus Champion UNT (06/2016 – 12/2020)\n\nProvides access and application support to researchers and students in NSF eXtreme Scale Engineering Discovery Environment (XSEDE) computational resources.\n\n\n\n\n\n\n\n\n\n\n\nCommittee and Organizational Activities\n\n\n\n\n\n\nMember, AI Accelerator Program, UCLA OARC, 2024\nMember, Diversity, Equity, and Inclusion Action Committee (DEIAC), Nuclear Engineering, University of Tennessee (2020 - Present)\nSocial Media Manager for UNT Research IT Services (2018 - 2020)\nChair, American Chemical Society Annual Meeting, Nuclear Chemistry and Technology Division (ACS NUCL), Session “Data Science & Artificial Intelligence Applications in Nuclear and Radiochemistry” (05/2021, 05/2022, 08/2022, and 08/2023)\nChair, American Chemical Society Annual Meeting, Nuclear Chemistry and Technology Division (ACS NUCL), Session “Computational Methods for Lanthanides & Actinides: Theory & Applications” (08/2020, 05/2020, 08/2019, 05/2019, and 08/2018)\nPresider, American Chemical Society Annual Meeting, Nuclear Chemistry and Technology Division (ACS NUCL), Session “Computational Methods for Lanthanides & Actinides: Theory & Applications” (05/2020, 08/2019, 08/2018, and 05/2018)\nPresider, American Chemical Society Annual Meeting, Division of Physical Chemistry (ACS PHYS), Session “Thermodynamics, reactivity, and spectroscopy of the heavy elements” (05/2014)\n\n\n\n\n\n\n\n\n\n\nProfessional Training\n\n\n\n\n\n\nAI Core Capabilities, UCLA OARC, Training in AI’s furture potential, risks, and direction to deliver effective research-foused AI services to support research at UCLA, 2024\nQMCPack User Workshop, Oak Ridge National Laboratory, TN (05/2019)\n\nWorkshop for current users and developers. Training in added features and planned improvements for the electronic structure code, QMCPACK.\n\nOpenFabrics Alliance Workshop, Austin, TX (03/2017)\n\nFocused on the emerging needs of high-performance networks and discussed challenges in computing over high-speed networks.\n\nDDN EXAScaler Technical Training, Colorado Spring, CO (02/2016)\n\nTraining on high-performance parallel file systems, large data storage, and Lustre design for Big Data projects.\n\nXSEDE/PRACE EU-US HPC Summer School, Dublin, Ireland (06/2012)\n\nSummer school addressing challenges of High-Performance Computing in computational sciences, including interactive training on programming skills and software libraries."
-  },
-  {
-    "objectID": "CV.html#presentations",
-    "href": "CV.html#presentations",
-    "title": "Curriculum Vitae",
-    "section": "Presentations",
-    "text": "Presentations\n\n\n\n\n\n\nSelected Presentations\n\n\n\n\n\n\nCharles C. Peterson, Deborah A. Penchoff “REACKT: Advancing Separations of Lanthanides and Actinides” ACS National Meeting and Expo, Division of Nuclear Chemistry and Technology, Fall 2024.\nCharles C. Peterson, Deborah A. Penchoff “Advanced Computational Strategies for Lanthanide and Actinide Systems” ACS National Meeting and Expo, Division of Nuclear Chemistry and Technology, Fall 2023.\nCharles C. Peterson “Big Data on HPC”, Workshop Series, UCLA, 06/29/2023.\n\n\n\n\n\n\n\n\n\n\nComplete List of Presentations\n\n\n\n\n\n\nCharles C. Peterson, Deborah A. Penchoff “REACKT: Advancing Separations of Lanthanides and Actinides” ACS National Meeting and Expo, Division of Nuclear Chemistry and Technology, Fall 2024.\nCharles C. Peterson, Deborah A. Penchoff “Advanced Computational Strategies for Lanthanide and Actinide Systems” ACS National Meeting and Expo, Division of Nuclear Chemistry and Technology, Fall 2023.\nCharles C. Peterson “Big Data on HPC”, Workshop Series, UCLA, 06/29/2023.\nCharles C. Peterson, “Hoffman2 Happy Hour: Using RStudio”, Workshop Series, UCLA, 09/28/2022.\nCharles C. Peterson, “Hoffman2 Happy Hour: Anaconda”, Workshop Series, UCLA, 09/21/2022.\nCharles C. Peterson, “Building Containers for HPC”, Workshop Series, UCLA, 07/06/2022.\nCharles C. Peterson, “Using Containers on HPC Resources”, Workshop Series, UCLA, 04/20/2022.\nCharles C. Peterson, “Singularity on Hoffman2: Using containers on HPC resources” Workshop Series, UCLA, 04/29/2021.\nCharles C. Peterson, D. A. Penchoff, “Understanding Binding Selectivity of Lanthanide and Actinide Compounds by Computational Protocols” International Workshop on Theory Frontiers in Actinide Sciences: Chemistry and Materials, Santa Fe, NM, 02/2 – 5/2020.\nCharles C. Peterson, D. A. Penchoff, “Understanding Binding Selectivity of Lanthanides and Actinides by Computational Protocols” 64th Annual Radiobioassy & Radiochemical Measurements Conference, Santa Fe, NM, 08/28 – 30/2019.\nCharles C. Peterson “Machine Learning Techniques with High Performance Computing” Invited Webinar, Institute for Nuclear Security, University of Tennessee, Knoxville TN, 08/05/2019.\nCharles C. Peterson, D. A. Penchoff, “Computational protocol for binding selectivity of lanthanide and actinide systems” Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanide & Actinide Chemistry, 258th American Chemical Society National Meeting & Exposition, San Diego CA, 08/ 2019.\nCharles C. Peterson, D. A. Penchoff, H. L. Hall, R. J. Harrison, “Understanding selectivity of lanthanide and actinide compounds by computational techniques” Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanide & Actinide Chemistry, 257th American Chemical Society National Meeting & Exposition, Orlando FL, 05/2019.\nCharles C. Peterson, D. A. Penchoff, H. L. Hall, R. J. Harrison, “Utilizing computational protocols for binding selectivity of lanthanide and actinide compounds”, Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanides & Actinides: Theory & Application, 256th American Chemical Society National Meeting & Exposition, Boston MA, 08/2018.\nCharles C. Peterson, “Understanding structural and thermochemical properties of actinide-containing compounds”, Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanides & Actinides: Theory & Application Session, 255th American Chemical Society National Meeting & Exposition, New Orleans LA, 05/2018.\nCharles Peterson, Deborah A. Penchoff, Robert J. Harrison, “Investigation of the Selectivity of Cyclic Amidoxime Ligands to Uranyl by Theoretical Techniques”, 62nd Conference on Radiobioassay & Radiochemical Measurements, Honolulu, Hawai’i, 02/2017.\nCharles Peterson, Deborah Penchoff, Angela Wilson” Composite Approaches for accurate predictions of lanthanide and actinide chemistry” Division of Computers in Chemistry, Quantum Mechanics Session, 252nd American Chemical Society National Meeting & Exposition, Philadelphia PA, 08/2016.\nCharles Peterson, Deborah Penchoff, Angela Wilson, “Composite Approach Towards Accurate Predictions of Lanthanide and Actinide Thermochemistry” Division of Computers in Chemistry, Quantum Mechanics Session, 251st American Chemical Society National Meeting & Exposition, San Diego CA, 05/2016.\nCharles Peterson, Angela Wilson, “Ab initio Approaches for Accurate Predictions of Lanthanide Thermochemistry”, Division of Physical Chemistry, Physical Chemistry Poster Session 249th American Chemical Society National Meeting & Exposition, Denver CO, 05/2015.\nCharles Peterson, Angela K. Wilson, “Ab initio Approaches for the Predictions of Energetic Properties of Lanthanides”, Division of Physical Chemistry, Thermodynamics, Reactivity, and Spectroscopy of the Heavy Elements Fundamental Advances in Theory and Computation Session, 247th American Chemical Society National Meeting & Exposition, Dallas TX, 05/2014.\nCharles Peterson, Angela K. Wilson, “C-O Bond Activation of Dimethyl Ether by Transition Metal Ions”, 24th Austin Symposium on Molecular Structure and Dynamics at Dallas, 05/2014.\nCharles Peterson, Angela K. Wilson “Designing Advance Ab Initio Composite Methods for Scalable Computing” XSEDE/PRACE EU-US High Performance Computing Summer School, 06/2012, Dublin, Ireland.\nCharles Peterson, Angela K. Wilson, “Accurate Predictions of Energetic Properties using the Multi-Reference correlation consistent Composite Approach (MR-ccCA)”, 22nd Austin Symposium on Molecular Structure and Dynamics, 05/2012.\nCharles Peterson, Angela K. Wilson, “MR-ccCA Predictions of the Energetics of Silicon-containing Compounds”, Physical Division, 44th American Chemical Society Meeting in Miniature, Tarleton State University, 04/2011.\nCharles Peterson, Angela K. Wilson, “MR-ccCA Predictions of the Energetics of Silicon-containing Compounds”, Poster Session, Southwest Theoretical Chemistry Conference, University of North Texas, 10/2010.\nCharles Peterson, Angela K. Wilson, “Application of the Multi-Reference correlation consistent Composite Approach (MR-ccCA)”, Physical Division, 43rd American Chemical Society Meeting in Miniature, University of Texas at Dallas, 04/2010.\n\n\n\n\nBack to Top"
-  },
-  {
-    "objectID": "CV.html#full-publications",
-    "href": "CV.html#full-publications",
-    "title": "Curriculum Vitae",
-    "section": "Full Publications",
-    "text": "Full Publications\n\n\n\n\n\n\nComplete List of Publications\n\n\n\n\n\n[Insert comprehensive list of publications here.]"
-  },
-  {
-    "objectID": "CV.html#full-presentations",
-    "href": "CV.html#full-presentations",
-    "title": "Curriculum Vitae",
-    "section": "Full Presentations",
-    "text": "Full Presentations\n\n\n\n\n\n\nComplete List of Presentations\n\n\n\n\n\n\nCharles C. Peterson, Deborah A. Penchoff “REACKT: Advancing Separations of Lanthanides and Actinides” ACS National Meeting and Expo, Division of Nuclear Chemistry and Technology, Fall 2024.\nCharles C. Peterson, Deborah A. Penchoff “Advanced Computational Strategies for Lanthanide and Actinide Systems” ACS National Meeting and Expo, Division of Nuclear Chemistry and Technology, Fall 2023.\nCharles C. Peterson “Big Data on HPC”, Workshop Series, UCLA, 06/29/2023.\nCharles C. Peterson, “Hoffman2 Happy Hour: Using RStudio”, Workshop Series, UCLA, 09/28/2022.\nCharles C. Peterson, “Hoffman2 Happy Hour: Anaconda”, Workshop Series, UCLA, 09/21/2022.\nCharles C. Peterson, “Building Containers for HPC”, Workshop Series, UCLA, 07/06/2022.\nCharles C. Peterson, “Using Containers on HPC Resources”, Workshop Series, UCLA, 04/20/2022.\nCharles C. Peterson, “Singularity on Hoffman2: Using containers on HPC resources” Workshop Series, UCLA, 04/29/2021.\nCharles C. Peterson, D. A. Penchoff, “Understanding Binding Selectivity of Lanthanide and Actinide Compounds by Computational Protocols” International Workshop on Theory Frontiers in Actinide Sciences: Chemistry and Materials, Santa Fe, NM, 02/2 – 5/2020.\nCharles C. Peterson, D. A. Penchoff, “Understanding Binding Selectivity of Lanthanides and Actinides by Computational Protocols” 64th Annual Radiobioassy & Radiochemical Measurements Conference, Santa Fe, NM, 08/28 – 30/2019.\nCharles C. Peterson “Machine Learning Techniques with High Performance Computing” Invited Webinar, Institute for Nuclear Security, University of Tennessee, Knoxville TN, 08/05/2019.\nCharles C. Peterson, D. A. Penchoff, “Computational protocol for binding selectivity of lanthanide and actinide systems” Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanide & Actinide Chemistry, 258th American Chemical Society National Meeting & Exposition, San Diego CA, 08/ 2019.\nCharles C. Peterson, D. A. Penchoff, H. L. Hall, R. J. Harrison, “Understanding selectivity of lanthanide and actinide compounds by computational techniques” Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanide & Actinide Chemistry, 257th American Chemical Society National Meeting & Exposition, Orlando FL, 05/2019.\nCharles C. Peterson, D. A. Penchoff, H. L. Hall, R. J. Harrison, “Utilizing computational protocols for binding selectivity of lanthanide and actinide compounds”, Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanides & Actinides: Theory & Application, 256th American Chemical Society National Meeting & Exposition, Boston MA, 08/2018.\nCharles C. Peterson, “Understanding structural and thermochemical properties of actinide-containing compounds”, Division of Nuclear Chemistry and Technology, Computational Methods for Lanthanides & Actinides: Theory & Application Session, 255th American Chemical Society National Meeting & Exposition, New Orleans LA, 05/2018.\nCharles Peterson, Deborah A. Penchoff, Robert J. Harrison, “Investigation of the Selectivity of Cyclic Amidoxime Ligands to Uranyl by Theoretical Techniques”, 62nd Conference on Radiobioassay & Radiochemical Measurements, Honolulu, Hawai’i, 02/2017.\nCharles Peterson, Deborah Penchoff, Angela Wilson” Composite Approaches for accurate predictions of lanthanide and actinide chemistry” Division of Computers in Chemistry, Quantum Mechanics Session, 252nd American Chemical Society National Meeting & Exposition, Philadelphia PA, 08/2016.\nCharles Peterson, Deborah Penchoff, Angela Wilson, “Composite Approach Towards Accurate Predictions of Lanthanide and Actinide Thermochemistry” Division of Computers in Chemistry, Quantum Mechanics Session, 251st American Chemical Society National Meeting & Exposition, San Diego CA, 05/2016.\nCharles Peterson, Angela Wilson, “Ab initio Approaches for Accurate Predictions of Lanthanide Thermochemistry”, Division of Physical Chemistry, Physical Chemistry Poster Session 249th American Chemical Society National Meeting & Exposition, Denver CO, 05/2015.\nCharles Peterson, Angela K. Wilson, “Ab initio Approaches for the Predictions of Energetic Properties of Lanthanides”, Division of Physical Chemistry, Thermodynamics, Reactivity, and Spectroscopy of the Heavy Elements Fundamental Advances in Theory and Computation Session, 247th American Chemical Society National Meeting & Exposition, Dallas TX, 05/2014.\nCharles Peterson, Angela K. Wilson, “C-O Bond Activation of Dimethyl Ether by Transition Metal Ions”, 24th Austin Symposium on Molecular Structure and Dynamics at Dallas, 05/2014.\nCharles Peterson, Angela K. Wilson “Designing Advance Ab Initio Composite Methods for Scalable Computing” XSEDE/PRACE EU-US High Performance Computing Summer School, 06/2012, Dublin, Ireland.\nCharles Peterson, Angela K. Wilson, “Accurate Predictions of Energetic Properties using the Multi-Reference correlation consistent Composite Approach (MR-ccCA)”, 22nd Austin Symposium on Molecular Structure and Dynamics, 05/2012.\nCharles Peterson, Angela K. Wilson, “MR-ccCA Predictions of the Energetics of Silicon-containing Compounds”, Physical Division, 44th American Chemical Society Meeting in Miniature, Tarleton State University, 04/2011.\nCharles Peterson, Angela K. Wilson, “MR-ccCA Predictions of the Energetics of Silicon-containing Compounds”, Poster Session, Southwest Theoretical Chemistry Conference, University of North Texas, 10/2010.\nCharles Peterson, Angela K. Wilson, “Application of the Multi-Reference correlation consistent Composite Approach (MR-ccCA)”, Physical Division, 43rd American Chemical Society Meeting in Miniature, University of Texas at Dallas, 04/2010.\n\n\n\n\nBack to Top"
-  },
-  {
-    "objectID": "CV.html#professional-training",
-    "href": "CV.html#professional-training",
-    "title": "Curriculum Vitae",
-    "section": "Professional Training",
-    "text": "Professional Training\n\n\n\n\n\n\nNote\n\n\n\n\n\n\nAI Core Capabilities, Training in understanding of core concepts of AI, future potential, risk, and direction UCLA, 2024\nQMCPack User Workshop, Oak Ridge National Laboratory, TN (05/2019)\n\nWorkshop for current users and developers. Training in added features and planned improvements for the electronic structure code, QMCPACK.\n\nOpenFabrics Alliance Workshop, Austin, TX (03/2017)\n\nFocused on the emerging needs of high-performance networks and discussed challenges in computing over high-speed networks.\n\nDDN EXAScaler Technical Training, Colorado Spring, CO (02/2016)\n\nTraining on high-performance parallel file systems, large data storage, and Lustre design for Big Data projects.\n\nXSEDE/PRACE EU-US HPC Summer School, Dublin, Ireland (06/2012)\n\nSummer school addressing challenges of High-Performance Computing in computational sciences, including interactive training on programming skills and software libraries."
-  },
-  {
-    "objectID": "CV.html#charles-c.-peterson-ph.d.",
-    "href": "CV.html#charles-c.-peterson-ph.d.",
-    "title": "Curriculum Vitae",
+    "objectID": "posts/20220706_MakingContainersWS/index.html",
+    "href": "posts/20220706_MakingContainersWS/index.html",
+    "title": "UCLA Building Containers Workshop",
     "section": "",
-    "text": "High-Performance Computing R&D Scientist\nEmail: Charles.C.Peterson3@gmail.com\nWebsite: CharlesPeterson.dev"
+    "text": "I recently hosted a workshop at UCLA focused on Building Containers for HPC.\nThe workshop took place via Zoom on July 6, 2022.\nYou can find the PDF and Zoom recording in the UCLA ORAC GitHub repository:\nhttps://github.com/ucla-oarc-hpc/WS_MakingContainers\nThis workshop was a follow-up to a previous session on “Using Containers on HPC Resources.” During the event, we concentrated on creating containers to run on HPC resources. We covered building containers using Docker/podman and Apptainer/Singularity and demonstrated how to use Hoffman2 to execute the newly built containers.\nTo follow along with the workshop, participants needed to install Docker or podman and Apptainer or Singularity on a computer with root/admin access. A GitHub or DockerHub account was also required to store the created containers. As a convenience, we provided a VM image for VirtualBox with the necessary software pre-installed.\nIf you have any questions or need further assistance, don’t hesitate to contact me at cpeterson@oarc.ucla.edu."
   },
   {
-    "objectID": "CV.html#charles-c.-peterson-ph.d.-1",
-    "href": "CV.html#charles-c.-peterson-ph.d.-1",
-    "title": "Curriculum Vitae",
-    "section": "Charles C. Peterson, Ph.D.",
-    "text": "Charles C. Peterson, Ph.D.\nHigh-Performance Computing R&D Scientist\nEmail: Charles.C.Peterson3@gmail.com\nWebsite: CharlesPeterson.dev\nDownload Full CV (PDF)"
-  },
-  {
-    "objectID": "index.html#explore-categories",
-    "href": "index.html#explore-categories",
-    "title": "Advancing HPC Infrastructure & Computational Chemistry Research",
+    "objectID": "posts/20210429_Singularity/index.html",
+    "href": "posts/20210429_Singularity/index.html",
+    "title": "UCLA Singularity Workshop",
     "section": "",
-    "text": "Discover content by topic:"
+    "text": "In this post, I am sharing the link to a workshop I conducted on using Singularity on Hoffman2, UCLA’s High-Performance Computing (HPC) cluster. This workshop marked my first teaching experience at UCLA!\nThe workshop was conducted via Zoom on April 29, 2021.\nYou can find the repository containing the workshop materials, including the PDF presentation and Zoom recording, on UCLA’s OARC GitHub site:\nhttps://github.com/ucla-oarc-hpc/hpc_workshops\nDuring the workshop, I provided a basic lecture on how to use Singularity for managing containers on Hoffman2. The GitHub repository also contains example containers that demonstrate how to work with Python and various packages, such as TensorFlow and PySCF. Additionally, there are examples of using GPU containers.\nKeep an eye out for more updates on using Singularity on Hoffman2!"
   },
   {
-    "objectID": "index.html#my-stories",
-    "href": "index.html#my-stories",
-    "title": "Advancing HPC Infrastructure & Computational Chemistry Research",
+    "objectID": "posts/20221213_PaperLaAc/index.html",
+    "href": "posts/20221213_PaperLaAc/index.html",
+    "title": "Combining Molecular Modeling with ML for Enhanced Predictive Analysis",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\nReading Time\n\n\n\n\n\n\n\n\n\nAug 21, 2024\n\n\nACS Fall 2024\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nJul 24, 2024\n\n\nCNF HPC/AI Workshop\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nMay 1, 2024\n\n\nUCLA GPU Workshop\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nOct 19, 2023\n\n\nAdvancing Orbital Optimization: Published Research\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nOct 19, 2023\n\n\nAI-Driven Solutions for Environmental Remediation\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nAug 13, 2023\n\n\nLeading AI Innovations in Nuclear Chemistry at ACS Fall 2023\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nApr 15, 2023\n\n\nAdvancing Nuclear Tech with HPC Panel\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nApr 12, 2023\n\n\nMastering Container Creation: UCLA HPC Workshop Recap\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nApr 5, 2023\n\n\nMastering Containerization for HPC: UCLA Workshop Recap\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nHoffman2 Happy Hour: Exploring RStudio on HPC\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nDec 13, 2022\n\n\nCombining Molecular Modeling with ML for Enhanced Predictive Analysis\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nOct 24, 2022\n\n\nExploring Big Data on HPC: Workshop Recap\n\n\nCharles Peterson\n\n\n2 min\n\n\n\n\n\n\n\nJul 22, 2022\n\n\nPaper on Numerically Exact Orbitals\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nJul 6, 2022\n\n\nUCLA Building Containers Workshop\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nJun 29, 2022\n\n\nHoffman2 Happy Hour - Anaconda\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nApr 20, 2022\n\n\nUCLA Containers Workshop\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nMar 30, 2022\n\n\nHoffman2 Happy Hour - Rstudio\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nDec 31, 2021\n\n\nACS Book Published\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nJul 3, 2021\n\n\nUCLA Singularity Workshop\n\n\nCharles Peterson\n\n\n1 min\n\n\n\n\n\n\n\nJun 30, 2021\n\n\nQuill Program for SCF Calculations\n\n\nCharles Peterson\n\n\n7 min\n\n\n\n\n\nNo matching items"
+    "text": "Our research paper, “Evaluations of molecular modeling and machine learning for predictive capabilities in binding of lanthanum and actinium with carboxylic acids,” was published in the Journal of Radioanalytical and Nuclear Chemistry on December 13, 2022. I extend my sincere appreciation to my co-authors: Deborah A. Penchoff, Eleigha M. Wrancher, George Bosilca, Robert J. Harrison, Edward F. Valeev, and Paul D. Benny for their collaborative efforts and contributions.\nRead the full paper here\n\n\nOptimization of separations for selective binding of rare earth elements and actinides is critical to guarantee a supply of materials essential to needs including national security and defense, technology, medicine, and communications. Computational modeling is key to accelerate solutions for selective separations; however, tools to predict accurate representations of the physical systems of interest require high performance computing resources to be developed to facilitate robust modeling. This study evaluates computational molecular modeling and machine learning applications on property analysis relevant to the binding of lanthanum and actinium with carboxylic acids. It focuses on assessing accuracy of computational predictions based on benchmark computational results due to lack of experimental information. Properties evaluated include Gibbs free energies of reaction, relativistic effects, diagnostics, partial charges, structural characteristics, and coordination sphere and equivalent volume."
+  },
+  {
+    "objectID": "posts/20221213_PaperLaAc/index.html#abstract",
+    "href": "posts/20221213_PaperLaAc/index.html#abstract",
+    "title": "Combining Molecular Modeling with ML for Enhanced Predictive Analysis",
+    "section": "",
+    "text": "Optimization of separations for selective binding of rare earth elements and actinides is critical to guarantee a supply of materials essential to needs including national security and defense, technology, medicine, and communications. Computational modeling is key to accelerate solutions for selective separations; however, tools to predict accurate representations of the physical systems of interest require high performance computing resources to be developed to facilitate robust modeling. This study evaluates computational molecular modeling and machine learning applications on property analysis relevant to the binding of lanthanum and actinium with carboxylic acids. It focuses on assessing accuracy of computational predictions based on benchmark computational results due to lack of experimental information. Properties evaluated include Gibbs free energies of reaction, relativistic effects, diagnostics, partial charges, structural characteristics, and coordination sphere and equivalent volume."
+  },
+  {
+    "objectID": "posts/20230415_HPC_Nuclear_panel/index.html",
+    "href": "posts/20230415_HPC_Nuclear_panel/index.html",
+    "title": "Advancing Nuclear Tech with HPC Panel",
+    "section": "",
+    "text": "High-Performance Computing Panel at the ANS Student Conference\nI had the privilege of participating in a panel titled “High-Performance Computing in Nuclear Technology,” held during the American Nuclear Society Student Conference on April 15, 2023.\nThe focus was on the pivotal role of High-Performance Computing (HPC) and its transformative impact over the past decade, especially with the advent of Exascale computing. HPC has proven instrumental in propelling research and innovation across various fields, including climate science, healthcare, material science, and national security, by enabling more complex and detailed simulations than ever before.\nThis panel served as an engaging platform for students to explore the integration of HPC in nuclear science and engineering, featuring enlightening presentations on the evolution of HPC, its scalability, performance characteristics, and a lively discussion on the latest advancements and persisting challenges within HPC applications.\n\n\n\nInsights from the HPC Panel Discussion"
+  },
+  {
+    "objectID": "posts/20220722_Paper/index.html",
+    "href": "posts/20220722_Paper/index.html",
+    "title": "Paper on Numerically Exact Orbitals",
+    "section": "",
+    "text": "I am excited to share a new paper that I have co-authored with my esteemed colleagues, Edward F. Valeev, Robert J. Harrison, and Deborah A. Penchoff.\nIn this work, we present a method for determining nearly numerically exact orthonormal orbitals that are optimal for evaluating the energy of arbitrary (correlated) states of atoms and molecules by minimizing the energy Lagrangian. The orbitals are expressed in real space using a multiresolution spectral element basis that is adaptively refined to achieve the user-specified target precision while avoiding the ill-conditioning issues typically associated with AO basis set expansions in traditional correlated models of molecular electronic structure.\nOur orbital solver, combined with a variational electronic structure model (selected Configuration Interaction or CI), provides energies of comparable precision to a state-of-the-art atomic CI solver for light atoms. The calculated electronic energies of atoms and molecules are significantly more accurate than those obtained with Gaussian AO bases of the same rank. Furthermore, our method can determine these energies even when linear dependence issues preclude the use of AO bases."
+  },
+  {
+    "objectID": "posts/20220629_H2HH_anaconda/index.html",
+    "href": "posts/20220629_H2HH_anaconda/index.html",
+    "title": "Hoffman2 Happy Hour - Anaconda",
+    "section": "",
+    "text": "UCLA hosts a series of interactive workshops called Hoffman2 Happy Hour (H2HH). These sessions focus on various topics related to high-performance computing (HPC).\nThis particular workshop took place via Zoom on June 29, 2022.\nYou can find the PDF and Zoom recording in the UCLA IDRE GitHub repository:\nhttps://github.com/ucla-oarc-hpc/hpc_workshops\nDuring this H2HH session, we discussed using Anaconda on HPC, specifically on Hoffman2. The workshop covered tips and tricks for utilizing Anaconda effectively in an HPC environment.\nKeep an eye out for more informative workshops from the Hoffman2 team!"
+  },
+  {
+    "objectID": "posts/20230813_ACSFall2023/index.html",
+    "href": "posts/20230813_ACSFall2023/index.html",
+    "title": "Leading AI Innovations in Nuclear Chemistry at ACS Fall 2023",
+    "section": "",
+    "text": "At the prestigious American Chemical Society Fall 2023 Meeting, I had the honor of co-chairing a session within the Nuclear Division, titled “Data Science and Artificial Intelligence Applications in Nuclear and Radiochemistry.”\nThis session not only showcased groundbreaking research but also served as a platform for discussing the transformative impact of data science and AI on the field of nuclear and radiochemistry. Highlighting the event was my presentation, “Advanced Computational Strategies for Lanthanide and Actinide Systems,” where I delved into the latest computational methodologies enhancing our understanding and manipulation of these complex elements.\nThe discourse generated from this session underscored the vital role of AI and computational chemistry in advancing nuclear science, promising innovative solutions to longstanding challenges in the field.\n\n\nAuthors: Charles C. Peterson, Deborah A. Penchoff\nAffiliations: 1. Office of Advanced Research Computing, University of California, Los Angeles, California, United States 2. Innovative Computing Laboratory, University of Tennessee, Knoxville, Tennessee, United States\nContact: Peterson, cpeterson@oarc.ucla.edu Penchoff, dpenchof@utk.edu\nModeling lanthanide and actinide chemistry through accurate computational methodologies is important to better understand binding selectivity of lanthanides and actinides in nuclear and radiochemical applications. This is crucial for nuclear forensics, designing separation agents, and understanding spectra. Theoretical predictions using molecular modeling methods, such as ab initio and DFT, have been popular to simulate binding interactions. Computational protocols are determined with highly accurate predictions that include effects from relativity, spin-orbit coupling, and core correlation. Using modern data modeling methods, like Artificial Intelligence techniques including Machine Learning, can be insightful to understand binding selectivity properties."
+  },
+  {
+    "objectID": "posts/20230813_ACSFall2023/index.html#advanced-computational-strategies-for-lanthanide-and-actinide-systems",
+    "href": "posts/20230813_ACSFall2023/index.html#advanced-computational-strategies-for-lanthanide-and-actinide-systems",
+    "title": "Leading AI Innovations in Nuclear Chemistry at ACS Fall 2023",
+    "section": "",
+    "text": "Authors: Charles C. Peterson, Deborah A. Penchoff\nAffiliations: 1. Office of Advanced Research Computing, University of California, Los Angeles, California, United States 2. Innovative Computing Laboratory, University of Tennessee, Knoxville, Tennessee, United States\nContact: Peterson, cpeterson@oarc.ucla.edu Penchoff, dpenchof@utk.edu\nModeling lanthanide and actinide chemistry through accurate computational methodologies is important to better understand binding selectivity of lanthanides and actinides in nuclear and radiochemical applications. This is crucial for nuclear forensics, designing separation agents, and understanding spectra. Theoretical predictions using molecular modeling methods, such as ab initio and DFT, have been popular to simulate binding interactions. Computational protocols are determined with highly accurate predictions that include effects from relativity, spin-orbit coupling, and core correlation. Using modern data modeling methods, like Artificial Intelligence techniques including Machine Learning, can be insightful to understand binding selectivity properties."
+  },
+  {
+    "objectID": "posts/20231219_paperpublish/index.html",
+    "href": "posts/20231219_paperpublish/index.html",
+    "title": "Advancing Orbital Optimization: Published Research",
+    "section": "",
+    "text": "I’m thrilled to announce the publication of our paper, “Economical quasi-Newton unitary optimization of electronic orbitals,” in Physical Chemistry Chemical Physics on December 19, 2023. My heartfelt gratitude goes to my fellow authors: Samuel A. Slattery, Kshitijkumar A. Surjuse, Deborah A. Penchoff, and Edward F. Valeev for their invaluable contributions to this work.\nAccess the full paper here\n\n\nWe present an efficient quasi-Newton orbital solver optimized to reduce the number of gradient evaluations and other computational steps of comparable cost. The solver optimizes orthogonal orbitals by sequences of unitary rotations generated by the (preconditioned) limited-memory Broyden–Fletcher–Goldfarb–Shanno (L-BFGS) algorithm equipped with trust-region step restriction. The low-rank structure of the L-BFGS inverse Hessian is exploited when solving the trust-region problem. The efficiency of the proposed “Quasi-Newton Unitary Optimization with Trust-Region” (QUOTR) solver is compared to that of the standard Roothaan–Hall approach accelerated by the Direct Inversion of Iterative Subspace (DIIS), and other exact and approximate Newton solvers for mean-field (Hartree–Fock and Kohn–Sham) problems."
+  },
+  {
+    "objectID": "posts/20231219_paperpublish/index.html#abstract",
+    "href": "posts/20231219_paperpublish/index.html#abstract",
+    "title": "Advancing Orbital Optimization: Published Research",
+    "section": "",
+    "text": "We present an efficient quasi-Newton orbital solver optimized to reduce the number of gradient evaluations and other computational steps of comparable cost. The solver optimizes orthogonal orbitals by sequences of unitary rotations generated by the (preconditioned) limited-memory Broyden–Fletcher–Goldfarb–Shanno (L-BFGS) algorithm equipped with trust-region step restriction. The low-rank structure of the L-BFGS inverse Hessian is exploited when solving the trust-region problem. The efficiency of the proposed “Quasi-Newton Unitary Optimization with Trust-Region” (QUOTR) solver is compared to that of the standard Roothaan–Hall approach accelerated by the Direct Inversion of Iterative Subspace (DIIS), and other exact and approximate Newton solvers for mean-field (Hartree–Fock and Kohn–Sham) problems."
+  },
+  {
+    "objectID": "posts/20240724_CNFWorkshop/index.html",
+    "href": "posts/20240724_CNFWorkshop/index.html",
+    "title": "CNF HPC/AI Workshop",
+    "section": "",
+    "text": "We recently had the opportunity to collaborate with the Consortium for Nuclear Forensics (CNF) to host a workshop at Berkeley National Laboratory on July 24, 2024. This workshop was designed for undergraduate students, introducing them to the essential concepts of High-Performance Computing (HPC) and Artificial Intelligence (AI) as they relate to nuclear applications.\nDuring the workshop, participants explored a variety of HPC and AI tools, with hands-on examples that included predicting energies using NWChem. Students also learned how to train machine learning models based on data, gaining valuable insights into the intersection of computational power and nuclear science.\nThis event provided a unique opportunity for budding scientists to engage with cutting-edge technology, bridging the gap between theoretical knowledge and practical application in the field of nuclear forensics."
+  },
+  {
+    "objectID": "posts/20211231_ACS_book/index.html",
+    "href": "posts/20211231_ACS_book/index.html",
+    "title": "ACS Book Published",
+    "section": "",
+    "text": "I’m excited to announce that after a couple of years of hard work, a new ACS (American Chemical Society) book in the ACS Symposium Series has been published. This book is based on the ACS session that Deborah Penchoff, Theresa Windus, and I organized.\nThe book features numerous insightful chapters that discuss current advances and challenges in nuclear and radiochemistry, with a focus on computational approaches.\nYou can view the book at https://pubs.acs.org/doi/book/10.1021/bk-2021-1388."
+  },
+  {
+    "objectID": "posts/20231019_AI_Env_meeting/index.html",
+    "href": "posts/20231019_AI_Env_meeting/index.html",
+    "title": "AI-Driven Solutions for Environmental Remediation",
+    "section": "",
+    "text": "Collaborative Meeting on AI for Environmental Remediation\nFunded by the AI Tennessee Initiative, the AI for Environmental Remediation Project aims to leverage artificial intelligence technologies to mitigate environmental harm caused by nuclear and radiochemical activities. This project develops research and development initiatives that promote sustainability. The primary objectives include utilizing AI to minimize environmental pollution from human-made sources and create eco-friendly methods for separating Rare Earth Elements (REEs).\nThe collaborative event, held from July 17 to 19, 2023, marked a significant milestone in fostering synchronized collaboration among various researchers. This meeting underscored the importance of innovative approaches in tackling environmental challenges and advancing sustainability efforts.\n\n\n\nProject Collaboration Meeting"
+  },
+  {
+    "objectID": "posts/20240821_ACSfall2024/index.html",
+    "href": "posts/20240821_ACSfall2024/index.html",
+    "title": "ACS Fall 2024",
+    "section": "",
+    "text": "REACKT: Advancing Separations of Lanthanides and Actinides: ACS Fall 2024\nI recently presented at the ACS Fall 2024 meeting, delivering a talk titled “REACKT: Advancing Separations of Lanthanides and Actinides.” This presentation highlighted the innovative strides made by the REACKT project in improving the separation processes for these critical elements.\n\nAbstract:\nThe elucidation of the binding selectivity of lanthanides and actinides is quintessential for advancing nuclear and radiochemical applications, encompassing nuclear forensics, the design of separation agents, and the interpretation of spectra. Theoretical investigations employing molecular modeling methods, such as ab initio and Density Functional Theory (DFT), have been instrumental in simulating binding interactions, with computational protocols being refined for superior accuracy encompassing relativity, spin-orbit coupling, and core correlation effects. The integration of contemporary data modeling approaches, like Artificial Intelligence (AI) and Machine Learning (ML), further augments our understanding of binding selectivity properties. A notable stride in this domain is the advent of the REACKT program, which endeavors to bolster the precision and efficiency of computational methodologies. This presentation delineates the development and integration of computational protocols within the REACKT framework, illustrating how this program propels the frontier of lanthanide and actinide chemistry modeling. By leveraging the REACKT program, we elucidate how a synergistic blend of traditional computational chemistry methods and modern data analytics can significantly enhance predictive accuracy and provide deeper insights into the complex behavior of lanthanide and actinide systems."
+  },
+  {
+    "objectID": "posts/202405012024_WS_GPU/index.html",
+    "href": "posts/202405012024_WS_GPU/index.html",
+    "title": "UCLA GPU Workshop",
+    "section": "",
+    "text": "In our latest workshop, “Optimizing Research with GPUs on Hoffman2,” computing professionals and researchers had the chance to explore the immense potential of GPU computing in high-performance research environments. Whether they were newcomers to GPU programming or seasoned veterans, participants found valuable insights tailored to their expertise levels.\nThis workshop focused on equipping attendees with the essential skills needed to harness the power of GPUs, particularly within Python and R environments. We delved into the core concepts of GPU computing, starting with an overview of general-purpose GPU processing and quickly moving into practical applications.\nA highlight of the workshop was the deep dive into CUDA programming for NVIDIA GPUs. Participants learned to optimize their code by mastering memory management techniques, parallel computing strategies, and other advanced GPU coding practices. These skills are crucial for those looking to push the boundaries of computational efficiency in their research projects.\nThe hands-on sessions provided a robust platform for attendees to implement what they learned in real-time, experimenting with various GPU codes and observing the performance gains firsthand. By the end of the workshop, participants were well-equipped to integrate GPU computing into their workflows, significantly boosting the speed and efficiency of their research on the Hoffman2 cluster.\nThis event underscored the transformative power of GPUs in research, offering a pathway for professionals to elevate their computational capabilities and achieve new levels of innovation."
+  },
+  {
+    "objectID": "posts/20220330_H2HH_Rstudio/index.html",
+    "href": "posts/20220330_H2HH_Rstudio/index.html",
+    "title": "Hoffman2 Happy Hour - Rstudio",
+    "section": "",
+    "text": "At UCLA, we have a series of workshops named Hoffman2 Happy Hour (H2HH). These workshops are small, interactive talks based on a certain topic relating to HPC.\nThis Workshop took place via Zoom on March 30, 2022.\nThe repo containing the pdf and zoom recording is located on UCLA’s IDRE github site\nhttps://github.com/ucla-oarc-hpc/hpc_workshops\nThis was based on using Rstudio on UCLA’s Hoffman2 resource. I had setup a Container with Rstudio Server that can be used on Hoffman2.\nStay tuned for more workshops from the Hoffman2 Team!"
+  },
+  {
+    "objectID": "posts/20230329_H2HH_Rstudio/index.html",
+    "href": "posts/20230329_H2HH_Rstudio/index.html",
+    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
+    "section": "",
+    "text": "Welcome to the exciting world of Hoffman2 Happy Hour (H2HH) workshops at UCLA! These interactive sessions are designed to offer participants valuable insights into various topics related to high-performance computing (HPC). Each workshop is carefully curated to promote an engaging and informative experience."
+  },
+  {
+    "objectID": "posts/20230329_H2HH_Rstudio/index.html#introducing-hoffman2-happy-hour-workshops",
+    "href": "posts/20230329_H2HH_Rstudio/index.html#introducing-hoffman2-happy-hour-workshops",
+    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
+    "section": "",
+    "text": "Welcome to the exciting world of Hoffman2 Happy Hour (H2HH) workshops at UCLA! These interactive sessions are designed to offer participants valuable insights into various topics related to high-performance computing (HPC). Each workshop is carefully curated to promote an engaging and informative experience."
+  },
+  {
+    "objectID": "posts/20230329_H2HH_Rstudio/index.html#spotlight-on-rstudio",
+    "href": "posts/20230329_H2HH_Rstudio/index.html#spotlight-on-rstudio",
+    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
+    "section": "Spotlight on RStudio",
+    "text": "Spotlight on RStudio\nOur most recent H2HH workshop, held on March 29, 2023, focused on the use of RStudio—an integrated development environment (IDE) for R programming—on UCLA’s Hoffman2 HPC resource. The virtual workshop took place via Zoom and was met with an enthusiastic response from attendees."
+  },
+  {
+    "objectID": "posts/20230329_H2HH_Rstudio/index.html#exploring-rstudio-on-hoffman2",
+    "href": "posts/20230329_H2HH_Rstudio/index.html#exploring-rstudio-on-hoffman2",
+    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
+    "section": "Exploring RStudio on Hoffman2",
+    "text": "Exploring RStudio on Hoffman2\nDuring the workshop, I demonstrated how to set up and use an RStudio Server container on Hoffman2. This containerized approach allows users to harness the full potential of RStudio in an HPC environment, enabling them to tackle complex data analysis and visualization tasks with ease."
+  },
+  {
+    "objectID": "posts/20230329_H2HH_Rstudio/index.html#access-workshop-materials",
+    "href": "posts/20230329_H2HH_Rstudio/index.html#access-workshop-materials",
+    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
+    "section": "Access Workshop Materials",
+    "text": "Access Workshop Materials\nFor those who couldn’t attend or would like to revisit the content, we’ve made the workshop materials, including the presentation PDF and Zoom recording, available on UCLA’s IDRE GitHub site. Feel free to explore the repository using the following link:\nH2HH RStudio Workshop Materials (GitHub)"
+  },
+  {
+    "objectID": "posts/20230329_H2HH_Rstudio/index.html#looking-ahead",
+    "href": "posts/20230329_H2HH_Rstudio/index.html#looking-ahead",
+    "title": "Hoffman2 Happy Hour: Exploring RStudio on HPC",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThe Hoffman2 Team is committed to empowering the research community with the knowledge and tools necessary for success in the HPC domain. Stay tuned for more workshops in the future, as we continue to explore and share the many facets of high-performance computing!\nThank you for joining us on this journey, and we look forward to seeing you at the next Hoffman2 Happy Hour workshop!"
+  },
+  {
+    "objectID": "posts/20220420_ContainersWS/index.html",
+    "href": "posts/20220420_ContainersWS/index.html",
+    "title": "UCLA Containers Workshop",
+    "section": "",
+    "text": "I recently hosted a workshop on Using Containers for HPC at UCLA.\nThe workshop took place via Zoom on April 20, 2022.\nYou can find the PDF and Zoom recording in the UCLA ORAC GitHub repository:\nhttps://github.com/ucla-oarc-hpc/WS_containers\nDuring the workshop, I covered using Singularity/Apptainer and Docker containers to run on HPC resources, such as UCLA’s Hoffman2 resource. Additionally, I provided examples for using GPUs and MPI applications with containers.\nStay tuned for a follow-up workshop this summer focusing on building containers for HPC."
+  },
+  {
+    "objectID": "posts/20230405_ContainersWS/index.html",
+    "href": "posts/20230405_ContainersWS/index.html",
+    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
+    "section": "",
+    "text": "The world of high-performance computing (HPC) is ever-evolving, and containerization has emerged as a powerful tool in the HPC ecosystem. I recently had the opportunity to host an engaging and informative workshop titled Using Containers for HPC at the University of California, Los Angeles (UCLA)."
+  },
+  {
+    "objectID": "posts/20230405_ContainersWS/index.html#overview",
+    "href": "posts/20230405_ContainersWS/index.html#overview",
+    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
+    "section": "",
+    "text": "The world of high-performance computing (HPC) is ever-evolving, and containerization has emerged as a powerful tool in the HPC ecosystem. I recently had the opportunity to host an engaging and informative workshop titled Using Containers for HPC at the University of California, Los Angeles (UCLA)."
+  },
+  {
+    "objectID": "posts/20230405_ContainersWS/index.html#workshop-details",
+    "href": "posts/20230405_ContainersWS/index.html#workshop-details",
+    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
+    "section": "Workshop Details",
+    "text": "Workshop Details\n\nDate: April 5, 2023\nLocation: Virtual (via Zoom)"
+  },
+  {
+    "objectID": "posts/20230405_ContainersWS/index.html#unlocking-the-power-of-containers",
+    "href": "posts/20230405_ContainersWS/index.html#unlocking-the-power-of-containers",
+    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
+    "section": "Unlocking the Power of Containers",
+    "text": "Unlocking the Power of Containers\nDuring the workshop, participants gained valuable insights into using containers to enhance their HPC workflows. We discussed two widely-used containerization platforms: Singularity/Apptainer and Docker. These platforms allow users to create, deploy, and run applications in a self-contained environment, streamlining the process of managing software dependencies.\nWe explored the use of containers on UCLA’s Hoffman2 HPC resource and delved into practical examples, including:\n\nUsing containers with Graphics Processing Units (GPUs) for accelerated computing.\nRunning Message Passing Interface (MPI) applications within containers for distributed computing."
+  },
+  {
+    "objectID": "posts/20230405_ContainersWS/index.html#access-workshop-resources",
+    "href": "posts/20230405_ContainersWS/index.html#access-workshop-resources",
+    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
+    "section": "Access Workshop Resources",
+    "text": "Access Workshop Resources\nWhether you’re new to containerization or seeking to deepen your understanding, the workshop materials are a valuable resource. The presentation PDF and Zoom recording are available in the UCLA ORAC GitHub repository. You can access them using the following link:\nWorkshop Materials: Using Containers for HPC (GitHub)"
+  },
+  {
+    "objectID": "posts/20230405_ContainersWS/index.html#final-thoughts",
+    "href": "posts/20230405_ContainersWS/index.html#final-thoughts",
+    "title": "Mastering Containerization for HPC: UCLA Workshop Recap",
+    "section": "Final Thoughts",
+    "text": "Final Thoughts\nThe workshop served as a platform to share knowledge and foster collaborative learning within the HPC community. Containerization is an integral part of modern HPC, and we are excited to continue exploring its potential in future workshops.\nThank you for your interest in the UCLA Containers Workshop, and we look forward to hosting more such events in the future!"
+  },
+  {
+    "objectID": "posts/20210630_QUILL/index.html",
+    "href": "posts/20210630_QUILL/index.html",
+    "title": "Quill Program for SCF Calculations",
+    "section": "",
+    "text": "Program Quill\nI’ve recently updated a small, straightforward Hartree Fock program, primarily written in C, on my GitHub page. I primarily developed this code to understand how SCF/HF works.\nThe program is named after my pet hedgehog, Quill Riker.\nYou can find the code on my GitHub page at https://github.com/charliecpeterson/QUILL\nThis program utilizes PySCF and libcint to generate the 1e/2e integrals. It also employs the Eigen3 API for all matrix and linear algebra routines.\nThe input format is similar to NWChem. In the GitHub repository, there is a sample input file named input.inp.\ngeometry\nC  -0.000000000000   0.000000000000   0.000000000000\nH   1.183771681898  -1.183771681898  -1.183771681898\nH   1.183771681898   1.183771681898   1.183771681898\nH  -1.183771681898   1.183771681898  -1.183771681898\nH  -1.183771681898  -1.183771681898   1.183771681898\nend\nbasis\nH    S\n      3.387000E+01           6.068000E-03           0.000000E+00           0.000000E+00\n      5.095000E+00           4.530800E-02           0.000000E+00           0.000000E+00\n      1.159000E+00           2.028220E-01           0.000000E+00           0.000000E+00\n      3.258000E-01           5.039030E-01           1.000000E+00           0.000000E+00\n      1.027000E-01           3.834210E-01           0.000000E+00           1.000000E+00\nH    P\n      1.407000E+00           1.000000E+00           0.000000E+00\n      3.880000E-01           0.000000E+00           1.000000E+00\nH    D\n      1.057000E+00           1.0000000\nC    S\n      8.236000E+03           5.310000E-04          -1.130000E-04           0.000000E+00           0.000000E+00\n      1.235000E+03           4.108000E-03          -8.780000E-04           0.000000E+00           0.000000E+00\n      2.808000E+02           2.108700E-02          -4.540000E-03           0.000000E+00           0.000000E+00\n      7.927000E+01           8.185300E-02          -1.813300E-02           0.000000E+00           0.000000E+00\n      2.559000E+01           2.348170E-01          -5.576000E-02           0.000000E+00           0.000000E+00\n      8.997000E+00           4.344010E-01          -1.268950E-01           0.000000E+00           0.000000E+00\n      3.319000E+00           3.461290E-01          -1.703520E-01           0.000000E+00           0.000000E+00\n      9.059000E-01           3.937800E-02           1.403820E-01           1.000000E+00           0.000000E+00\n      3.643000E-01          -8.983000E-03           5.986840E-01           0.000000E+00           0.000000E+00\n      1.285000E-01           2.385000E-03           3.953890E-01           0.000000E+00           1.000000E+00\nC    P\n      1.871000E+01           1.403100E-02           0.000000E+00           0.000000E+00\n      4.133000E+00           8.686600E-02           0.000000E+00           0.000000E+00\n      1.200000E+00           2.902160E-01           0.000000E+00           0.000000E+00\n      3.827000E-01           5.010080E-01           1.000000E+00           0.000000E+00\n      1.209000E-01           3.434060E-01           0.000000E+00           1.000000E+00\nC    D\n      1.097000E+00           1.000000E+00           0.000000E+00\n      3.180000E-01           0.000000E+00           1.000000E+00\nC    F\n      7.610000E-01           1.0000000\nend\nscf\nnum_elec 10\nend\nCurrently, the code accepts only three input blocks:\n\ngeometry\nbasis\nscf\n\nThe geometry and basis blocks closely resemble NWChem, with the basis set format being identical to NWChem.\nThe scf block accepts only num_elec. This code exclusively supports RHF. It works for single reference, closed-shell systems ONLY.\nI have tested this program on several compounds, and the energy difference from PySCF results is about 10^-2 atomic units. More work is required.\nI plan to use this program as a starting point for adding and testing new libraries to run computational chemistry methods, particularly for Exascale systems.\nFeel free to contact me for more information!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Charles Peterson",
+    "section": "",
+    "text": "I’m Charles (Charlie) Peterson. With over a decade of experience in High-Performance Computing (HPC) and a solid foundation in artificial intelligence and machine learning, I’m a Senior HPC System Administrator at UCLA and a passionate researcher in computational chemistry.\n\n\nMy journey in HPC has been marked by collaboration with scientists across various disciplines such as chemistry, physics, and material science. I’ve dedicated my career to optimizing the interface between hardware and software, enhancing the performance and capability of scientific applications. This has involved not only managing and improving complex computing systems but also innovating and implementing solutions that advance the boundaries of research.\n\n\n\nParallel to my administrative role, I engage deeply in computational chemistry. My research is focused on developing advanced methods to accurately predict chemical properties of f-element containing compounds, vital for nuclear forensics and separation chemistry. My expertise in AI/ML has been instrumental in this quest, helping to drive innovation and expand the capabilities of computational research in these critical areas.\n\n\n\nThroughout my career, I’ve seen firsthand the transformative impact of HPC on research. My dual focus on practical system administration and theoretical innovation allows me to uniquely contribute to the ongoing evolution of scientific computing. I am committed to fostering a collaborative environment, bridging gaps between disciplines, and helping teams leverage the power of HPC for groundbreaking discoveries.\n\n\n\nLet’s make a connection that matters. Whether you’re interested in HPC, AI/ML, computational chemistry, or simply want to discuss the future of technology and research, I’m here for it.\nFind me on Email, Twitter, LinkedIn, and Github Bluesky."
+  },
+  {
+    "objectID": "about.html#professional-journey",
+    "href": "about.html#professional-journey",
+    "title": "About Charles Peterson",
+    "section": "",
+    "text": "My journey in HPC has been marked by collaboration with scientists across various disciplines such as chemistry, physics, and material science. I’ve dedicated my career to optimizing the interface between hardware and software, enhancing the performance and capability of scientific applications. This has involved not only managing and improving complex computing systems but also innovating and implementing solutions that advance the boundaries of research."
+  },
+  {
+    "objectID": "about.html#independent-research",
+    "href": "about.html#independent-research",
+    "title": "About Charles Peterson",
+    "section": "",
+    "text": "Parallel to my administrative role, I engage deeply in computational chemistry. My research is focused on developing advanced methods to accurately predict chemical properties of f-element containing compounds, vital for nuclear forensics and separation chemistry. My expertise in AI/ML has been instrumental in this quest, helping to drive innovation and expand the capabilities of computational research in these critical areas."
+  },
+  {
+    "objectID": "about.html#collaboration-and-impact",
+    "href": "about.html#collaboration-and-impact",
+    "title": "About Charles Peterson",
+    "section": "",
+    "text": "Throughout my career, I’ve seen firsthand the transformative impact of HPC on research. My dual focus on practical system administration and theoretical innovation allows me to uniquely contribute to the ongoing evolution of scientific computing. I am committed to fostering a collaborative environment, bridging gaps between disciplines, and helping teams leverage the power of HPC for groundbreaking discoveries."
+  },
+  {
+    "objectID": "about.html#connect-with-me",
+    "href": "about.html#connect-with-me",
+    "title": "About Charles Peterson",
+    "section": "",
+    "text": "Let’s make a connection that matters. Whether you’re interested in HPC, AI/ML, computational chemistry, or simply want to discuss the future of technology and research, I’m here for it.\nFind me on Email, Twitter, LinkedIn, and Github Bluesky."
   }
 ]
