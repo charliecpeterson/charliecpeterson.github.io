@@ -38,10 +38,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-79108a0fc1995748cbd19a5b0e3e3e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8ffd7f1e529eda5844282197c47c8d38.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-b2511bcbb01c2159fd96a78deb42ffd9.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -80,10 +82,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 18,
+      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      page: 5,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -140,7 +142,6 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -185,6 +186,7 @@ window.Quarto = {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -192,13 +194,13 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
+    <div class="quarto-title column-page">
       <h1 class="title">Advancing HPC Infrastructure &amp; Computational Chemistry Research</h1>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta column-page">
 
       
     
@@ -209,11 +211,9 @@ window.Quarto = {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(20)</span></div><div class="category" data-category="QUNT">ACS <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ==">Artificial Intelligence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QmlnJTIwRGF0YQ==">Big Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Qw==">C <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q05G">CNF <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2hlbWlzdHJ5">Chemistry <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Q29udGFpbmVycw==">Containers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SDJISA==">H2HH <span class="quarto-category-count">(3)</span></div><div class="category" data-category="SFBD">HPC <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWVldGluZw==">Meeting <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UlN0dWRpbw==">RStudio <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VUNMQQ==">UCLA <span class="quarto-category-count">(10)</span></div><div class="category" data-category="V29ya3Nob3Bz">Workshops <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YW5hY29uZGE=">anaconda <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2hlbWlzdHJ5">chemistry <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Y29udGFpbmVycw==">containers <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cGFwZXI=">paper <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cHVibGljYXRpb24=">publication <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cHl0aG9u">python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cnN0dWRpbw==">rstudio <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d29ya3Nob3Bz">workshops <span class="quarto-category-count">(9)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
@@ -233,753 +233,411 @@ window.Quarto = {
 <section id="engage-in-transformative-collaborations" class="level2">
 <h2 class="anchored" data-anchor-id="engage-in-transformative-collaborations">Engage in Transformative Collaborations</h2>
 <p>If you’re passionate about the potential of AI and ML to redefine the landscape of scientific research or are curious about the power of HPC to support such advancements, I welcome the opportunity to connect. Whether it’s to discuss potential collaborations, exchange knowledge, or explore new ideas, you can reach me at <a href="mailto:charles.c.peterson3@gmail.com">charles.c.peterson3@gmail.com</a>.</p>
-<div id="blog-posts" class="listing">
-
-</div>
-<hr>
 </section>
-<section id="explore-categories" class="level2">
-<h2 class="anchored" data-anchor-id="explore-categories">Explore Categories</h2>
-<p>Discover content by topic:</p>
-
-
-
-</section>
-</section>
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-sample-listings">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Y2hlbWlzdHJ5JTJDQUklMkNBQ1M=" data-listing-date-sort="1724223600000" data-listing-file-modified-sort="1724471348065" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
-<a href="./posts/20240821_ACSfall2024/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20240821_ACSfall2024/acsfall2024.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ACS Fall 2024
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Y2hlbWlzdHJ5'); return false;">
-chemistry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">
-AI
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('QUNT'); return false;">
-ACS
-</div>
-</div>
-<div class="card-text listing-description">
-I recently presented at the ACS Fall 2024 meeting, delivering a talk titled “REACKT: Advancing Separations of Lanthanides and Actinides.” This presentation highlighted the…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Aug 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="SFBDJTJDQUklMkNDTkYlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1721804400000" data-listing-file-modified-sort="1723941580994" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
-<a href="./posts/20240724_CNFWorkshop/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20240724_CNFWorkshop/CNF.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-CNF HPC/AI Workshop
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('SFBD'); return false;">
-HPC
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">
-AI
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q05G'); return false;">
-CNF
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
-workshops
-</div>
-</div>
-<div class="card-text listing-description">
-We recently had the opportunity to collaborate with the Consortium for Nuclear Forensics (CNF) to host a workshop at Berkeley National Laboratory on July 24, 2024. This…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Jul 24, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="VUNMQSUyQ2NvbnRhaW5lcnMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1714546800000" data-listing-file-modified-sort="1723941844237" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
-<a href="./posts/202405012024_WS_GPU/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/202405012024_WS_GPU/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-UCLA GPU Workshop
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
-UCLA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Y29udGFpbmVycw=='); return false;">
-containers
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
-workshops
-</div>
-</div>
-<div class="card-text listing-description">
-In our latest workshop, “Optimizing Research with GPUs on Hoffman2,” computing professionals and researchers had the chance to explore the immense potential of GPU computing…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-May 1, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Q2hlbWlzdHJ5JTJDcGFwZXI=" data-listing-date-sort="1697698800000" data-listing-file-modified-sort="1723940856800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
-<a href="./posts/20231219_paperpublish/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20231219_paperpublish/pic.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Advancing Orbital Optimization: Published Research
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Q2hlbWlzdHJ5'); return false;">
-Chemistry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">
-paper
-</div>
-</div>
-<div class="card-text listing-description">
-I’m thrilled to announce the publication of our paper, “Economical quasi-Newton unitary optimization of electronic orbitals,” in Physical Chemistry Chemical Physics on…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Oct 19, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Q2hlbWlzdHJ5JTJDQUk=" data-listing-date-sort="1697698800000" data-listing-file-modified-sort="1723940856800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
-<a href="./posts/20231019_AI_Env_meeting/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20231019_AI_Env_meeting/AI_env_rem.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-AI-Driven Solutions for Environmental Remediation
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Q2hlbWlzdHJ5'); return false;">
-Chemistry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">
-AI
-</div>
-</div>
-<div class="card-text listing-description">
-Funded by the AI Tennessee Initiative, the AI for Environmental Remediation Project aims to leverage artificial intelligence technologies to mitigate environmental harm…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Oct 19, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Q2hlbWlzdHJ5JTJDQUklMkNNZWV0aW5n" data-listing-date-sort="1691910000000" data-listing-file-modified-sort="1723940856799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="251">
-<a href="./posts/20230813_ACSFall2023/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20230813_ACSFall2023/acs2023fall.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Leading AI Innovations in Nuclear Chemistry at ACS Fall 2023
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Q2hlbWlzdHJ5'); return false;">
-Chemistry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('QUk='); return false;">
-AI
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('TWVldGluZw=='); return false;">
-Meeting
-</div>
-</div>
-<div class="card-text listing-description">
-At the prestigious American Chemical Society Fall 2023 Meeting, I had the honor of co-chairing a session within the Nuclear Division, titled “Data Science and Artificial…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Aug 13, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="Q2hlbWlzdHJ5JTJDQXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ01lZXRpbmc=" data-listing-date-sort="1681542000000" data-listing-file-modified-sort="1723940856789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
-<a href="./posts/20230415_HPC_Nuclear_panel/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20230415_HPC_Nuclear_panel/anslogo.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Advancing Nuclear Tech with HPC Panel
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Q2hlbWlzdHJ5'); return false;">
-Chemistry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">
-Artificial Intelligence
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('TWVldGluZw=='); return false;">
-Meeting
-</div>
-</div>
-<div class="card-text listing-description">
-I had the privilege of participating in a panel titled “High-Performance Computing in Nuclear Technology,” held during the American Nuclear Society Student Conference on…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Apr 15, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="VUNMQSUyQ2NvbnRhaW5lcnMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1681282800000" data-listing-file-modified-sort="1723940856789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
-<a href="./posts/20230412_MakingContainersWS/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20230412_MakingContainersWS/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mastering Container Creation: UCLA HPC Workshop Recap
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
-UCLA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Y29udGFpbmVycw=='); return false;">
-containers
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
-workshops
-</div>
-</div>
-<div class="card-text listing-description">
-On April 12, 2023, I had the pleasure of hosting an engaging workshop at UCLA, titled Mastering Container Creation for High-Performance Computing (HPC). The event was…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Apr 12, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="VUNMQSUyQ0NvbnRhaW5lcnMlMkNXb3Jrc2hvcHMlMkNIUEM=" data-listing-date-sort="1680678000000" data-listing-file-modified-sort="1723940856788" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="248">
-<a href="./posts/20230405_ContainersWS/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20230405_ContainersWS/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mastering Containerization for HPC: UCLA Workshop Recap
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
-UCLA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q29udGFpbmVycw=='); return false;">
-Containers
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('V29ya3Nob3Bz'); return false;">
-Workshops
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SFBD'); return false;">
-HPC
-</div>
-</div>
-<div class="card-text listing-description">
-The world of high-performance computing (HPC) is ever-evolving, and containerization has emerged as a powerful tool in the HPC ecosystem. I recently had the opportunity to…<strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Apr 5, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="VUNMQSUyQ1JTdHVkaW8lMkNXb3Jrc2hvcHMlMkNIMkhI" data-listing-date-sort="1680073200000" data-listing-file-modified-sort="1723940856787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="247">
-<a href="./posts/20230329_H2HH_Rstudio/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20230329_H2HH_Rstudio/H2HH.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Hoffman2 Happy Hour: Exploring RStudio on HPC
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
-UCLA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('UlN0dWRpbw=='); return false;">
-RStudio
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('V29ya3Nob3Bz'); return false;">
-Workshops
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SDJISA=='); return false;">
-H2HH
-</div>
-</div>
-<div class="card-text listing-description">
-Welcome to the exciting world of Hoffman2 Happy Hour (H2HH) workshops at UCLA! These interactive sessions are designed to offer participants valuable insights into various…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Mar 29, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="Q2hlbWlzdHJ5JTJDcGFwZXI=" data-listing-date-sort="1670918400000" data-listing-file-modified-sort="1723940856787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
-<a href="./posts/20221213_PaperLaAc/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20221213_PaperLaAc/pic.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Combining Molecular Modeling with ML for Enhanced Predictive Analysis
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Q2hlbWlzdHJ5'); return false;">
-Chemistry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">
-paper
-</div>
-</div>
-<div class="card-text listing-description">
-Our research paper, “Evaluations of molecular modeling and machine learning for predictive capabilities in binding of lanthanum and actinium with carboxylic acids,” was…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Dec 13, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="VUNMQSUyQ0JpZyUyMERhdGElMkN3b3Jrc2hvcHM=" data-listing-date-sort="1666594800000" data-listing-file-modified-sort="1723940856786" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
-<a href="./posts/20221024_WS_BigData/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20221024_WS_BigData/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Exploring Big Data on HPC: Workshop Recap
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
-UCLA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('QmlnJTIwRGF0YQ=='); return false;">
-Big Data
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
-workshops
-</div>
-</div>
-<div class="card-text listing-description">
-I recently had the pleasure of hosting a workshop on <strong>Exploring Big Data on High-Performance Computing (HPC)</strong> at the University of California, Los Angeles (UCLA). In this…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Oct 24, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="12" data-categories="Y2hlbWlzdHJ5JTJDcHVibGljYXRpb24=" data-listing-date-sort="1658473200000" data-listing-file-modified-sort="1723940856786" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="171">
-<a href="./posts/20220722_Paper/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20220722_Paper/pic.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Paper on Numerically Exact Orbitals
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Y2hlbWlzdHJ5'); return false;">
-chemistry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cHVibGljYXRpb24='); return false;">
-publication
-</div>
-</div>
-<div class="card-text listing-description">
-I am excited to share a new paper that I have co-authored with my esteemed colleagues, Edward F. Valeev, Robert J. Harrison, and Deborah A. Penchoff.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Jul 22, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="13" data-categories="VUNMQSUyQ2NvbnRhaW5lcnMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1657090800000" data-listing-file-modified-sort="1723940856785" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
-<a href="./posts/20220706_MakingContainersWS/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20220706_MakingContainersWS/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-UCLA Building Containers Workshop
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
-UCLA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Y29udGFpbmVycw=='); return false;">
-containers
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
-workshops
-</div>
-</div>
-<div class="card-text listing-description">
-I recently hosted a workshop at UCLA focused on <strong>Building Containers for HPC</strong>.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Jul 6, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="14" data-categories="VUNMQSUyQ2FuYWNvbmRhJTJDcHl0aG9uJTJDd29ya3Nob3BzJTJDSDJISA==" data-listing-date-sort="1656486000000" data-listing-file-modified-sort="1723940856784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="83">
-<a href="./posts/20220629_H2HH_anaconda/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20220629_H2HH_anaconda/H2HH.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Hoffman2 Happy Hour - Anaconda
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
-UCLA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('YW5hY29uZGE='); return false;">
-anaconda
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">
-python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
-workshops
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SDJISA=='); return false;">
-H2HH
-</div>
-</div>
-<div class="card-text listing-description">
-UCLA hosts a series of interactive workshops called <strong>Hoffman2 Happy Hour (H2HH)</strong>. These sessions focus on various topics related to high-performance computing (HPC).
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Jun 29, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="15" data-categories="VUNMQSUyQ2NvbnRhaW5lcnMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1650438000000" data-listing-file-modified-sort="1723940856784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
-<a href="./posts/20220420_ContainersWS/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20220420_ContainersWS/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-UCLA Containers Workshop
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
-UCLA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Y29udGFpbmVycw=='); return false;">
-containers
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
-workshops
-</div>
-</div>
-<div class="card-text listing-description">
-I recently hosted a workshop on <strong>Using Containers for HPC</strong> at UCLA.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Apr 20, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="16" data-categories="VUNMQSUyQ3JzdHVkaW8lMkN3b3Jrc2hvcHMlMkNIMkhI" data-listing-date-sort="1648623600000" data-listing-file-modified-sort="1723940856784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
-<a href="./posts/20220330_H2HH_Rstudio/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20220330_H2HH_Rstudio/H2HH.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Hoffman2 Happy Hour - Rstudio
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
-UCLA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cnN0dWRpbw=='); return false;">
-rstudio
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
-workshops
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SDJISA=='); return false;">
-H2HH
-</div>
-</div>
-<div class="card-text listing-description">
-At UCLA, we have a series of workshops named Hoffman2 Happy Hour (H2HH). These workshops are small, interactive talks based on a certain topic relating to HPC.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Mar 30, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="17" data-categories="QUNTJTJDcHVibGljYXRpb24=" data-listing-date-sort="1640937600000" data-listing-file-modified-sort="1723940856783" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
-<a href="./posts/20211231_ACS_book/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/20211231_ACS_book/bookcover.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ACS Book Published
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('QUNT'); return false;">
-ACS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cHVibGljYXRpb24='); return false;">
-publication
-</div>
-</div>
-<div class="card-text listing-description">
-I’m excited to announce that after a couple of years of hard work, a new ACS (American Chemical Society) book in the ACS Symposium Series has been published. This book is…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Dec 31, 2021
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="18" data-categories="VUNMQSUyQ2NvbnRhaW5lcnMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1625295600000" data-listing-file-modified-sort="1723940856779" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="119">
-<a href="./posts/20210429_Singularity/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" data-src="./posts/20210429_Singularity/hpcworkshopimage.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-UCLA Singularity Workshop
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VUNMQQ=='); return false;">
-UCLA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Y29udGFpbmVycw=='); return false;">
-containers
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3Bz'); return false;">
-workshops
-</div>
-</div>
-<div class="card-text listing-description">
-In this post, I am sharing the link to a workshop I conducted on using Singularity on Hoffman2, UCLA’s High-Performance Computing (HPC) cluster. This workshop marked my…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Jul 3, 2021
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="19" data-categories="QyUyQ2NoZW1pc3RyeSUyQ3B5dGhvbg==" data-listing-date-sort="1625036400000" data-listing-file-modified-sort="1723940856779" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1280">
-<a href="./posts/20210630_QUILL/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" data-src="./posts/20210630_QUILL/quill.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Quill Program for SCF Calculations
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Qw=='); return false;">
-C
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Y2hlbWlzdHJ5'); return false;">
-chemistry
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">
-python
-</div>
-</div>
-<div class="card-text listing-description">
-I’ve recently updated a small, straightforward Hartree Fock program, primarily written in C, on my GitHub page. I primarily developed this code to understand how SCF/HF works.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Charles Peterson
-</div>
-<div class="listing-date">
-Jun 30, 2021
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
+<section id="my-stories" class="level2">
+<h2 class="anchored" data-anchor-id="my-stories">My Stories</h2>
+<div id="listing-sample-listings" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-sample-listings-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-sample-listings'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+</th>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
+</th>
+<th>
+Reading Time
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="Y2hlbWlzdHJ5JTJDQUklMkNBQ1M=" data-listing-date-sort="1724223600000" data-listing-file-modified-sort="1724471348065" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="220" data-listing-title-sort="ACS Fall 2024" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./posts/20240821_ACSfall2024/acsfall2024.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Aug 21, 2024</span>
+</td>
+<td>
+<a href="./posts/20240821_ACSfall2024/index.html" class="title listing-title">ACS Fall 2024</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="SFBDJTJDQUklMkNDTkYlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1721804400000" data-listing-file-modified-sort="1723941580994" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="125" data-listing-title-sort="CNF HPC/AI Workshop" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./posts/20240724_CNFWorkshop/CNF.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Jul 24, 2024</span>
+</td>
+<td>
+<a href="./posts/20240724_CNFWorkshop/index.html" class="title listing-title">CNF HPC/AI Workshop</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="VUNMQSUyQ2NvbnRhaW5lcnMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1714546800000" data-listing-file-modified-sort="1723941844237" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="225" data-listing-title-sort="UCLA GPU Workshop" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./posts/202405012024_WS_GPU/hpcworkshopimage.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">May 1, 2024</span>
+</td>
+<td>
+<a href="./posts/202405012024_WS_GPU/index.html" class="title listing-title">UCLA GPU Workshop</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+</tr>
+<tr data-index="3" data-categories="Q2hlbWlzdHJ5JTJDcGFwZXI=" data-listing-date-sort="1697698800000" data-listing-file-modified-sort="1723940856800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="160" data-listing-title-sort="Advancing Orbital Optimization: Published Research" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./posts/20231219_paperpublish/pic.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Oct 19, 2023</span>
+</td>
+<td>
+<a href="./posts/20231219_paperpublish/index.html" class="title listing-title">Advancing Orbital Optimization: Published Research</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+<tr data-index="4" data-categories="Q2hlbWlzdHJ5JTJDQUk=" data-listing-date-sort="1697698800000" data-listing-file-modified-sort="1723940856800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100" data-listing-title-sort="AI-Driven Solutions for Environmental Remediation" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" src="./posts/20231019_AI_Env_meeting/AI_env_rem.jpeg" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Oct 19, 2023</span>
+</td>
+<td>
+<a href="./posts/20231019_AI_Env_meeting/index.html" class="title listing-title">AI-Driven Solutions for Environmental Remediation</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+<tr data-index="5" data-categories="Q2hlbWlzdHJ5JTJDQUklMkNNZWV0aW5n" data-listing-date-sort="1691910000000" data-listing-file-modified-sort="1723940856799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="251" data-listing-title-sort="Leading AI Innovations in Nuclear Chemistry at ACS Fall 2023" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" data-src="./posts/20230813_ACSFall2023/acs2023fall.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Aug 13, 2023</span>
+</td>
+<td>
+<a href="./posts/20230813_ACSFall2023/index.html" class="title listing-title">Leading AI Innovations in Nuclear Chemistry at ACS Fall 2023</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+</tr>
+<tr data-index="6" data-categories="Q2hlbWlzdHJ5JTJDQXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ01lZXRpbmc=" data-listing-date-sort="1681542000000" data-listing-file-modified-sort="1723940856789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="133" data-listing-title-sort="Advancing Nuclear Tech with HPC Panel" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" data-src="./posts/20230415_HPC_Nuclear_panel/anslogo.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Apr 15, 2023</span>
+</td>
+<td>
+<a href="./posts/20230415_HPC_Nuclear_panel/index.html" class="title listing-title">Advancing Nuclear Tech with HPC Panel</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+<tr data-index="7" data-categories="VUNMQSUyQ2NvbnRhaW5lcnMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1681282800000" data-listing-file-modified-sort="1723940856789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="192" data-listing-title-sort="Mastering Container Creation: UCLA HPC Workshop Recap" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" data-src="./posts/20230412_MakingContainersWS/hpcworkshopimage.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Apr 12, 2023</span>
+</td>
+<td>
+<a href="./posts/20230412_MakingContainersWS/index.html" class="title listing-title">Mastering Container Creation: UCLA HPC Workshop Recap</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+<tr data-index="8" data-categories="VUNMQSUyQ0NvbnRhaW5lcnMlMkNXb3Jrc2hvcHMlMkNIUEM=" data-listing-date-sort="1680678000000" data-listing-file-modified-sort="1723940856788" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="248" data-listing-title-sort="Mastering Containerization for HPC: UCLA Workshop Recap" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" data-src="./posts/20230405_ContainersWS/hpcworkshopimage.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Apr 5, 2023</span>
+</td>
+<td>
+<a href="./posts/20230405_ContainersWS/index.html" class="title listing-title">Mastering Containerization for HPC: UCLA Workshop Recap</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+</tr>
+<tr data-index="9" data-categories="VUNMQSUyQ1JTdHVkaW8lMkNXb3Jrc2hvcHMlMkNIMkhI" data-listing-date-sort="1680073200000" data-listing-file-modified-sort="1723940856787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="247" data-listing-title-sort="Hoffman2 Happy Hour: Exploring RStudio on HPC" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" data-src="./posts/20230329_H2HH_Rstudio/H2HH.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Mar 29, 2023</span>
+</td>
+<td>
+<a href="./posts/20230329_H2HH_Rstudio/index.html" class="title listing-title">Hoffman2 Happy Hour: Exploring RStudio on HPC</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+</tr>
+<tr data-index="10" data-categories="Q2hlbWlzdHJ5JTJDcGFwZXI=" data-listing-date-sort="1670918400000" data-listing-file-modified-sort="1723940856787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="202" data-listing-title-sort="Combining Molecular Modeling with ML for Enhanced Predictive Analysis" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" data-src="./posts/20221213_PaperLaAc/pic.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Dec 13, 2022</span>
+</td>
+<td>
+<a href="./posts/20221213_PaperLaAc/index.html" class="title listing-title">Combining Molecular Modeling with ML for Enhanced Predictive Analysis</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+</tr>
+<tr data-index="11" data-categories="VUNMQSUyQ0JpZyUyMERhdGElMkN3b3Jrc2hvcHM=" data-listing-date-sort="1666594800000" data-listing-file-modified-sort="1723940856786" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204" data-listing-title-sort="Exploring Big Data on HPC: Workshop Recap" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" data-src="./posts/20221024_WS_BigData/hpcworkshopimage.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Oct 24, 2022</span>
+</td>
+<td>
+<a href="./posts/20221024_WS_BigData/index.html" class="title listing-title">Exploring Big Data on HPC: Workshop Recap</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">2 min</span>
+</td>
+</tr>
+<tr data-index="12" data-categories="Y2hlbWlzdHJ5JTJDcHVibGljYXRpb24=" data-listing-date-sort="1658473200000" data-listing-file-modified-sort="1723940856786" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="171" data-listing-title-sort="Paper on Numerically Exact Orbitals" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" data-src="./posts/20220722_Paper/pic.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Jul 22, 2022</span>
+</td>
+<td>
+<a href="./posts/20220722_Paper/index.html" class="title listing-title">Paper on Numerically Exact Orbitals</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+<tr data-index="13" data-categories="VUNMQSUyQ2NvbnRhaW5lcnMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1657090800000" data-listing-file-modified-sort="1723940856785" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147" data-listing-title-sort="UCLA Building Containers Workshop" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" data-src="./posts/20220706_MakingContainersWS/hpcworkshopimage.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Jul 6, 2022</span>
+</td>
+<td>
+<a href="./posts/20220706_MakingContainersWS/index.html" class="title listing-title">UCLA Building Containers Workshop</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+<tr data-index="14" data-categories="VUNMQSUyQ2FuYWNvbmRhJTJDcHl0aG9uJTJDd29ya3Nob3BzJTJDSDJISA==" data-listing-date-sort="1656486000000" data-listing-file-modified-sort="1723940856784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="83" data-listing-title-sort="Hoffman2 Happy Hour - Anaconda" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" data-src="./posts/20220629_H2HH_anaconda/H2HH.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Jun 29, 2022</span>
+</td>
+<td>
+<a href="./posts/20220629_H2HH_anaconda/index.html" class="title listing-title">Hoffman2 Happy Hour - Anaconda</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+<tr data-index="15" data-categories="VUNMQSUyQ2NvbnRhaW5lcnMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1650438000000" data-listing-file-modified-sort="1723940856784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78" data-listing-title-sort="UCLA Containers Workshop" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" data-src="./posts/20220420_ContainersWS/hpcworkshopimage.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Apr 20, 2022</span>
+</td>
+<td>
+<a href="./posts/20220420_ContainersWS/index.html" class="title listing-title">UCLA Containers Workshop</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+<tr data-index="16" data-categories="VUNMQSUyQ3JzdHVkaW8lMkN3b3Jrc2hvcHMlMkNIMkhI" data-listing-date-sort="1648623600000" data-listing-file-modified-sort="1723940856784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82" data-listing-title-sort="Hoffman2 Happy Hour - Rstudio" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" data-src="./posts/20220330_H2HH_Rstudio/H2HH.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Mar 30, 2022</span>
+</td>
+<td>
+<a href="./posts/20220330_H2HH_Rstudio/index.html" class="title listing-title">Hoffman2 Happy Hour - Rstudio</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+<tr data-index="17" data-categories="QUNTJTJDcHVibGljYXRpb24=" data-listing-date-sort="1640937600000" data-listing-file-modified-sort="1723940856783" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71" data-listing-title-sort="ACS Book Published" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" data-src="./posts/20211231_ACS_book/bookcover.jpeg" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Dec 31, 2021</span>
+</td>
+<td>
+<a href="./posts/20211231_ACS_book/index.html" class="title listing-title">ACS Book Published</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+<tr data-index="18" data-categories="VUNMQSUyQ2NvbnRhaW5lcnMlMkN3b3Jrc2hvcHM=" data-listing-date-sort="1625295600000" data-listing-file-modified-sort="1723940856779" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="119" data-listing-title-sort="UCLA Singularity Workshop" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" data-src="./posts/20210429_Singularity/hpcworkshopimage.png" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Jul 3, 2021</span>
+</td>
+<td>
+<a href="./posts/20210429_Singularity/index.html" class="title listing-title">UCLA Singularity Workshop</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+<tr data-index="19" data-categories="QyUyQ2NoZW1pc3RyeSUyQ3B5dGhvbg==" data-listing-date-sort="1625036400000" data-listing-file-modified-sort="1723940856779" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1280" data-listing-title-sort="Quill Program for SCF Calculations" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-image"><img loading="lazy" data-src="./posts/20210630_QUILL/quill.jpg" style="height: 40px;"></span>
+</td>
+<td>
+<span class="listing-date">Jun 30, 2021</span>
+</td>
+<td>
+<a href="./posts/20210630_QUILL/index.html" class="title listing-title">Quill Program for SCF Calculations</a>
+</td>
+<td>
+<span class="listing-author">Charles Peterson</span>
+</td>
+<td>
+<span class="listing-reading-time">7 min</span>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 <nav id="sample-listings-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
-</div></main> <!-- /main -->
+</div>
+
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1000,6 +658,150 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -1398,6 +1200,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Copyright 2024 Charles C. Peterson</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

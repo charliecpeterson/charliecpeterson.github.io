@@ -6,6 +6,9 @@ website:
   title: "Charles C. Peterson, PhD"
   favicon: profileicon.png
   google-analytics: "G-3L7ENR0B5H"
+  page-footer: 
+    center: "Copyright 2024 Charles C. Peterson"
+    border: false
   navbar:
     right:
       - text: about
@@ -18,9 +21,7 @@ website:
         href: https://twitter.com/Charlie_CCP3
       - text: "{{< iconify ri:bluesky-fill >}}"
         href: https://bsky.app/profile/charlespeterson.dev
-format:
-  html:
-    css: styles.css
 
-body-footer: |
-  Copyright 2024 Charles C. Peterson
+theme:
+  light: [Darkly, theme-light.scss]
+  dark: Darkly

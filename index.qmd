@@ -3,11 +3,13 @@ title: Advancing HPC Infrastructure & Computational Chemistry Research
 listing:
   id: sample-listings
   contents: posts
+  fields: [image, date, title, author, reading-time]
   sort: "date desc"
-  type: grid
-  categories: true
-  sort-ui: false
-  filter-ui: false
+  type: table
+  categories: false
+  sort-ui: true
+  filter-ui: true
+  page-size: 5
 page-layout: full
 title-block-banner: true
 ---
@@ -29,19 +31,8 @@ By incorporating AI and ML algorithms into computational chemistry, I explore ne
 
 If you're passionate about the potential of AI and ML to redefine the landscape of scientific research or are curious about the power of HPC to support such advancements, I welcome the opportunity to connect. Whether it's to discuss potential collaborations, exchange knowledge, or explore new ideas, you can reach me at [charles.c.peterson3@gmail.com](mailto:charles.c.peterson3@gmail.com).
 
+## My Stories
 
-
-::: {.listing #blog-posts}
+::: {#sample-listings}
 :::
 
----
-
-## Explore Categories
-
-Discover content by topic:
-
-```{categories}
----
-id: blog-categories
-type: grid
----
