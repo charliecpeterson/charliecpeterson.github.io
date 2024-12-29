@@ -1,6 +1,5 @@
 ---
-title: "Dedicated to enhancing High-Performance Computing infrastructure and advancing computational chemistry research"
-#description: "Dedicated to enhancing High-Performance Computing infrastructure and advancing computational chemistry research"
+title: Advancing HPC Infrastructure & Computational Chemistry Research
 listing:
   id: sample-listings
   contents: posts
@@ -17,6 +16,7 @@ title-block-banner: true
 
 Welcome! I'm Charles "Charlie" Peterson, a visionary at the crossroads of High-Performance Computing (HPC), Artificial Intelligence (AI), and Machine Learning (ML) at UCLA. As a Senior HPC System Administrator and an avid researcher in computational chemistry, I'm pioneering the use of AI/ML to revolutionize scientific exploration and discovery.
 
+
 ## Fusing HPC, AI, and Computational Chemistry
 
 My journey at UCLA involves not just optimizing HPC infrastructures for unparalleled computational power but also integrating AI and ML methodologies to advance research capabilities. My research focuses on leveraging AI to untangle complex problems in nuclear forensics and separation chemistry, aiming to bring transformative solutions to longstanding challenges.
@@ -29,14 +29,19 @@ By incorporating AI and ML algorithms into computational chemistry, I explore ne
 
 If you're passionate about the potential of AI and ML to redefine the landscape of scientific research or are curious about the power of HPC to support such advancements, I welcome the opportunity to connect. Whether it's to discuss potential collaborations, exchange knowledge, or explore new ideas, you can reach me at [charles.c.peterson3@gmail.com](mailto:charles.c.peterson3@gmail.com).
 
-Let's embark on a journey to unlock the full potential of AI and ML in science together!
 
-## Stay Updated with My Latest Work
 
-## Recent Posts
-
-::: {#sample-listings}
+::: {.listing #blog-posts}
 :::
 
+---
 
+## Explore Categories
 
+Discover content by topic:
+
+```{categories}
+---
+id: blog-categories
+type: grid
+---

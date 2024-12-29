@@ -70,5 +70,11 @@
   },
   "404.qmd": {
     "404.html": "8f15127d"
+  },
+  "CV_PDF.qmd": {
+    "CV_PDF.tex": "0881a4c5"
+  },
+  "CV_modified.qmd": {
+    "CV_modified.tex": "4a8dbcff"
   }
 }

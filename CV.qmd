@@ -2,18 +2,17 @@
 format: html
 ---
 
-<div style="text-align: center;">
+::: {style="text-align: center;"}
 # Curriculum Vitae
+
+[Download Full CV (PDF)](CV.pdf){target="_blank"}
+
 ## Charles C. Peterson, Ph.D.
+
 **High-Performance Computing R&D Scientist**  
-**Phone**: 940-300-1165  
 **Email**: [Charles.C.Peterson3@gmail.com](mailto:Charles.C.Peterson3@gmail.com)  
 **Website**: [CharlesPeterson.dev](https://CharlesPeterson.dev)  
-[Download Full CV (PDF)](CharlespetersonCV.pdf){target="_blank"}
-
-</div>
-
-
+:::
 
 Interdisciplinary researcher, collaborator, and information technology professional with over ten years of experience in scientific computing and computational research applications across STEM and non-STEM areas. My focus is in applying advanced High-Performance Computing (HPC) capabilities to enhance research throughput that involves closely collaborating with a diverse research community. My interests are using data modeling (Artificial Intelligence and Big Data techniques) and molecular modeling to describe Rare Earth Element systems. Using HPC and other advanced scientific computing techniques is essential to expand research by developing computational protocols to study heavy element chemistry with national security and other applications.
 
