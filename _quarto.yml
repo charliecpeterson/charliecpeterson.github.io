@@ -17,6 +17,8 @@ website:
         href: CV.qmd
       - icon: github
         href: https://github.com/charliecpeterson
+      - icon: linkedin
+        href: https://www.linkedin.com/in/charles-peterson-ba7944137/
       - icon: twitter
         href: https://twitter.com/Charlie_CCP3
       - text: "{{< iconify ri:bluesky-fill >}}"
