@@ -62,7 +62,7 @@ Interdisciplinary researcher, collaborator, and information technology professio
 
 ## Work Experience {#work-experience}
 
-::: {.callout-warning collapse="true"}
+::: {.callout-important collapse="true"}
 ### Senior HPC System Administrator
 - **Organization**: Office of Advanced Research Computing, University of California, Los Angeles
 - **Years**: December 2020 – Present
@@ -72,7 +72,7 @@ Interdisciplinary researcher, collaborator, and information technology professio
   - Ensure applications run at maximum efficiency.
 :::
 
-::: {.callout-warning collapse="true"}
+::: {.callout-important collapse="true"}
 ### Research Scientist II
 - **Organization**: North Texas Scientific Computing, University of North Texas
 - **Years**: November 2019 – December 2020
@@ -83,7 +83,7 @@ Interdisciplinary researcher, collaborator, and information technology professio
   - Perform research in AI and machine learning applications.
 :::
 
-::: {.callout-warning collapse="true"}
+::: {.callout-important collapse="true"}
 ### Cross-Functional IT Support Analyst
 - **Organization**: Research IT Services, University of North Texas
 - **Years**: February 2018 – November 2019
@@ -93,7 +93,7 @@ Interdisciplinary researcher, collaborator, and information technology professio
   - Conduct community training and outreach programs.
 :::
 
-::: {.callout-warning collapse="true"}
+::: {.callout-important collapse="true"}
 ### IT Manager I – High Performance Computing
 - **Organization**: Academic Computing & User Services, University of North Texas
 - **Years**: April 2015 – February 2018
@@ -102,7 +102,7 @@ Interdisciplinary researcher, collaborator, and information technology professio
   - Provide end-user HPC support and software development.
 :::
 
-::: {.callout-warning collapse="true"}
+::: {.callout-important collapse="true"}
 ### Graduate Research Assistant
 - **Organization**: Center for Advanced Scientific Computing and Modeling (CASCaM), University of North Texas
 - **Years**: May 2008 – December 2015
@@ -133,11 +133,14 @@ Interdisciplinary researcher, collaborator, and information technology professio
 
 ::: {.callout-note collapse="true"}
 ### Publication and Editorial Service
-
-- Reviewer for PEARC21 conference, 2021
+- Reviewer  
+  - Journal of Chemical Information and Modeling
+  - Journal of Radioanalytical and Nuclear Chemistry
+  - Royal Society of Chemistry Advances
+  - PEARC21 conference
+  - XSEDE EMPOWER Program
 - Editor, American Chemical Society Book Series “Computational Science Applications in Nuclear and Radiochemistry”, 2020
 - HPC allocation management for University of North Texas HPC allocations, 2015 - 2022 
-- Reviewer for XSEDE EMPOWER Program, 2020
 :::
 
 ::: {.callout-note collapse="true"}
@@ -157,17 +160,24 @@ Interdisciplinary researcher, collaborator, and information technology professio
 
 ::: {.callout-note collapse="true"}
 ### Committee and Organizational Activities
-- **Member**, AI Accelerator Program, UCLA OARC, 2024
-- **Member**, Diversity, Equity, and Inclusion Action Committee (DEIAC), Nuclear Engineering, University of Tennessee (2020 - Present)
+- **Member**
+  - AI Accelerator Program, UCLA OARC, 2024
+  - AI for Environmental Remediation, 2023-Present
+  - Diversity, Equity, and Inclusion Action Committee (DEIAC), Nuclear Engineering, University of Tennessee (2020 - 2024)
 - **Social Media Manager** for UNT Research IT Services (2018 - 2020)
-- **Chair**, American Chemical Society Annual Meeting, Nuclear Chemistry and Technology Division (ACS NUCL), Session “Data Science & Artificial Intelligence Applications in Nuclear and Radiochemistry” (05/2021, 05/2022, 08/2022, and 08/2023)
-- **Chair**, American Chemical Society Annual Meeting, Nuclear Chemistry and Technology Division (ACS NUCL), Session “Computational Methods for Lanthanides & Actinides: Theory & Applications” (08/2020, 05/2020, 08/2019, 05/2019, and 08/2018)
-- **Presider**, American Chemical Society Annual Meeting, Nuclear Chemistry and Technology Division (ACS NUCL), Session “Computational Methods for Lanthanides & Actinides: Theory & Applications” (05/2020, 08/2019, 08/2018, and 05/2018)
-- **Presider**, American Chemical Society Annual Meeting, Division of Physical Chemistry (ACS PHYS), Session “Thermodynamics, reactivity, and spectroscopy of the heavy elements” (05/2014)
+- **Chair**
+  - American Chemical Society Annual Meeting, Nuclear Chemistry and Technology Division (ACS NUCL), Session “Data Science & Artificial Intelligence Applications in Nuclear and Radiochemistry” (05/2021, 05/2022, 08/2022, and 08/2023)
+  - American Chemical Society Annual Meeting, Nuclear Chemistry and Technology Division (ACS NUCL), Session “Computational Methods for Lanthanides & Actinides: Theory & Applications” (08/2020, 05/2020, 08/2019, 05/2019, and 08/2018)
+- **Presider**
+  - American Chemical Society Annual Meeting, Nuclear Chemistry and Technology Division (ACS NUCL), Session “Computational Methods for Lanthanides & Actinides: Theory & Applications” (05/2020, 08/2019, 08/2018, and 05/2018)
+  - American Chemical Society Annual Meeting, Division of Physical Chemistry (ACS PHYS), Session “Thermodynamics, reactivity, and spectroscopy of the heavy elements” (05/2014)
 :::
 
 ::: {.callout-note collapse="true"}
 ### Professional Training {#professional-training}
+- **DataCamp Certification**
+  - AI Fundamentals, 2024
+  - Data Literacy, 2024
 - **AI Core Capabilities**, UCLA OARC, Training in AI's furture potential, risks, and direction to deliver effective research-foused AI services to support research at UCLA, 2024
 - **QMCPack User Workshop**, Oak Ridge National Laboratory, TN (05/2019)
   - Workshop for current users and developers. Training in added features and planned improvements for the electronic structure code, QMCPACK.
@@ -182,6 +192,7 @@ Interdisciplinary researcher, collaborator, and information technology professio
 ## Awards and Recognitions {#awards-and-recognitions}
 
 ::: {.callout-note collapse="true"}
+### Awards and Recognitions
 - “Extra Mile” Award – University of North Texas (2018)
 - Tuition Reduction Benefit Award - University of North Texas (2015)
 - Graduate Research Assistant Scholarship - University of North Texas (2009)
@@ -222,22 +233,29 @@ Interdisciplinary researcher, collaborator, and information technology professio
 ## Presentations {#presentations}
 
 ::: {.callout-note collapse="true"}
+### Workshops
+- Charles C. Peterson “Big Data on HPC”, Workshop Series, UCLA, 06/29/2023
+- Charles C. Peterson, “Hoffman2 Happy Hour: Using RStudio”, Workshop Series, UCLA, 09/28/2022.
+- Charles C. Peterson, “Hoffman2 Happy Hour: Anaconda”, Workshop Series, UCLA, 09/21/2022.
+- Charles C. Peterson, “Building Containers for HPC”, Workshop Series, UCLA, 07/06/2022.
+- Charles C. Peterson, “Using Containers on HPC Resources”, Workshop Series, UCLA, 04/20/2022.
+- Charles C. Peterson, “Singularity on Hoffman2: Using containers on HPC resources” Workshop Series, UCLA, 04/29/2021.
+:::
+::: {.callout-note collapse="true"}
+### Panels
+- High-Performance Computing in Nuclear Technology, American Nuclear Society Student Conference Student Conference, 05/15/2023
+:::
+
+::: {.callout-note collapse="true"}
 ### Selected Presentations
-- Charles C. Peterson, Deborah A. Penchoff “REACKT: Advancing Separations of Lanthanides and Actinides” ACS National Meeting and Expo, Division of Nuclear Chemistry and Technology, Fall 2024.
+- Charles C. Peterson, Deborah A. Penchoff “REACKT: Advancing Separations of Lanthanides and Actinides” ACS National Meeting and Expo, Division of Nuclear Chemistry and Technology, Session: Nuclear Forensics, Fall 2024.
 - Charles C. Peterson, Deborah A. Penchoff “Advanced Computational Strategies for Lanthanide and Actinide Systems” ACS National Meeting and Expo, Division of Nuclear Chemistry and Technology, Fall 2023.
-- Charles C. Peterson “Big Data on HPC”, Workshop Series, UCLA, 06/29/2023.
 :::
 
 ::: {.callout-note collapse="true"}
 ### Complete List of Presentations
 - Charles C. Peterson, Deborah A. Penchoff “REACKT: Advancing Separations of Lanthanides and Actinides” ACS National Meeting and Expo, Division of Nuclear Chemistry and Technology, Fall 2024.
 - Charles C. Peterson, Deborah A. Penchoff “Advanced Computational Strategies for Lanthanide and Actinide Systems” ACS National Meeting and Expo, Division of Nuclear Chemistry and Technology, Fall 2023.
-- Charles C. Peterson “Big Data on HPC”, Workshop Series, UCLA, 06/29/2023.
-- Charles C. Peterson, “Hoffman2 Happy Hour: Using RStudio”, Workshop Series, UCLA, 09/28/2022.
-- Charles C. Peterson, “Hoffman2 Happy Hour: Anaconda”, Workshop Series, UCLA, 09/21/2022.
-- Charles C. Peterson, “Building Containers for HPC”, Workshop Series, UCLA, 07/06/2022.
-- Charles C. Peterson, “Using Containers on HPC Resources”, Workshop Series, UCLA, 04/20/2022.
-- Charles C. Peterson, “Singularity on Hoffman2: Using containers on HPC resources” Workshop Series, UCLA, 04/29/2021.
 - Charles C. Peterson, D. A. Penchoff, “Understanding Binding Selectivity of Lanthanide and Actinide Compounds by Computational Protocols” International Workshop on Theory Frontiers in Actinide Sciences: Chemistry and Materials, Santa Fe, NM, 02/2 – 5/2020.
 - Charles C. Peterson, D. A. Penchoff, “Understanding Binding Selectivity of Lanthanides and Actinides by Computational Protocols” 64th Annual Radiobioassy & Radiochemical Measurements Conference, Santa Fe, NM, 08/28 – 30/2019.
 - Charles C. Peterson “Machine Learning Techniques with High Performance Computing” Invited Webinar, Institute for Nuclear Security, University of Tennessee, Knoxville TN, 08/05/2019.
