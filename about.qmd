@@ -9,7 +9,7 @@ about:
       href: mailto:charliecpeterson@gmail.com
     - icon: twitter-x
       text: Twitter/X
-      href: https://twitter.com/Charlie_CCP3
+      href: https://x.com/I_am_CharlieP3
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/charles-peterson-ba7944137/
@@ -41,7 +41,7 @@ Throughout my career, I've seen firsthand the transformative impact of HPC on re
 
 Let's make a connection that matters. Whether you're interested in HPC, AI/ML, computational chemistry, or simply want to discuss the future of technology and research, I'm here for it.
 
-Find me on [Email](mailto:charliecpeterson@gmail.com), [Twitter](https://twitter.com/Charlie_CCP3), [LinkedIn](https://www.linkedin.com/in/charles-peterson-ba7944137/), and [Github](https://github.com/charliecpeterson)
+Find me on [Email](mailto:charliecpeterson@gmail.com), [Twitter](https://x.com/I_am_CharlieP3), [LinkedIn](https://www.linkedin.com/in/charles-peterson-ba7944137/), and [Github](https://github.com/charliecpeterson)
 [Bluesky](https://bsky.app/profile/charlespeterson.dev).
 
 
