@@ -137,6 +137,7 @@ Interdisciplinary researcher, collaborator, and information technology professio
   - Journal of Chemical Information and Modeling
   - Journal of Radioanalytical and Nuclear Chemistry
   - Royal Society of Chemistry Advances
+  - Physical Chemistry Chemical Physics
   - PEARC21 conference
   - XSEDE EMPOWER Program
 - Editor, American Chemical Society Book Series “Computational Science Applications in Nuclear and Radiochemistry”, 2020
