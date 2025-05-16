@@ -10,7 +10,7 @@ format: html
 ## Charles C. Peterson, Ph.D.
 
 **High-Performance Computing R&D Scientist**  
-**Email**: [Charles.C.Peterson3@gmail.com](mailto:Charles.C.Peterson3@gmail.com)  
+**Email**: [charles@charlespeterson.dev](mailto:charles@charlespeterson.dev)  
 **Website**: [CharlesPeterson.dev](https://CharlesPeterson.dev)  
 :::
 
